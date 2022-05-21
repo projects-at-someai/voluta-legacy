@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Setting0</key>
+	<dict>
+		<key>type</key>
+		<string>plist</string>
+		<key>key</key>
+		<string>Legal.plist</string>
+	</dict>
+	<key>Setting1</key>
+	<dict>
+		<key>type</key>
+		<string>plist</string>
+		<key>key</key>
+		<string>Health.plist</string>
+	</dict>
+	<key>Setting2</key>
+	<dict>
+		<key>type</key>
+		<string>plist</string>
+		<key>key</key>
+		<string>HealthItemsToCheck.plist</string>
+	</dict>
+	<key>Setting3</key>
+	<dict>
+		<key>type</key>
+		<string>plist</string>
+		<key>key</key>
+		<string>EmployeeList.plist</string>
+	</dict>
+	<key>Setting4</key>
+	<dict>
+		<key>type</key>
+		<string>logo</string>
+		<key>key</key>
+		<string>logo.png</string>
+	</dict>
+	<key>Setting5</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>orientation-key</string>
+	</dict>
+	<key>Setting6</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-name-key</string>
+	</dict>
+	<key>Setting7</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>initial-popup-key</string>
+	</dict>
+	<key>Setting8</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>initial-popup-text-key</string>
+	</dict>
+	<key>Setting9</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>slideshow-album-key</string>
+	</dict>
+	<key>Setting10</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>slideshow-delay-key</string>
+	</dict>
+	<key>Setting11</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>slideshow-timeout-key</string>
+	</dict>
+	<key>Setting12</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>using-slideshow-key</string>
+	</dict>
+	<key>Setting13</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>using-optional-notes-key</string>
+	</dict>
+	<key>Setting14</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>forcing-email-key</string>
+	</dict>
+	<key>Setting15</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>using-additional-form-key</string>
+	</dict>
+	<key>Setting16</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>is-appending-add-form-key</string>
+	</dict>
+	<key>Setting17</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>additional-form-required-key</string>
+	</dict>
+	<key>Setting18</key>
+	<dict>
+		<key>type</key>
+		<string>file</string>
+		<key>key</key>
+		<string>additional-form-filename-key</string>
+	</dict>
+	<key>Setting19</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>require-second-govt-pic-key</string>
+	</dict>
+	<key>Setting20</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>using-devicesync-key</string>
+	</dict>
+	<key>Setting21</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>legal-name-key</string>
+	</dict>
+	<key>Setting22</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-address-key</string>
+	</dict>
+	<key>Setting23</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-city-key</string>
+	</dict>
+	<key>Setting24</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-state-key</string>
+	</dict>
+	<key>Setting25</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-zipcode-key</string>
+	</dict>
+	<key>Setting26</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-phonenumber-key</string>
+	</dict>
+	<key>Setting27</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>emailer-username-key</string>
+	</dict>
+	<key>Setting28</key>
+	<dict>
+		<key>type</key>
+		<string>keychain</string>
+		<key>key</key>
+		<string>emailer-pw-key</string>
+	</dict>
+	<key>Setting29</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>emailer-subject-key</string>
+	</dict>
+	<key>Setting30</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>emailer-body-key</string>
+	</dict>
+	<key>Setting31</key>
+	<dict>
+		<key>type</key>
+		<string>file</string>
+		<key>key</key>
+		<string>emailer-attachment-key</string>
+	</dict>
+	<key>Setting32</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>using-emailer-key</string>
+	</dict>
+	<key>Setting33</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-website-key</string>
+	</dict>
+	<key>Setting34</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>business-email-key</string>
+	</dict>
+	<key>Setting35</key>
+	<dict>
+		<key>type</key>
+		<string>plist</string>
+		<key>key</key>
+		<string>TreatmentRecord.plist</string>
+	</dict>
+	<key>Setting36</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>capture-id-key</string>
+	</dict>
+	<key>Setting37</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>email-waiver-key</string>
+	</dict>
+	<key>Setting38</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>email-waiver-subject-key</string>
+	</dict>
+	<key>Setting39</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>email-waiver-body-key</string>
+	</dict>
+	<key>Setting40</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>email-pdf-key</string>
+	</dict>
+	<key>Setting41</key>
+	<dict>
+		<key>type</key>
+		<string>user defaults</string>
+		<key>key</key>
+		<string>has-employee-list-key</string>
+	</dict>
+</dict>
+</plist>

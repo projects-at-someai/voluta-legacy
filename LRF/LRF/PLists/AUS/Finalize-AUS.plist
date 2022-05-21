@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0_Treatment Record</key>
+	<dict>
+		<key>0_Treatment Record</key>
+		<array>
+			<string>Edit Treatment Record</string>
+			<string>Treatment Record</string>
+			<string>Tap to View / Edit</string>
+			<string>Optional</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>1_Session Financials</key>
+	<dict>
+		<key>0_Session Financials</key>
+		<array>
+			<string>Session Financials</string>
+			<string>Financial Notes</string>
+			<string>Tap to Add Financials</string>
+			<string>Optional</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>2_Supporting Documents</key>
+	<dict>
+		<key>0_Supporting Documents</key>
+		<array>
+			<string>Supporting Documents</string>
+			<string>Supporting Documents</string>
+			<string>Tap to Add Documents</string>
+			<string>Optional</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>3_Specialist Notes</key>
+	<dict>
+		<key>0_Additional Notes</key>
+		<array>
+			<string>Textfield</string>
+			<string>Specialist Notes</string>
+			<string>Tap to Add Optional Notes</string>
+			<string>Optional</string>
+			<string>Employee Notes</string>
+		</array>
+	</dict>
+	<key>4_Specialist Signature</key>
+	<dict>
+		<key>0_Signature</key>
+		<array>
+			<string>Signature</string>
+			<string>Specialist Signature</string>
+			<string>Tap to Add Signature</string>
+			<string>Required</string>
+			<string>Employee Signature</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  BBRF
+//
+//  Created by Francis Bowen on 5/19/15.
+//  Copyright (c) 2015 Voluta Tattoo Digital. All rights reserved.
+//
+
+#ifndef BBRF_PrefixHeader_pch
+#define BBRF_PrefixHeader_pch
+
+#import "VTDLib2.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define APP_ID              @"BBRF"
+
+#define VTD_APP_FOLDER      @"Voluta Digital iPad Bike Bar Release Forms"
+
+#define ICLOUD_CONTAINER    @"BBRF-ICLOUD-CONTAINER"
+
+#define IAP_KEY             @"BBRF-IAP"
+
+#define DEFAULT_ROUTES_FILENAME @"DefaultRoutes"
+#define ROUTES_FILENAME         @"Routes"
+
+#define PRIVACY_POLICY_URL  @"https://www.tattooandpiercingreleaseforms.com/privacy-policies"
+#define TERMS_OF_SERVICE_URL @"https://www.tattooandpiercingreleaseforms.com/terms-of-service"
+
+#endif

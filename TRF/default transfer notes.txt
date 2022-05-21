@@ -1,0 +1,56 @@
+v1 keys
+---------
+orientation-key
+
+TRF-setup-complete
+
+isRequiringSecondGovernmentID
+
+initial-popup-enable
+initial-popup-text
+
+isUsingAdditionalForm
+isUsingAdditionalFormPopup
+additionalFormFileName
+isAppendingAdditionalForm
+
+studio-name-key
+studio-legal-name-key
+studio-address-key
+studio-phone-number-key
+studio-website-key
+studio-email-key
+studio-codes-key
+
+isUsingDropbox
+isUsingGoogle
+isUsingOneDrive
+
+hasLogo
+
+slideshow-album
+slideshow-timeout
+slideshow-delay
+
+forcedEmail
+
+log-key
+
+-------
+Check APP_SETUP_KEY, if nil, check TRF-setup-complete. If TRF-setup-complete is not nil, do:
+
+1. Perform a settings back, store in temp directory on device
+1. Transfer artist names from db
+2. Transfer inks from db
+3. Transfer needles from db
+4. Transfer ink thinners from db
+5. Transfer disposable tubes from db
+6. Transfer disposable grips from db
+7. Transfer over master pw
+8. Transfer over secondary pw
+9. Transfer over defaults
+10. Check cloud services - Is key set and linked? Then set new key
+11. Set APP_SETUP_KEY
+
+06eeb06909f9066375659e1de3688b8e6f25f008671baec70678f52efd121ac3
+06eeb06909f9066375659e1de3688b8e6f25f008671baec70678f52efd121ac3

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Light Box/VTD Light Box/VTD Light Box.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VTD Push Notifications/VTD Push Notifications.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CRF/CRF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRF/PRF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TRF/TRF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VTD Library v2.0/VTD Library v2.0.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BBRF/BBRF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LRF/LRF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MRF/MRF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ORF/ORF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:VTD VIP Registration/VTD VIP Registration.xcodeproj">
+   </FileRef>
+</Workspace>

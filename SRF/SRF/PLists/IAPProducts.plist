@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>50 Forms</string>
+		<key>Product ID</key>
+		<string>com.VolutaTattooDigital.MRF.50Forms</string>
+		<key>Label</key>
+		<string>per bundle</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>100 Forms</string>
+		<key>Product ID</key>
+		<string>com.VolutaTattooDigital.MRF.100Forms</string>
+		<key>Label</key>
+		<string>per bundle</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>200 Forms</string>
+		<key>Product ID</key>
+		<string>com.VolutaTattooDigital.MRF.200Forms</string>
+		<key>Label</key>
+		<string>per bundle</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>400 Forms</string>
+		<key>Product ID</key>
+		<string>com.VolutaTattooDigital.MRF.400Forms</string>
+		<key>Label</key>
+		<string>per bundle</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Unlimited</string>
+		<key>Product ID</key>
+		<string>com.VolutaTattooDigital.MRF.Unlimited</string>
+		<key>Label</key>
+		<string>per month</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Database Export</string>
+		<key>Product ID</key>
+		<string>com.VolutaTattooDigital.MRF.DatabaseExport</string>
+		<key>Label</key>
+		<string>per year</string>
+	</dict>
+</array>
+</plist>

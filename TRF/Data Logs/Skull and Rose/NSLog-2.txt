@@ -1,0 +1,639 @@
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 53 - Initialize defaults
+DEBUG                  -[Initializer InitializeDefaults]: 92 - /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 59 - Initialize form data manager
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG __36-[ImageListManager acquireImageList]_block_invoke: 36 - Image list acquired
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 64 - Loading health items
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 68 - Setup push notifications
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 72 - Setup quantcast
+DEBUG                -[CoreDataManager SearchForClient:]:198 - (
+        {
+        Date = "Dec 5, 2015";
+        "First Name" = Brian;
+        "Last Name" = Seery;
+        "Search Result" = "Dec 5, 2015 Seery, Brian";
+    },
+        {
+        Date = "Dec 5, 2015";
+        "First Name" = Kimberly;
+        "Last Name" = Seery;
+        "Search Result" = "Dec 5, 2015 Seery, Kimberly";
+    }
+)
+DEBUG                -[CoreDataManager SearchForClient:]:198 - (
+)
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: May 16, 2015-Chris-Thayer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: May 16, 2015-Chris-Thayer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: May 16, 2015-Chris-Thayer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 16, 2015-Aaron-Thompson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 17, 2015-Eric-Lemon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 17, 2015-Chastity-Moran
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 17, 2015-Michele-Tjaden
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 17, 2015-Amanda-Barlow
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 18, 2015-Rebekah-Childs
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 18, 2015-Laura-Staker
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 19, 2015-Alison-Fisher
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 19, 2015-Sara-McCarthy
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 19, 2015-Abbimay-Arms
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 19, 2015-Chris-Naughton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 20, 2015-Nick-Baptista
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 23, 2015-Cody-Munzert
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 23, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 23, 2015-Matthew-Jirak
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 24, 2015-Kelly-Ricketts
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 24, 2015-Christina-Amy
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 24, 2015-Paul-Wysocki
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 25, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 25, 2015-James-Rook
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 26, 2015-Maggie-Comeau
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 26, 2015-Scott-McCann
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 26, 2015-Nick-Byrd
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 27, 2015-Jim-Fisher
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 27, 2015-Michael-Minicozzi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 27, 2015-Alfred-Minicozzi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 27, 2015-Selma-Ross
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 30, 2015-Chris-Naughton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 30, 2015-Chris-Naughton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jun 30, 2015-Odalis-Algarin
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 1, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 1, 2015-Bill-Hetzer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 1, 2015-Vincent-Padovani
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 2, 2015-Adriana-Brown
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 2, 2015-Katie-Hazzard
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 2, 2015-Makenzie-Williams
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 2, 2015-Makayla-Williams
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 3, 2015-Maricela-Avalos
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 4, 2015-Chris-Naughton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 7, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 7, 2015-Ashley-Wilson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 7, 2015-Aaron-Thompson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 8, 2015-James-Rook
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 10, 2015-Nick-Byrd
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 10, 2015-Abbimay-Arms
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 10, 2015-Kathryn -Dixon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 11, 2015-Liz-Wyre
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 11, 2015-Irene-Turner
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 13, 2015-Stephanie-Walker
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 14, 2015-Sean-Marks
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 14, 2015-Sara-McCarthy
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 14, 2015-Matthew-Jirak
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 15, 2015-Sara-McCarthy
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 15, 2015-Stephanie-Voss
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 15, 2015-Bill-Hetzer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 16, 2015-Andrew-Fleming
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 17, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 17, 2015-Abbimay-Arms
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 17, 2015-Charlene-Notarcola
+DEBUG                    -[DBTransferManager TransferDB]: 62 - Starting: Jul 17, 2015-Zachary-Nerwinski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 18, 2015-Brian-Fauls
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 20, 2015-Anna-Culpepper
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 21, 2015-Paul-Wysocki
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 21, 2015-Emily-Dolan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 21, 2015-Xyare-Lambert
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 21, 2015-Emily-Sun
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 22, 2015-Harlan-Hanson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 22, 2015-Shelby-Rushie
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 22, 2015-Dante-Silicato
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 23, 2015-Ava-Carcirieri
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 23, 2015-Scott-McCann
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 24, 2015-Eric-Lemon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 24, 2015-Veronica-Price
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 24, 2015-Matthew-Jirak
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 25, 2015-Jose Luis -Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 25, 2015-Tammi-Oyler
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 28, 2015-Cecilia-Alvarez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 29, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 29, 2015-Ellen-Mcfarland
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 29, 2015-Todd-Reynolds
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 29, 2015-Bailey-Woodruff
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 29, 2015-Emenet-Tesfaye
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 30, 2015-Matthew-Lane
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 30, 2015-Stephanie-Espie
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 31, 2015-Yarelis-Rivera Matos
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jul 31, 2015-Heather-Ragozine
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 1, 2015-Stefany-Ferguson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 4, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 4, 2015-Caitlin-Olszewski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 4, 2015-Bill-Hetzer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 4, 2015-Kara-Maloney
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 4, 2015-Harlan-Hanson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 5, 2015-Kira-Summers
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 5, 2015-Chris-Gentile
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 5, 2015-Johnny-Pinson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 6, 2015-Dawn-Jerido
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 6, 2015-Madi-Ross
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 8, 2015-Vicky-Rushie
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 11, 2015-Eileen-Linares
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 11, 2015-Judith-Linares
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 11, 2015-Emma-Russell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 11, 2015-Samantha-Pyle
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 11, 2015-Brianna-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Jill-Chapin
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Hayley-Chapin
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Anita-Keene
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Mike-Magee
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Jon-Berger
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Berenice-Sotelo
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Howard-Huber III
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 12, 2015-Amanda-Barlow
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 13, 2015-Kimberly-Harmon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 13, 2015-Cole-Ryan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 14, 2015-Jeffrey-Lehman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 14, 2015-Abigail-Villanueva
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 14, 2015-Hailey-Villanueva
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 14, 2015-Daniel-Scott
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 14, 2015-Krista-Donovan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 15, 2015-Beth-Hodge
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 15, 2015-Khristian-Toolan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 18, 2015-Thomas-Tunaitis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 18, 2015-Teresa-Leo
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 18, 2015-Khristian-Toolan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 18, 2015-Khristian-Toolan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 19, 2015-Nicholas-Michael
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 19, 2015-Shelby-Rushie
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 19, 2015-Katharine-Burke
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 19, 2015-Hunter-Finocchiaro
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 20, 2015-Lindsay-Mckernan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 20, 2015-Chris-Cressman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 21, 2015-Jamie-Wyre
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 21, 2015-William-Brown
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 21, 2015-Rashan-Bias
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 22, 2015-Donnie-Cecil
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 22, 2015-Katie-Pierson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 22, 2015-Michael-Minicozzi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 22, 2015-Carlos-Burgos
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 25, 2015-Susan-Panico
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 25, 2015-Ellen-Mcfarland
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 25, 2015-Cecilia-Alvarez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 25, 2015-Caleb-Grafton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 25, 2015-Ashley-Zink
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 26, 2015-Margaret-Lorden
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 26, 2015-Chris-Mason
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 26, 2015-Allison-Fraser
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 26, 2015-Nicole-Anacay
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-James-Rook
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-Marcie-Fraser
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-Brandy-Hankerson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-Janet-Leach
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-Gustavo-Robles
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-Beverly-Ferguson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 27, 2015-Johanna-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 28, 2015-Malik-Servance Saeed
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Aug 28, 2015-Ty-Harmon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 1, 2015-Matthew-Lane
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 2, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 3, 2015-Chris-Mason
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 4, 2015-Andrew-Fleming
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 5, 2015-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 5, 2015-Aneudi-Berrios
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 5, 2015-Matthew-Sturdivant
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 5, 2015-Kelsey-Carrick
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 5, 2015-Johanna-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 5, 2015-Heather-Mendala
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 8, 2015-Andrew-Suiter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 8, 2015-Copper-OBryan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 8, 2015-Tina-Davis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 8, 2015-Samantha-Denofio
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 8, 2015-Shawn-Connors
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 9, 2015-Michael-Campbell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 9, 2015-Meghan-Pursell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 10, 2015-Kelli-Sianni
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 10, 2015-Carolyn-Welsh-Rowley
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 10, 2015-Katrina-Welsh
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 10, 2015-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 11, 2015-Gregory-Reed
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 11, 2015-Alex-Fischer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 11, 2015-Ava-Carcirieri
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 11, 2015-Marisa-Smith
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 12, 2015-Liesbeth-Bishop
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 12, 2015-Sophia-Bishop
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 12, 2015-Kelcie-Mowrer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 12, 2015-Tara-Ellis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 12, 2015-Abbey-Dejuliis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 15, 2015-Andrew-Suiter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 15, 2015-Kimberly-Donahue
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 15, 2015-Lauren-Stegeman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 16, 2015-Gustavo-Robles
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-Shannon-Sowden
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-Wendy-Swift
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-Jennifer-Bridgeford
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-Jessica-Nost
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-Susan-Peters
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 17, 2015-Christian-Corder
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 18, 2015-Nicholette-Sohn
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 18, 2015-Eric-Lemon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 18, 2015-Laura-Firlein
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Monica-Moore
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Theresa-Hutchins
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Laura L-Selwood
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Danielle-Denney
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Peter-Williamson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Debra-Siple
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 19, 2015-Amanda-Ryan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 22, 2015-Zach-Linder
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 22, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 22, 2015-Courtney-Thomas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 22, 2015-Tiffany-Honesty-Moore
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 23, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 23, 2015-Susan-Panico
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 24, 2015-Samantha-Demkovich
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 24, 2015-Kimberly-Harmon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 25, 2015-Andrew-Suiter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 25, 2015-Sabrina-Moravec
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 25, 2015-Moira-Dillon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 26, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 26, 2015-Meghan-Murphy
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 26, 2015-Rysa-Bell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 26, 2015-Demi-Maglio
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 26, 2015-Ella-Flores
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 26, 2015-Toni-Spille
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 28, 2015-Xyare-Lambert
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 29, 2015-Ty-Harmon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 29, 2015-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 30, 2015-Nick-Baptista
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 30, 2015-Torri-Verrilli
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 30, 2015-Veronica-Price
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Sep 30, 2015-Gail-Eller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 1, 2015-Daniel-Jacksom
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 1, 2015-Kelli-Sianni
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 1, 2015-Tyler-Cox
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 2, 2015-Andrew-Suiter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 2, 2015-Margot-Hepler
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 2, 2015-Chan-Joung
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 2, 2015-Dawn-Stead
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 2, 2015-Christina-Chandler
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 3, 2015-Edward-Blue
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 3, 2015-Danielle-Lewis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 3, 2015-Lindsey-Crew
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 3, 2015-Rachel-Wissler
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 6, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 7, 2015-Nick-Baptista
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 7, 2015-Torri-Verrilli
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 8, 2015-Lauren-Cooney
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 9, 2015-Andrew-Fleming
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 9, 2015-Marilin-Portal
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 9, 2015-Jessica-Nost
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 9, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 9, 2015-Katarina-Dignam
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 10, 2015-Kara-Bosworth
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 10, 2015-Katherine-Jones
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 10, 2015-Angel-Henderson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 10, 2015-Jennifer-Vernon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 10, 2015-Robert-Vernon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 14, 2015-Tyler-Brooks
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 14, 2015-Beth-Hodge
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 14, 2015-Abigail-Villanueva
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 15, 2015-Ava-Carcirieri
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 15, 2015-Xyare-Lambert
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 15, 2015-Keith-Frye II
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 15, 2015-Andrew-Suiter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 15, 2015-Megan -Hicks
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 16, 2015-Jessica-Marfizo
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 16, 2015-Alexis-Marfizo
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 16, 2015-Allison-Fraser
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 16, 2015-Joseph-Pennington
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 17, 2015-Stefany-Ferguson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 17, 2015-Sophia-Tarabicos
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 17, 2015-Cherie-DeMerchant
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 20, 2015-Brian-Firlein
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 20, 2015-Heather-Knight
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 21, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 22, 2015-Catherine-Davis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 22, 2015-Christopher-Iannotta
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 23, 2015-Seferino -Ovalles
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 23, 2015-Danielle-Green
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 24, 2015-Connie-Chen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 24, 2015-Nick-Baptista
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 27, 2015-Emily-Sun
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 27, 2015-Brian-Perakis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 28, 2015-Amy-Stegeman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 28, 2015-Tyler-Brooks
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 28, 2015-Lorrie-Karmilowicz
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Oct 29, 2015-Jennifer-Bridgeford
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 3, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 3, 2015-Courtney-Huyser
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 4, 2015-Amy-Stegeman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 4, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 4, 2015-Melody-Matusky
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 5, 2015-Chloe-Bosworth
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 5, 2015-Ava-Carcirieri
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 5, 2015-Kamila-Rivera
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 6, 2015-Jessica-Dempsey
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 6, 2015-Jonathan-Creamer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 6, 2015-Thomas-Garlic
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 6, 2015-Shawn-Orr
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 7, 2015-Jessica-Bannon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 7, 2015-Jose Luis -Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 7, 2015-Kurt-Hankerson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 7, 2015-Heather-De Filippis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 10, 2015-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 10, 2015-Veronica-Price
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 10, 2015-Rickia-Keasley
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 10, 2015-Amber-Bell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 11, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 11, 2015-Paul-Sharp
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 11, 2015-Jesse-Hammond
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 12, 2015-James-Rook
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 12, 2015-Robert-Reynoso
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 12, 2015-Marcelina-Gomez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 12, 2015-Jodi-Reynolds
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Kara-Bosworth
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Natalie-Sibiski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Allison-Fraser
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Marcie-Fraser
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Veronica-Price
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Beth-Hodge
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Kelly-Kissell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Copper-OBryan
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Samantha-Loeb
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Madelyn-Vogt
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Jaime-Garner
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Liz-Wyre
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Chan-Joung
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Ariel-Walker
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Eric-Stine
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Jada-Greig
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Caitlin-Olszewski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Brianna-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Alex-Hammon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Shane-Slingwine
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Katherine -Ratchford
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Jessica-Nost
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 13, 2015-Kate-Stout
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-Kelli-OConnor
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-patricia-oconnor
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-Patrick-Oconnor
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-Brittany-Shelton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-Bernard-Swinson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-Theresa-Wisor
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 14, 2015-Elizabeth-Zielinski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 17, 2015-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 18, 2015-Sarah-OConnor
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 18, 2015-Beth-Hodge
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 19, 2015-Marilin-Portal
+DEBUG                    -[DBTransferManager TransferDB]: 62 - Starting: Nov 19, 2015-Cyrus-Portal
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 19, 2015-Chris-Naughton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 19, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 20, 2015-Fanta-Turay
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 20, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 20, 2015-Jennifer-Vernon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 20, 2015-William-Oppenheimer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 21, 2015-Ashlyn-Shupe
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 21, 2015-Jonathan-Creamer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 21, 2015-Sean-Marks
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 21, 2015-Caitlin-Olszewski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 24, 2015-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 24, 2015-Brittany-ODwyer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 24, 2015-Kara-Bosworth
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 24, 2015-Kayla-Griffith
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 25, 2015-Peri-Macindoe
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 25, 2015-Amy-Stegeman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 25, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 25, 2015-Monica-Moore
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 27, 2015-Rachel-Fenimore
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 27, 2015-Julian-Vann
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 28, 2015-Lisa-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 28, 2015-Krystal-Brooks
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 28, 2015-Liz-Wyre
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Nov 30, 2015-Kortney-Diduch
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 1, 2015-Becky-Orr
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 1, 2015-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 1, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 1, 2015-Robbie-Johnson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 2, 2015-Daniel-Jacksom
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 2, 2015-John-Perrone
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 2, 2015-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 3, 2015-Daniel-Jacksom
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 3, 2015-Ava-Carcirieri
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 3, 2015-Chris-Naughton
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 3, 2015-Charles-Ward
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 3, 2015-Heather-Knight
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 4, 2015-Hunter-Finocchiaro
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 4, 2015-Seth-Springer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 4, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 4, 2015-Michele-Danenza
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Brian-Seery
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Jennifer-Smith
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Stacey-Agurkis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Kimberly-Seery
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Barbara-Kinney
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Chrissie-Suiter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 5, 2015-Diane-DeSatnick
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 8, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 9, 2015-Judy-Russi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 9, 2015-Amy-Stegeman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 9, 2015-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 9, 2015-Rachel-McReynolds
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 9, 2015-Jade-Wampler
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 10, 2015-Stacey-Agurkis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 10, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 10, 2015-John-Nichols
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 11, 2015-Laura -Reardon
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 11, 2015-Carly-Morris
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 12, 2015-Michael-Betancourt
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 12, 2015-Elysha-Roche
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 15, 2015-Dorothy-Gunter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 15, 2015-Lisa-Santogrossi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 15, 2015-Michele-Tjaden
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 15, 2015-Sherry-Santogrossi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 16, 2015-Jacob-Maas
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 16, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 16, 2015-Kellee-Rider
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 16, 2015-Peter-Williamson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 17, 2015-Raymond-Roberts
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 17, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 17, 2015-David-Banning
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 18, 2015-Lindsey-Fechter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 18, 2015-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 18, 2015-Cecelia-Tacconelli
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 19, 2015-Edgar-DeJesus
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 19, 2015-Brian-Fauls
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 19, 2015-Gabrielle-Jamelkowski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 19, 2015-Monica-Moore
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 22, 2015-Shayna-Syken
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 22, 2015-Bailey-Woodruff
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 22, 2015-Danny-Boiko
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 22, 2015-Caitlin-Olszewski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 23, 2015-Matt-Morrison
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 23, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 26, 2015-Catherine-Gross
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 26, 2015-Theresa-Gross
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 26, 2015-Robin-Mansfield
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 26, 2015-Eric-Mansfield
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 29, 2015-Emma-Russell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 29, 2015-Hunter-Larouche
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 29, 2015-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 29, 2015-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Erin-Wildman
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Abigail-Gilpatrick
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Jason-Belanger
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Casey-Hadley
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Brian-Hadley
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Dec 30, 2015-Elizabeth-Zielinski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 2, 2016-Sharon-Darlow
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 2, 2016-Michael-Minicozzi
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 2, 2016-Kyle-Darlow
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 4, 2016-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 5, 2016-Robert-Helinski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 5, 2016-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 5, 2016-Bill-Hetzer
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 6, 2016-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 6, 2016-Rie-Aoki
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 6, 2016-Deborah-LaRouche
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 6, 2016-Caitlin-Olszewski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 6, 2016-Sophie -Nerwinski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 7, 2016-Erin-Dewey
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 7, 2016-Ava-Carcirieri
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 7, 2016-Sarah-Schroeder
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 7, 2016-Madi-Ross
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 8, 2016-Nicholas-Michael
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 8, 2016-Stacey-Agurkis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 8, 2016-Katrina-Marcus
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 8, 2016-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 8, 2016-Rysa-Bell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 9, 2016-Trey-Thompson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 9, 2016-Alyssa-Ament
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 9, 2016-Katelyn-Drake
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 9, 2016-Caroline-Barlow
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 12, 2016-Tim-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 12, 2016-Robbie-Johnson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 12, 2016-Yicong-Teng
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 12, 2016-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 13, 2016-Paa Kofi-Paintsil
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 13, 2016-Heather-De Filippis
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 13, 2016-Rod-Hunt
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 13, 2016-Sarah-Gilbert
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 14, 2016-Brian-Hernandez
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 14, 2016-Lucas-Anderson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 14, 2016-Noah-Anderson
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 14, 2016-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 14, 2016-Ryan-Hoyt
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 15, 2016-Mercedes-Yaple
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 15, 2016-Megan-Gordy
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 15, 2016-Robin-Mcdonaugh
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 15, 2016-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 15, 2016-Johanna-Miller
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 16, 2016-Katie-Papp
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 16, 2016-Robin-Wenzel
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 16, 2016-Michele-Danenza
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 16, 2016-James-Klinefelter
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 19, 2016-Kelly-Grieshop
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 19, 2016-Donna-Wood
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 19, 2016-Robert-Helinski
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 19, 2016-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 20, 2016-Andrews-Amoatey
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 20, 2016-Paa Kofi-Paintsil
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 20, 2016-Eric-Gill
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 21, 2016-Matt-Morrison
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 21, 2016-Jessica-Meier
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 21, 2016-Marissa-Seals
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 22, 2016-Cynthia-Jones
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 26, 2016-Katrina-Marcus
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 26, 2016-Ashley-Savio
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 26, 2016-Heather-Knight
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 27, 2016-Kara-Bosworth
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 27, 2016-Rhonda-Marvel-Wampler
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 27, 2016-Samantha-Pyle
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 27, 2016-Terri Lynn-Allen
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 28, 2016-Samantha-Self
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 28, 2016-Jennifer -Self
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 28, 2016-Alyssa-Howell
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 28, 2016-John-Nichols
+DEBUG                    -[DBTransferManager TransferDB]:249 - Form already exists: Jan 28, 2016-Stephanie-Nichols
+DEBUG                    -[DBTransferManager TransferDB]: 62 - Starting: Jan 28, 2016-Jodi-Reynolds
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 53 - Initialize defaults
+DEBUG                  -[Initializer InitializeDefaults]: 92 - /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 59 - Initialize form data manager
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG __36-[ImageListManager acquireImageList]_block_invoke: 36 - Image list acquired
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 64 - Loading health items
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 68 - Setup push notifications
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 72 - Setup quantcast
+DEBUG        -[DataLogOptionsViewController SendDataLog]:239 - Send log return string: success
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG                -[CoreDataManager SearchForClient:]:198 - (
+        {
+        Date = "Dec 5, 2015";
+        "First Name" = Brian;
+        "Last Name" = Seery;
+        "Search Result" = "Dec 5, 2015 Seery, Brian";
+    },
+        {
+        Date = "Dec 5, 2015";
+        "First Name" = Kimberly;
+        "Last Name" = Seery;
+        "Search Result" = "Dec 5, 2015 Seery, Kimberly";
+    }
+)
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG -[Dropbox restClient:uploadedFile:fromUploadId:metadata:]:195 - File uploaded to dropbox successfully to path: /Dec 2, 2016 Seery,Kimberly.pdf
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG                -[CoreDataManager SearchForClient:]:198 - (
+        {
+        Date = "Dec 5, 2015";
+        "First Name" = Brian;
+        "Last Name" = Seery;
+        "Search Result" = "Dec 5, 2015 Seery, Brian";
+    },
+        {
+        Date = "Dec 5, 2015";
+        "First Name" = Kimberly;
+        "Last Name" = Seery;
+        "Search Result" = "Dec 5, 2015 Seery, Kimberly";
+    },
+        {
+        Date = "12-02-2016";
+        "First Name" = Kimberly;
+        "Last Name" = Seery;
+        "Search Result" = "12-02-2016 Seery, Kimberly";
+    }
+)
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG -[Dropbox restClient:uploadedFile:fromUploadId:metadata:]:195 - File uploaded to dropbox successfully to path: /Dec 2, 2016 Seery,Brian.pdf
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG          -[AppDelegate application:handleOpenURL:]:115 - App linked successfully!
+DEBUG -[AppDelegate application:didFinishLaunchingWithOptions:]: 79 - Initialize TRF v1.x settings
+efaults
+DEBUG                  -[Initializer InitializeDefaults]: 92 - /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 59 - Initialize form data manager
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 79 - TRF version: VERSION 2.0
+DEBUG         -[HomeScreenViewController viewDidAppear:]: 82 - Documents:
+/var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents
+DEBUG -[HomeScreenViewController CheckAndDeleteDirectory:]:138 - Deleting directory: /var/mobile/Containers/Data/Application/0D42C6C6-A9F0-46DC-908D-5879A85E5582/Documents/Temp
+DEBUG __36-[ImageListManager acquireImageList]_block_invoke: 36 - Image list acquired
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 64 - Loading health items
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 68 - Setup push notifications
+DEBUG __57-[AppDelegate application:didFinishLaunchingWithOptions:]_block_invoke: 72 - Setup quantcast

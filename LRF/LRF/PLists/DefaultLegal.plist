@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>legal0</key>
+	<string>I have provided my past and current medical history and medications and acknowledge that it is my responsibility to keep &lt;BusinessName&gt; aware of any changes to my medical history and medication usage. </string>
+	<key>legal1</key>
+	<string>I am not pregnant, nursing, or trying to become pregnant. I shall notify &lt;BusinessName&gt; if that changes.</string>
+	<key>legal2</key>
+	<string>If I am using prescription-strength acne medication, I have my doctor&apos;s permission to receive treatments. </string>
+	<key>legal3</key>
+	<string>I understand I cannot be treated if I have an active outbreak of any viral infection. </string>
+	<key>legal4</key>
+	<string>I agree to avoid getting chemical peels or other laser/cosmetic treatments, including Botox and Juvederm, for at least two weeks before and after my laser(s) treatments.</string>
+	<key>legal5</key>
+	<string>I have not used Accutane or any other isotretinoin medication in the past 6 months.</string>
+	<key>legal6</key>
+	<string>I have not used self tanner in the area to be treated in the past 7 days.</string>
+	<key>legal7</key>
+	<string>I understand that complete removal may not be possible and will depend upon the type, age and color of the pigment, skin type or other considerations, and that multiple treatments may be needed before seeing any results or for the best results.</string>
+	<key>legal8</key>
+	<string>Other methods of treating this condition have been discussed with me such that I may assess the risks and benefits of these alternative treatment methods. I have been given the opportunity to ask questions about the procedure(s). My questions have been answered, and I understand the information given to me. </string>
+	<key>legal9</key>
+	<string>I understand that the treated area may NOT be exposed to sunlight, tanning beds, or sunless tanning creams for 4 weeks before AND 4-8 weeks after treatment until the area is healed. I understand I must wear a broad spectrum UVA/UVB protective sunscreen during instances where I am exposed to sunlight. These instances include, but are not limited to: sitting in the car, walking to the mailbox or sitting in sun light of any kind.</string>
+	<key>legal10</key>
+	<string>I understand the risks and complications that may be associated with this procedure. I have been informed that the risks and complications may include, but are not limited to bruising, purpura (red‐purple discoloration), and bleeding.</string>
+</dict>
+</plist>

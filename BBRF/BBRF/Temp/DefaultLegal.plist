@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>legal0</key>
+	<string>I understand that there is a possible risk of injury , whether caused by me or someone else, in the use of, presence on, &lt;BusinessName&gt; and participation in programs or tours. I understand and voluntarily accept this risk. I agree to specifically assume all risk of personal injury, whether physical or mental or otherwise, as well as all risk of loss, theft or damage of personal property while using or present on &lt;BusinessName&gt; or at the establishments/locations where the tour may visit or at nay other time and any other location before, during and after the tour. </string>
+	<key>legal1</key>
+	<string>To the extent described in this instrument, responsible and legal consumption of alcohol is allowed on the &lt;BusinessName&gt;. However, it is the riders responsibility to make sure they follow all laws at all times while on the tour, including, but no limited to, laws regarding public consumption of alcohol and public intoxication. It is the riders responsibility to never become intoxicated during the tour. Should the rider become intoxicated in violation of law or ordinance, the rider is expressly doing so at his own risk and the &lt;BusinessName&gt; assumes no liability for any civil or criminal violation or damages that may be assessed against any rider as a result.</string>
+    <key>legal2</key>
+    <string>The &lt;BusinessName&gt; is of proprietary manufacture, and I agree not to build or cause to be built any vehicle of the same or similar construction or design. Same or similar design shall be defined as a (x number amount) wheeled vehicle which has seating for at least (x number amount) and is propelled by a human(interchangeable with motor in settings) power via foot pedal. Further, I agree to follow the &lt;BusinessName&gt; Rules which are attached to this instrument and which I acknowledge to have received. I affirm that I am at least 18 years of age and of sound and sober mind and capable of making this release. (In setting allow this to be adjusted by the user, maybe include option to have a proprietary manufacturer clause)</string>
+    <key>legal3</key>
+    <string>I release and waive any and all claims or actions that I may ever have that may arise or be brought against &lt;BusinessName&gt;, it’s affiliates, subsidiaries, successors, holding companies or assigns as well as owners and employees and their affiliates, subsidiaries, successors and assigns as a result of anything which occurs before, during r after the tour, including but not limited to injury, loss, that or damage to any person or property, now or at any time in the future whether or not caused by &lt;BusinessName&gt; or the other indemnitors. I agree to defend, indemnify and hold the &lt;BusinessName&gt; as well as it’s owners, directors, and employees and their affiliates, subsidiaries, successors and assigns harmless against any and all claims brought by me or others in my party arising out of or relating to anything which occurs before, during or after the tour. </string>
+    <key>legal4</key>
+    <string>I have read, understood, and I agree to the above provisions, including, but not limited to, my assumptions of risk, release, an indemnity to the indicated parties for participation in this tour. Further, I agree and acknowledge that I understand all the language in this document means, I would not digitally sign this document or take a tour until I had been advised regarding it by my own attorney.  </string>
+    <key>legal5</key>
+    <string>We have helmets on the bike for those who have chosen to wear them.
+        If you choose to wear a helmet, the helmet must be work for the duration of the tour.</string>
+    <key>legal6</key>
+    <string>I will not physically endanger myself by acting carelessly on the bike (i.e. jump off the bike while moving, refuse to stay seated, hang out into traffic.). </string>
+    <key>legal7</key>
+    <string>I will be be respectful of other riders, road users, pedestrians, &lt;BusinessName&gt; staff, the venues we stop at (especially their bartenders) and our neighbors </string>
+    <key>legal8</key>
+    <string>I understand that verbal and or physical harassment, obscene hadn't gestures and displays of public nudity of any kinds inappropriate behavior and will result in my removal from the tour.</string>
+    <key>legal9</key>
+    <string>I understand that before and after the tour, I will refrain from illegally taking alcoholic beverages into surrounding bars.</string>
+    <key>legal10</key>
+    <string>I understand that failure to obey any of the rules will lead to the end of my time on the &lt;BusinessName&gt; and will result in a fee of up to ($XXX.XX) to be charged to the renters card</string>
+</dict>
+</plist>

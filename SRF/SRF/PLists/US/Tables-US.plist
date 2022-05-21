@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0_BIO</key>
+	<dict>
+		<key>00_Header</key>
+		<array>
+			<string>Header</string>
+			<string>BIO: Tell us about you.</string>
+			<string>32</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>01_First Name</key>
+		<array>
+			<string>TxtInput</string>
+			<string>First Name</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>First Name</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>02_Last Name</key>
+		<array>
+			<string>TxtInput</string>
+			<string>Last Name</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Last Name</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>03_Date of Birth</key>
+		<array>
+			<string>Date Picker Popup</string>
+			<string>Date of Birth</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Date of Birth</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>04_Gender</key>
+		<array>
+			<string>Segment</string>
+			<string>Gender Selection</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Gender</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>05_International</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>International</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>06_Country</key>
+		<array>
+			<string>TxtInput</string>
+			<string>Country</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Country</string>
+			<string>TxtInput</string>
+			<string>Country</string>
+			<string>Country</string>
+			<string>United States</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>07_Address</key>
+		<array>
+			<string>TxtInput</string>
+			<string>Address</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Address</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>08_City</key>
+		<array>
+			<string>TxtInput</string>
+			<string>City</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>City</string>
+			<string>TxtInput</string>
+			<string>City</string>
+			<string>Post Town or City</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>09_State</key>
+		<array>
+			<string>Picker</string>
+			<string>US State Picker</string>
+			<string>Select State</string>
+			<string>Required</string>
+			<string>State</string>
+			<string>TxtInput</string>
+			<string>State</string>
+			<string>Locality, Province, or State</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>10_Zip Code</key>
+		<array>
+			<string>Keypad</string>
+			<string>US Zip Code</string>
+			<string>Enter Zip Code</string>
+			<string>Required</string>
+			<string>Zip Code</string>
+			<string>TxtInput</string>
+			<string>Zip Code</string>
+			<string>Postcode or Zip Code</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>11_Phone Number</key>
+		<array>
+			<string>Keypad</string>
+			<string>Phone Number</string>
+			<string>Tap to Add Number</string>
+			<string>Required</string>
+			<string>Phone Number</string>
+			<string>Keypad</string>
+			<string>Phone Number</string>
+			<string>Phone Number</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>12_ID Type</key>
+		<array>
+			<string>Segment</string>
+			<string>ID Selection</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>ID Type</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>13_Emergency Contact Name</key>
+		<array>
+			<string>TxtInput</string>
+			<string>Emergency Contact Name</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Emergency Contact Name</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>14_Emergency Contact Phone Number</key>
+		<array>
+			<string>Keypad</string>
+			<string>Phone Number</string>
+			<string>Tap to Add Number</string>
+			<string>Required</string>
+			<string>Emergency Contact Phone Number</string>
+			<string>Keypad</string>
+			<string>Phone Number</string>
+			<string>Emergency Contact Phone Number</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>15_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>16_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>17_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>18_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>1_STUDIO</key>
+	<dict>
+		<key>00_Header</key>
+		<array>
+			<string>Header</string>
+			<string>STUDIO: Details about today&apos;s session.</string>
+			<string>32</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>01_Date</key>
+		<array>
+			<string>General</string>
+			<string>Date</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Date</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>02_Microblade Specialist Name</key>
+		<array>
+			<string>Picker</string>
+			<string>Employee Picker</string>
+			<string>Select Your Specialist</string>
+			<string>Required</string>
+			<string>Employee Name</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>03_Microblading Location</key>
+		<array>
+			<string>Picker</string>
+			<string>Microblade Placement Picker</string>
+			<string>Select Location of Microblading</string>
+			<string>Required</string>
+			<string>Body Location</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>04_Microblading Service</key>
+		<array>
+			<string>Service Select</string>
+			<string>Service Select</string>
+			<string>Tap to Select Service Performed</string>
+			<string>Required</string>
+			<string>Description of Work</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>05_Client Notes</key>
+		<array>
+			<string>Textfield</string>
+			<string>Client: What would you like to tell us?</string>
+			<string>Tap to Add Optional Notes</string>
+			<string>Optional</string>
+			<string>Client Notes</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>using-optional-notes-key</string>
+		</array>
+		<key>06_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>07_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>08_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>2_SOCIAL</key>
+	<dict>
+		<key>00_Header</key>
+		<array>
+			<string>Header</string>
+			<string>SOCIAL: We&apos;d love to connect with you! Please tell us how you found us and please opt-in for our email newsletters. We promise to never share your social information.</string>
+			<string>28</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>01_Referral</key>
+		<array>
+			<string>Picker</string>
+			<string>Referral Picker</string>
+			<string>Tap to Add a Referral</string>
+			<string>Optional</string>
+			<string>Referral</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>02_Email Opt-in</key>
+		<array>
+			<string>Segment</string>
+			<string>Promotions</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Email Opt-in</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>03_Email Address</key>
+		<array>
+			<string>TxtInput</string>
+			<string>Email Address</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Email Address</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>email-address-key</string>
+		</array>
+		<key>04_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>05_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>06_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>07_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>3_HEALTH</key>
+	<dict>
+		<key>00_Header</key>
+		<array>
+			<string>Header</string>
+			<string>HEALTH: We ask these questions only to assure a safe and healthy session for all. We respect your privacy and will protect your health information.</string>
+			<string>20</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>01_Health Table</key>
+		<array>
+			<string>Health Table</string>
+			<string>*</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>02_How long since you ate?</key>
+		<array>
+			<string>Picker</string>
+			<string>Hour Picker</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>How long since you ate</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>03_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>04_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>05_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>06_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>07_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>4_HISTORY</key>
+	<dict>
+		<key>00_Header</key>
+		<array>
+			<string>Header</string>
+			<string>HISTORY: Please answer the following questions about your past medical history.</string>
+			<string>28</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>01_Last Treatment Date of Botox</key>
+		<array>
+			<string>Date Picker Popup</string>
+			<string>Date of Last Botox</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Date of Last Botox</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>Never</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>02_Last Treatment Date of Chemical Peel</key>
+		<array>
+			<string>Date Picker Popup</string>
+			<string>Date of Last Chemical Peel</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Date of Last Chemical Peel</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>Never</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>03_Forehead / Brow Lift</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Forehead / Brow Lift</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>04_Facelift</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Facelift</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>05_Brow / Lash Tinting</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Brow / Lash Tinting</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>06_Accutane</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Accutane</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>07_Tanning Beds</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Tanning Beds</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>08_Retin-­­A</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Retin-­­A</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>09_Glycolic Acid</key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Glycolic Acid</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>10_Alpha Hydroxyl </key>
+		<array>
+			<string>Segment</string>
+			<string>Yes No Selection</string>
+			<string>*</string>
+			<string>Optional</string>
+			<string>Alpha Hydroxyl </string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>11_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>12_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>13_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>14_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>5_LEGAL</key>
+	<dict>
+		<key>00_Header</key>
+		<array>
+			<string>Legal Header</string>
+			<string>LEGAL: Please read, initial, and sign as prompted. Thank you!</string>
+			<string>24</string>
+			<string>Optional</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>01_Tap Here to Review Legal Clauses</key>
+		<array>
+			<string>Legal Table</string>
+			<string>*</string>
+			<string>*</string>
+			<string>Required</string>
+			<string>Initials</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>02_Signature</key>
+		<array>
+			<string>Signature</string>
+			<string>Client Signature</string>
+			<string>Tap to Add Signature</string>
+			<string>Required</string>
+			<string>Client Signature</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>03_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>04_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>05_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>06_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>07_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+		<key>08_Padding</key>
+		<array>
+			<string>Padding</string>
+			<string>Padding</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+			<string>*</string>
+		</array>
+	</dict>
+</dict>
+</plist>

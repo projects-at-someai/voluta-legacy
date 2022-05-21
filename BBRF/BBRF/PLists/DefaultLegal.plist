@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>legal0</key>
+	<string>I will not endanger myself or others by acting a fool on the spacecraft.</string>
+	<key>legal1</key>
+	<string>I will be be respectful of other onboard passengers, &lt;BusinessName&gt; staff, and any other races or species I may encounter on this trip</string>
+	<key>legal2</key>
+	<string>I understand that there is a possible risk of injury, such as insanity, immediate death from combustion, permanent DNA alteration due to cosmic radiation, or exposure to space fungus, while traveling with &lt;BusinessName&gt;. I understand and voluntarily accept this risk.</string>
+	<key>legal3</key>
+	<string>I release and waive any and all claims or actions that I may ever have that may arise or be brought against &lt;BusinessName&gt;, it’s affiliates, subsidiaries, successors, holding companies or assigns as well as owners and employees and their affiliates, subsidiaries, successors and assigns as a result of anything which occurs before, during or after the trip, including but not limited to injury, loss, that or damage to any person or property, now or at any time in the future whether or not caused by &lt;BusinessName&gt; or the other indemnitors. I agree to defend, indemnify and hold the &lt;BusinessName&gt; as well as it’s owners, directors, and employees and their affiliates, subsidiaries, successors and assigns harmless against any and all claims brought by me or others in my party arising out of or relating to anything which occurs before, during or after the tour. </string>
+</dict>
+</plist>

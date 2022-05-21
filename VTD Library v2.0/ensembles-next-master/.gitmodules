@@ -1,0 +1,15 @@
+[submodule "Vendor/DropboxSDK"]
+	path = Vendor/DropboxSDK
+	url = https://github.com/drewmccormack/dropbox-sdk-ios.git
+[submodule "Vendor/MagicalRecord"]
+	path = Vendor/MagicalRecord
+	url = https://github.com/magicalpanda/MagicalRecord.git
+[submodule "Vendor/DropboxSDKV2"]
+	path = Vendor/DropboxSDKV2
+	url = https://github.com/dropbox/dropbox-sdk-obj-c.git
+[submodule "Vendor/ZipArchive"]
+	path = Vendor/ZipArchive
+	url = https://github.com/ZipArchive/ZipArchive.git
+[submodule "Vendor/RNCryptor-objc"]
+	path = Vendor/RNCryptor-objc
+	url = https://github.com/RNCryptor/RNCryptor-objc.git

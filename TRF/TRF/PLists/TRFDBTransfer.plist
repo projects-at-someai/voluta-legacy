@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>For All Clients</key>
+	<dict>
+		<key>First Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>First Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Last Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Last Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Birthday</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Date of Birth</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Gender</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Gender</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Street Address</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Address</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>City</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>City</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>State</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>State</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Zip Code</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Zip Code</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>ID Type</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>ID Type</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Emergency Contact Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Emergency Contact Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Emergency Contact Phone Number</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Emergency Contact Phone Number</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Phone Number</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Phone Number</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Country</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Country</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Current Date</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Date</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Artist Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Employee Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Tattoo Description</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Tattoo Description</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Body Placement</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Body Location</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Notes</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Referral</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Referral</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>ReferralTable</string>
+		</dict>
+		<key>Email Opt-in</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Email Opt-in</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>SocialTable</string>
+		</dict>
+		<key>Email Address</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Email Address</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>SocialTable</string>
+		</dict>
+		<key>Allergies</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Extract Health Items from String</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>Diseases</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Extract Health Items from String</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>Health Conditions</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Extract Health Items from String</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>How long since you last ate?</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>How long since you ate</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>Initials 0</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Initials</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>LegalTable</string>
+		</dict>
+		<key>InkBatchNumbers</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Ink Batch Numbers</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>ArtistNotesTable</string>
+		</dict>
+		<key>NeedleBatchNumbers</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Needle Batch Numbers</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>ArtistNotesTable</string>
+		</dict>
+		<key>DisposableTubesBatchNumbers</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Disposable Tubes Batch Numbers</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>ArtistNotesTable</string>
+		</dict>
+		<key>DisposableGripsBatchNumbers</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Disposable Grips Batch Numbers</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>ArtistNotesTable</string>
+		</dict>
+		<key>AdditionalNotes</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Employee Notes</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>ArtistNotesTable</string>
+		</dict>
+		<key>InkList</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Inks</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>InkListTable</string>
+		</dict>
+		<key>NeedleList</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Needles</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>NeedleListTable</string>
+		</dict>
+		<key>ThinnerList</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Ink Thinners</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>ThinnerListTable</string>
+		</dict>
+		<key>DisposableTubesList</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Disposable Tubes</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>DisposableTubesListTable</string>
+		</dict>
+		<key>DisposableGripsList</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Disposable Grips</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>DisposableGripsListTable</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

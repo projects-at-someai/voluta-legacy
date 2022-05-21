@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Section_0</key>
+	<dict>
+		<key>0_HEADER</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>No</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Name</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-name-key</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Website</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-website-key</string>
+				</dict>
+			</array>
+			<key>Line_1</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Address</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-address-key</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Email</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-email-key</string>
+				</dict>
+			</array>
+			<key>Line_2</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business City</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-city-key</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Province</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-state-key</string>
+				</dict>
+			</array>
+			<key>Line_3</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Postal Code</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-zipcode-key</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield-Only</string>
+					<key>Item Title</key>
+					<string>Business Phone Number</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>business-phonenumber-key</string>
+				</dict>
+			</array>
+			<key>Line_4</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>CONSENT: APPLICATION FOR XXX, RELEASE OF LIABILITY AND WAIVER TO ALL CLAIMS. COMPLIES WITH</string>
+					<key>Data Source</key>
+					<string>NSUserDefaults</string>
+					<key>Data Key</key>
+					<string>local-codes-key</string>
+				</dict>
+			</array>
+		</dict>
+		<key>1_ID AND SIGNATURE</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>No</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>ID Image</string>
+					<key>Item Title</key>
+					<string>Client ID</string>
+					<key>Data Source</key>
+					<string>ClientImages</string>
+					<key>Data Key</key>
+					<string>Client ID</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Signature Image</string>
+					<key>Item Title</key>
+					<string>Client Signature</string>
+					<key>Data Source</key>
+					<string>ClientImages</string>
+					<key>Data Key</key>
+					<string>Client Signature</string>
+				</dict>
+			</array>
+		</dict>
+		<key>2_BIO</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Name</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Name</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Type of ID</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>ID Type</string>
+				</dict>
+			</array>
+			<key>Line_1</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Date of Birth</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Date of Birth</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Emergency Contact</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Emergency Contact Name</string>
+				</dict>
+			</array>
+			<key>Line_2</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Age</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Age</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Emergency Phone</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Emergency Contact Phone Number</string>
+				</dict>
+			</array>
+			<key>Line_3</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Gender</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Gender</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+			<key>Line_4</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Street Address</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Address</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>City</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>City</string>
+				</dict>
+			</array>
+			<key>Line_5</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Province</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Province</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Postal Code</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Postal Code</string>
+				</dict>
+			</array>
+			<key>Line_6</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Phone Number</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Phone Number</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Country</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Country</string>
+				</dict>
+			</array>
+		</dict>
+		<key>3_CLINIC</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Date</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Date</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Referred By</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Referral</string>
+				</dict>
+			</array>
+			<key>Line_1</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Specialist Name</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Employee Name</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Body Location</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Body Location</string>
+				</dict>
+			</array>
+			<key>Line_2</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Additional Info</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Client Notes</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+		</dict>
+		<key>4_EMAIL OPT-IN</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Email Opt-in</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Email Opt-in</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Email Address</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Email Address</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Section_1</key>
+	<dict>
+		<key>0_HEALTH</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Health Table</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Section_2</key>
+	<dict>
+		<key>0_LEGAL</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Legal Table</string>
+					<key>Item Title</key>
+					<string>By completing and signing this form, I acknowledge that I have been given the full opportunity to ask any and all questions which I might have about obtaining laser removal services from &lt;BusinessName&gt; and that all of my questions have been answered to my full and total satisfaction. I specifically acknowledge that I have been advised of the facts and matters set forth, and I agree as follows:</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Initials</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>Section_3</key>
+	<dict>
+		<key>0_LASER SPECIALIST NOTES</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Laser Specialist Name</string>
+					<key>Data Source</key>
+					<string>ClientInformation</string>
+					<key>Data Key</key>
+					<string>Employee Name</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+			<key>Line_1</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Notes</string>
+					<key>Data Source</key>
+					<string>SpecialistInformation</string>
+					<key>Data Key</key>
+					<string>Employee Notes</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+		</dict>
+		<key>1_FINANCIALS</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>Yes</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Amount Due</string>
+					<key>Data Source</key>
+					<string>SessionFinancials</string>
+					<key>Data Key</key>
+					<string>Amount Due</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Deposit</string>
+					<key>Data Source</key>
+					<string>SessionFinancials</string>
+					<key>Data Key</key>
+					<string>Deposit</string>
+				</dict>
+			</array>
+			<key>Line_1</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Total Tax</string>
+					<key>Data Source</key>
+					<string>SessionFinancials</string>
+					<key>Data Key</key>
+					<string>Total Tax</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Amount Paid</string>
+					<key>Data Source</key>
+					<string>SessionFinancials</string>
+					<key>Data Key</key>
+					<string>Amount Paid</string>
+				</dict>
+			</array>
+			<key>Line_2</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Textfield</string>
+					<key>Item Title</key>
+					<string>Payment Method</string>
+					<key>Data Source</key>
+					<string>SessionFinancials</string>
+					<key>Data Key</key>
+					<string>Payment Method</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+		</dict>
+		<key>2_SIGNATURE</key>
+		<dict>
+			<key>HasTitle</key>
+			<string>No</string>
+			<key>Line_0</key>
+			<array>
+				<dict>
+					<key>Item Type</key>
+					<string>Employee Signature Image</string>
+					<key>Item Title</key>
+					<string>Specialist Signature</string>
+					<key>Data Source</key>
+					<string>ClientImages</string>
+					<key>Data Key</key>
+					<string>Employee Signature</string>
+				</dict>
+				<dict>
+					<key>Item Type</key>
+					<string>*</string>
+					<key>Item Title</key>
+					<string>*</string>
+					<key>Data Source</key>
+					<string>*</string>
+					<key>Data Key</key>
+					<string>*</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

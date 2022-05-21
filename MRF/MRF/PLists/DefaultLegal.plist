@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>legal0</key>
+	<string>I have truthfully represented to &lt;BusinessName&gt; STUDIO that I am over eighteen (18) years of age</string>
+    <key>legal1</key>
+    <string>I acknowledge it is not reasonably possible for the representatives and employees of &lt;BusinessName&gt; STUDIO to determine whether I might have an allergic reaction to the agents or or processes used in today's procedure(s), and I agree to accept the risk that such a reaction is possible.</string>
+    <key>legal2</key>
+    <string>I acknowledge that I have advised my specialist of any condition that might affect the process or healing of this procedure. I do not have medical or skin conditions such as but not limited to: acne scarring (Keloid), eczema, psoriasis, freckles, or sunburn in the area to be tattooed that may interfere with said procedure. If I have any type of infection or rash anywhere on my body, I will advise my specialist. </string>
+    <key>legal3</key>
+    <string>I am not pregnant or nursing. </string>
+    <key>legal4</key>
+    <string>I am not under the influence of alcohol or drugs. </string>
+    <key>legal5</key>
+    <string>I acknowledge that infection, misplaced pigment, poor color retention and hyperpigmentation are always possible as a result of obtaining a cosmetic tattoo, particularly in the event that I do not follow provided before and aftercare. I have received pre- and post-care instructions and agree to follow them while healing. I acknowledge that any touch-up work needed due to my own negligence will be done at my own expense. This includes sun and ultraviolet damage. </string>
+    <key>legal6</key>
+    <string>I acknowledge that a cosmetic tattoo is a permanent change to my appearance, and no representations have been made to me as to the ability to later change, alter or remove my cosmetic tattoo. To my knowledge, I do not have physical, mental or medical impairment or disability which might affect my well being as a direct or indiscreet result of my decision to get a cosmetic tattoo, and I accept full responsibility for the decision to have this cosmetic tattoo work done. </string>
+    <key>legal7</key>
+    <string>I acknowledge that a certain amount of discomfort is associated with this procedure, and that swelling, redness and bruising may occur.</string>
+    <key>legal8</key>
+    <string>I acknowledge that sleeping on my face, tanning beds, pools, certain skin care products (such as Retin A, Renova, Alpha Hydroxy and Glycolic Acids) and medications can affect my permanent makeup. I understand that if I have any skin treatments, laser hair removal, plastic surgery or other skin altering procedures, it may result in adverse changes to my permanent cosmetic, and may not be correctable.</string>
+    <key>legal9</key>
+    <string>I acknowledge that a second session is required, and if I do not follow through with second session, neither my specialist nor &lt;BusinessName&gt; STUDIO can be held accountable for the final results. </string>
+    <key>legal10</key>
+    <string>I acknowledge that successful color saturation can NOT be guaranteed due to hidden scar tissue.</string>
+    <key>legal11</key>
+    <string>I accept the responsibility to explain to the specialist my desire for specific colors and shapes for any procedure(s) done today.</string>
+    <key>legal12</key>
+    <string>I acknowledge that implanted pigment color can slightly change or fade over time due to circumstances beyond the specialist’s control, and I may need to maintain the color with future applications. </string>
+    <key>legal13</key>
+    <string>I agree to IMMEDIATELY notify the specialist if I feel lightheaded, dizzy and/or faint before, during or after the procedure. Failure to do so releases &lt;BusinessName&gt; STUDIO and my specialist of all responsibility. </string>
+    <key>legal14</key>
+    <string>I acknowledge that taking before and after photographs of my cosmetic tattoo is a condition of the procedure, and consent to possible use of said photographs in promotions and marketing for &lt;BusinessName&gt; STUDIO.</string>
+    <key>legal15</key>
+    <string>I acknowledge that a full set of lash extensions can make my lashes appear 30-50% thicker and 20-50% longer.</string>
+    <key>legal16</key>
+    <string>I acknowledge that lash extension services have some inherent risk of irritation or itching to the orbital eye area, including the eye itself, and could result in stinging and burning, blurry vision and potential blindness should the adhesive enter the eye or should an allergic reaction occur. </string>
+    <key>legal17</key>
+    <string>I acknowledge that this is a semi-permanent procedure, as my natural lashes will continue to grow and fall out normally, making touch-up or “fill” appointments necessary to maintain the original look.</string>
+    <key>legal18</key>
+    <string>I acknowledge that while every attempt will be made to provide me with the length and fullness I have chosen, my final result may not be what I initially envisioned. </string>
+</dict>
+</plist>

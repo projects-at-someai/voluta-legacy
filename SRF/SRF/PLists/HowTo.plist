@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0_How to Set Up</key>
+	<string>How to set up the app</string>
+	<key>1_How to Use</key>
+	<string>How to use the app</string>
+	<key>2_FAQ</key>
+	<string>Frequently asked questions</string>
+	<key>3_Support</key>
+	<string>In-app support submission</string>
+</dict>
+</plist>

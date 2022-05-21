@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0_About</key>
+	<dict>
+		<key>IsPasswordProtected</key>
+		<string>No</string>
+	</dict>
+	<key>1_How To</key>
+	<dict>
+		<key>IsPasswordProtected</key>
+		<string>No</string>
+	</dict>
+	<key>2_Settings</key>
+	<dict>
+		<key>IsPasswordProtected</key>
+		<string>Yes</string>
+		<key>Settings Table</key>
+		<dict>
+			<key>0_Business Options</key>
+			<dict>
+				<key>0_Business Name</key>
+				<array>
+					<string>TxtInput</string>
+					<string>Studio Name</string>
+					<string>*</string>
+					<string>Required</string>
+					<string>business-name-key</string>
+				</array>
+				<key>1_Business Logo</key>
+				<array>
+					<string>Image Selector</string>
+					<string>Logo Picker</string>
+					<string>Tap to Select</string>
+					<string>Not Required</string>
+					<string>using-logo-key</string>
+				</array>
+				<key>2_Remove Logo</key>
+				<array>
+					<string>General</string>
+					<string>Remove Logo</string>
+					<string>Tap to Remove Logo</string>
+					<string>Not Required</string>
+					<string>using-logo-key</string>
+				</array>
+				<key>3_Employee List</key>
+				<array>
+					<string>Employee List</string>
+					<string>Employee List</string>
+					<string>Tap to Add Employees</string>
+					<string>Required</string>
+					<string>has-employee-list-key</string>
+				</array>
+			</dict>
+			<key>1_Business Information</key>
+			<dict>
+				<key>0_Local Codes</key>
+				<array>
+					<string>Textfield</string>
+					<string>Local Codes</string>
+					<string>Tap to Add Text</string>
+					<string>Not Required</string>
+					<string>local-codes-key</string>
+				</array>
+				<key>1_Legal Name</key>
+				<array>
+					<string>TxtInput</string>
+					<string>Legal Name</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>legal-name-key</string>
+				</array>
+				<key>2_Address</key>
+				<array>
+					<string>TxtInput</string>
+					<string>Address</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>business-address-key</string>
+				</array>
+				<key>3_City</key>
+				<array>
+					<string>TxtInput</string>
+					<string>City</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>business-city-key</string>
+				</array>
+				<key>4_Province</key>
+				<array>
+					<string>Picker</string>
+					<string>Canadian Province Picker</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>business-state-key</string>
+				</array>
+				<key>5_Postal Code</key>
+				<array>
+					<string>TxtInput</string>
+					<string>Postal Code</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>business-zipcode-key</string>
+				</array>
+				<key>6_Phone Number</key>
+				<array>
+					<string>Keypad</string>
+					<string>Phone Number</string>
+					<string>Tap to Add Phone Number</string>
+					<string>Not Required</string>
+					<string>business-phonenumber-key</string>
+				</array>
+				<key>7_Website</key>
+				<array>
+					<string>TxtInput</string>
+					<string>Website</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>business-website-key</string>
+				</array>
+				<key>8_Business Email</key>
+				<array>
+					<string>TxtInput</string>
+					<string>Business Email</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>business-email-key</string>
+				</array>
+			</dict>
+			<key>2_Passcodes</key>
+			<dict>
+				<key>0_Master Passcode</key>
+				<array>
+					<string>Keypad</string>
+					<string>Set Passcode</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>Master-PW-keychain</string>
+				</array>
+				<key>1_Specialist Passcode</key>
+				<array>
+					<string>Keypad</string>
+					<string>Set Passcode</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>Secondary-PW-keychain</string>
+				</array>
+			</dict>
+			<key>3_Cloud Services</key>
+			<dict>
+				<key>0_Box Enable</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Box Enable</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>using-box-key</string>
+				</array>
+				<key>1_Dropbox Enable</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Dropbox Enable</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>using-dropbox-key</string>
+				</array>
+				<key>2_Google Drive Enable</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Google Drive Enable</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>using-googledrive-key</string>
+				</array>
+				<key>3_OneDrive Enable</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>OneDrive Enable</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>using-onedrive-key</string>
+				</array>
+			</dict>
+			<key>4_Form Options</key>
+			<dict>
+				<key>0_Automatic Emailer</key>
+				<array>
+					<string>Email Credentials</string>
+					<string>Automatic Emailer</string>
+					<string>Tap to Configure</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>1_Initial Popup</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Initial Popup Enable</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>initial-popup-key</string>
+				</array>
+				<key>2_Initial Popup Text</key>
+				<array>
+					<string>Textfield</string>
+					<string>Initial Popup Text</string>
+					<string>Tap to Add Text</string>
+					<string>Not Required</string>
+					<string>initial-popup-text-key</string>
+				</array>
+				<key>3_Show Optional Client Notes</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Optional Notes Enable</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>using-optional-notes-key</string>
+				</array>
+				<key>4_Require Email</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Force Email</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>forcing-email-key</string>
+				</array>
+				<key>5_Additional Form Options</key>
+				<array>
+					<string>Additional Form Setup</string>
+					<string>Additional Form Setup</string>
+					<string>Tap to Configure</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>6_Require Second Picture of Gov&apos;t ID</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Force Email</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>require-second-govt-pic-key</string>
+				</array>
+				<key>7_Capture Picture of ID</key>
+				<array>
+					<string>Switch Cell</string>
+					<string>Capture ID Option</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>capture-id-key</string>
+				</array>
+			</dict>
+			<key>5_Database Options</key>
+			<dict>
+				<key>0_Database Viewer</key>
+				<array>
+					<string>Database Viewer</string>
+					<string>Stored Client List</string>
+					<string>Tap to View</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>1_Financial Reports</key>
+				<array>
+					<string>Financial Report Generator</string>
+					<string>Financial Reports</string>
+					<string>Tap to Generate</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>2_Export Client List</key>
+				<array>
+					<string>Database Exporter</string>
+					<string>Export Client List</string>
+					<string>Tap to Export</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>3_Client Database Backup</key>
+				<array>
+					<string>Database Backup</string>
+					<string>Database Backup</string>
+					<string>Tap to Backup</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>4_Client Database Restore</key>
+				<array>
+					<string>Database Restore</string>
+					<string>Database Restore</string>
+					<string>Tap to Restore</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+			</dict>
+			<key>6_Editors</key>
+			<dict>
+				<key>0_Health Questions List Editor</key>
+				<array>
+					<string>List Editor</string>
+					<string>Health List Editor</string>
+					<string>Tap to Edit</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>1_Legal Clause List Editor</key>
+				<array>
+					<string>List Editor</string>
+					<string>Legal List Editor</string>
+					<string>Tap to Edit</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>2_Treatment Record Editor</key>
+				<array>
+					<string>List Editor</string>
+					<string>Laser Treatment Record Editor</string>
+					<string>Tap to Edit</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+			</dict>
+			<key>7_Device Options</key>
+			<dict>
+				<key>0_Slideshow Options</key>
+				<array>
+					<string>Slideshow Setup</string>
+					<string>Slideshow Setup</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>1_Orientation Options</key>
+				<array>
+					<string>Picker</string>
+					<string>Orientation Picker</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>orientation-key</string>
+				</array>
+				<key>2_Device Sync Options</key>
+				<array>
+					<string>Device Sync Options</string>
+					<string>Device Sync Options</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>3_Device Settings Backup</key>
+				<array>
+					<string>Settings Backup</string>
+					<string>Settings Backup</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>4_Device Settings Restore</key>
+				<array>
+					<string>Settings Restore</string>
+					<string>Settings Restore</string>
+					<string>*</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+				<key>5_Restore Subscriptions</key>
+				<array>
+					<string>Subscriptions Restore</string>
+					<string>Subscriptions Restore</string>
+					<string>Tap to Restore</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+			</dict>
+			<key>8_Privacy Policy</key>
+			<dict>
+				<key>0_Privacy Policy</key>
+				<array>
+					<string>Privacy Policy</string>
+					<string>Privacy Policy</string>
+					<string>Tap to View</string>
+					<string>Not Required</string>
+					<string>*</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>3_In App Purchases</key>
+	<dict>
+		<key>IsPasswordProtected</key>
+		<string>Yes</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Once</key>
+	<dict>
+		<key>PiercerName</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Piercer Name to Plist</string>
+			<key>Core Data Entity</key>
+			<string>*</string>
+			<key>DB Table</key>
+			<string>PiercerTable</string>
+		</dict>
+		<key>InkTable</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Create Ink List Plist</string>
+			<key>Core Data Entity</key>
+			<string>*</string>
+			<key>DB Table</key>
+			<string>InkTable</string>
+		</dict>
+		<key>NeedleTable</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Create Needle List Plist</string>
+			<key>Core Data Entity</key>
+			<string>*</string>
+			<key>DB Table</key>
+			<string>NeedleTable</string>
+		</dict>
+		<key>ThinnersTable</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Create Ink Thinner List Plist</string>
+			<key>Core Data Entity</key>
+			<string>*</string>
+			<key>DB Table</key>
+			<string>ThinnersTable</string>
+		</dict>
+		<key>DisposableTubesTable</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Create Ink Disposable Tubes List Plist</string>
+			<key>Core Data Entity</key>
+			<string>*</string>
+			<key>DB Table</key>
+			<string>DisposableTubesTable</string>
+		</dict>
+		<key>DisposableGripsTable</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Create Ink Disposable Grips List Plist</string>
+			<key>Core Data Entity</key>
+			<string>*</string>
+			<key>DB Table</key>
+			<string>DisposableGripsTable</string>
+		</dict>
+	</dict>
+	<key>For All Clients</key>
+	<dict>
+		<key>First Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>First Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Last Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Last Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Birthday</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Date of Birth</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Gender</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Gender</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Street Address</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Street Address</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>City</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>City</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>State</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>State</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Zip Code</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Zip Code</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>ID Type</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>ID Type</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Emergency Contact Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Emergency Contact Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Emergency Contact Phone Number</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Emergency Contact Phone Number</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Phone Number</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Phone Number</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Country</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Country</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>BIOTable</string>
+		</dict>
+		<key>Current Date</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Date</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Piercer Name</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Employee Name</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Piercing Type</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Type of Work</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>AdditionalInfo</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Client Notes</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>StudioTable</string>
+		</dict>
+		<key>Referral</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Referral</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>ReferralTable</string>
+		</dict>
+		<key>Email Opt-in</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Email Opt-in</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>SocialTable</string>
+		</dict>
+		<key>Email Address</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Email Address</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>SocialTable</string>
+		</dict>
+		<key>Allergies</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Extract Health Items from String</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>Diseases</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Extract Health Items from String</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>Health Conditions</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Extract Health Items from String</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>HealthTable</string>
+		</dict>
+		<key>Initials 0</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Initials</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>LegalTable</string>
+		</dict>
+		<key>AdditionalNotes</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Employee Notes</string>
+			<key>Core Data Entity</key>
+			<string>SpecialistInformation</string>
+			<key>DB Table</key>
+			<string>PiercerNotesTable</string>
+		</dict>
+		<key>DocumentName</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>DocumentName</string>
+			<key>Core Data Entity</key>
+			<string>SupportingDocuments</string>
+			<key>DB Table</key>
+			<string>SupportingDocumentsTable</string>
+		</dict>
+		<key>GuardianName</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>GuardianName</string>
+			<key>Core Data Entity</key>
+			<string>SupportingDocuments</string>
+			<key>DB Table</key>
+			<string>SupportingDocumentsTable</string>
+		</dict>
+		<key>Piercing Description</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Description of Work</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>PiercerNotesTable</string>
+		</dict>
+		<key>Jewelery List</key>
+		<dict>
+			<key>Core Data Key</key>
+			<string>Piercing Jewelry List</string>
+			<key>Core Data Entity</key>
+			<string>ClientInformation</string>
+			<key>DB Table</key>
+			<string>PiercerNotesTable</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

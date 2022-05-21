@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0_Session Materials</key>
+	<dict>
+		<key>00_Select Pigments Used</key>
+		<array>
+			<string>List Popup</string>
+			<string>Ink List</string>
+			<string>Tap to Select Pigments</string>
+			<string>Optional</string>
+			<string>Client Pigments</string>
+		</array>
+		<key>01_Pigment Batch Numbers</key>
+		<array>
+			<string>Textfield</string>
+			<string>Pigment Batch Numbers</string>
+			<string>Tap to Add Numbers</string>
+			<string>Optional</string>
+			<string>Pigment Batch Numbers</string>
+		</array>
+		<key>02_Select Pigment Thinners Used</key>
+		<array>
+			<string>List Popup</string>
+			<string>Ink Thinner List</string>
+			<string>Tap to Select Thinners</string>
+			<string>Optional</string>
+			<string>Client Pigment Thinners</string>
+		</array>
+		<key>03_Select Blades Used</key>
+		<array>
+			<string>List Popup</string>
+			<string>Needle List</string>
+			<string>Tap to Select Blades</string>
+			<string>Optional</string>
+			<string>Client Blades</string>
+		</array>
+		<key>04_Blade Batch Numbers</key>
+		<array>
+			<string>Textfield</string>
+			<string>Blade Batch Numbers</string>
+			<string>Tap to Add Numbers</string>
+			<string>Optional</string>
+			<string>Blade Batch Numbers</string>
+		</array>
+	</dict>
+	<key>1_Session Financials</key>
+	<dict>
+		<key>00_Session Financials</key>
+		<array>
+			<string>Session Financials</string>
+			<string>Financial Notes</string>
+			<string>Tap to Add Financials</string>
+			<string>Optional</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>2_Supporting Documents</key>
+	<dict>
+		<key>00_Supporting Documents</key>
+		<array>
+			<string>Supporting Documents</string>
+			<string>Supporting Documents</string>
+			<string>Tap to Add Documents</string>
+			<string>Optional</string>
+			<string>*</string>
+		</array>
+	</dict>
+	<key>3_Specialist Notes</key>
+	<dict>
+		<key>00_Microblading Service</key>
+		<array>
+			<string>Service Select</string>
+			<string>Service Select</string>
+			<string>Tap to Select Service Performed</string>
+			<string>Required</string>
+			<string>Description of Work from Specialist</string>
+		</array>
+		<key>01_Additional Notes</key>
+		<array>
+			<string>Textfield</string>
+			<string>Specialist Notes</string>
+			<string>Tap to Add Optional Notes</string>
+			<string>Optional</string>
+			<string>Employee Notes</string>
+		</array>
+	</dict>
+	<key>4_Specialist Signature</key>
+	<dict>
+		<key>00_Signature</key>
+		<array>
+			<string>Signature</string>
+			<string>Specialist Signature</string>
+			<string>Tap to Add Signature</string>
+			<string>Required</string>
+			<string>Employee Signature</string>
+		</array>
+	</dict>
+</dict>
+</plist>

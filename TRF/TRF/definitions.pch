@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  TRF
+//
+//  Created by Francis Bowen on 5/19/15.
+//  Copyright (c) 2015 Voluta Tattoo Digital. All rights reserved.
+//
+
+#ifndef TRF_PrefixHeader_pch
+#define TRF_PrefixHeader_pch
+
+#import "VTDLib2.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define APP_ID              @"TRF"
+
+#define VTD_APP_FOLDER      @"Voluta Digital iPad Tattoo Release Forms"
+
+//#define ICLOUD_CONTAINER    @"iCloud.com.VolutaDigital.TRF"
+#define ICLOUD_CONTAINER    @"TRF-ICLOUD-CONTAINER"
+
+#define IAP_KEY             @"TRF-IAP"
+
+#define DB_TRANSFER_FILE    @"TRFDBTransfer"
+#define DB_NAME             @"DBv1e.db"
+
+#define PRIVACY_POLICY_URL  @"https://www.tattooreleaseformsapp.com/privacy-policy"
+#define TERMS_OF_SERVICE_URL @"https://www.tattooreleaseformsapp.com/terms-of-service"
+#define FAQ_URL @"https://docs.wixstatic.com/ugd/3c4f76_31587f0c154b42ada14e05e3121b5d00.pdf"
+
+#endif

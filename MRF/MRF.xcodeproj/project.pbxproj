@@ -1,0 +1,2391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0691381BBA45AB002DBFF7 /* Finalize-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691331BBA45AB002DBFF7 /* Finalize-AUS.plist */; };
+		0E0691391BBA45AB002DBFF7 /* PDF-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691341BBA45AB002DBFF7 /* PDF-AUS.plist */; };
+		0E06913A1BBA45AB002DBFF7 /* SettingsAndOptions-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691351BBA45AB002DBFF7 /* SettingsAndOptions-AUS.plist */; };
+		0E06913B1BBA45AB002DBFF7 /* SettingsBackup-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691361BBA45AB002DBFF7 /* SettingsBackup-AUS.plist */; };
+		0E06913C1BBA45AB002DBFF7 /* Tables-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691371BBA45AB002DBFF7 /* Tables-AUS.plist */; };
+		0E0691421BBA45B4002DBFF7 /* Finalize-CAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E06913D1BBA45B4002DBFF7 /* Finalize-CAN.plist */; };
+		0E0691431BBA45B4002DBFF7 /* PDF-CAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E06913E1BBA45B4002DBFF7 /* PDF-CAN.plist */; };
+		0E0691441BBA45B4002DBFF7 /* SettingsAndOptions-CAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E06913F1BBA45B4002DBFF7 /* SettingsAndOptions-CAN.plist */; };
+		0E0691451BBA45B4002DBFF7 /* SettingsBackup-CAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691401BBA45B4002DBFF7 /* SettingsBackup-CAN.plist */; };
+		0E0691461BBA45B4002DBFF7 /* Tables-CAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691411BBA45B4002DBFF7 /* Tables-CAN.plist */; };
+		0E06914C1BBA45BD002DBFF7 /* Finalize-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691471BBA45BD002DBFF7 /* Finalize-UK.plist */; };
+		0E06914D1BBA45BD002DBFF7 /* PDF-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691481BBA45BD002DBFF7 /* PDF-UK.plist */; };
+		0E06914E1BBA45BD002DBFF7 /* SettingsAndOptions-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691491BBA45BD002DBFF7 /* SettingsAndOptions-UK.plist */; };
+		0E06914F1BBA45BD002DBFF7 /* SettingsBackup-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E06914A1BBA45BD002DBFF7 /* SettingsBackup-UK.plist */; };
+		0E0691501BBA45BD002DBFF7 /* Tables-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E06914B1BBA45BD002DBFF7 /* Tables-UK.plist */; };
+		0E0691561BBA45C6002DBFF7 /* Finalize-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691511BBA45C6002DBFF7 /* Finalize-US.plist */; };
+		0E0691571BBA45C6002DBFF7 /* PDF-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691521BBA45C6002DBFF7 /* PDF-US.plist */; };
+		0E0691581BBA45C6002DBFF7 /* SettingsAndOptions-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691531BBA45C6002DBFF7 /* SettingsAndOptions-US.plist */; };
+		0E0691591BBA45C6002DBFF7 /* SettingsBackup-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691541BBA45C6002DBFF7 /* SettingsBackup-US.plist */; };
+		0E06915A1BBA45C6002DBFF7 /* Tables-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E0691551BBA45C6002DBFF7 /* Tables-US.plist */; };
+		0E0F50B11BB33C47005B5009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F50B01BB33C47005B5009 /* Assets.xcassets */; };
+		0E0F50C41BB33E8F005B5009 /* CoreDataBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */; };
+		0E21D2601C75185400007B6F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E21D25F1C75185400007B6F /* StoreKit.framework */; };
+		0E36029E1C24846C00CF5739 /* PDFInternational-US.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E36029D1C24846C00CF5739 /* PDFInternational-US.plist */; };
+		0E3602A01C2488C500CF5739 /* PDFInternational-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E36029F1C2488C500CF5739 /* PDFInternational-AUS.plist */; };
+		0E3602A21C2488DE00CF5739 /* PDFInternational-CAN.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E3602A11C2488DE00CF5739 /* PDFInternational-CAN.plist */; };
+		0E3602A41C2488EF00CF5739 /* PDFInternational-UK.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E3602A31C2488EF00CF5739 /* PDFInternational-UK.plist */; };
+		0E4561171C780E560032BE49 /* libVTD Library v2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4561161C780E560032BE49 /* libVTD Library v2.0.a */; };
+		0E6D2BFD1BB473E10063F959 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6D2BFC1BB473E10063F959 /* libz.tbd */; };
+		0E6D2C751BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */; };
+		0E7444261F3EB3EC00B349B1 /* TRFListsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E7444251F3EB3EC00B349B1 /* TRFListsBundle.bundle */; };
+		0E8452D91C83F7CF003C1F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F50AD1BB33C47005B5009 /* Main.storyboard */; };
+		0E8472001F397B5800635CEA /* Finalize-NZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8471FA1F397B5800635CEA /* Finalize-NZ.plist */; };
+		0E8472011F397B5800635CEA /* PDF-NZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8471FB1F397B5800635CEA /* PDF-NZ.plist */; };
+		0E8472021F397B5800635CEA /* PDFInternational-NZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8471FC1F397B5800635CEA /* PDFInternational-NZ.plist */; };
+		0E8472031F397B5800635CEA /* SettingsAndOptions-NZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8471FD1F397B5800635CEA /* SettingsAndOptions-NZ.plist */; };
+		0E8472041F397B5800635CEA /* SettingsBackup-NZ.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8471FE1F397B5800635CEA /* SettingsBackup-NZ.plist */; };
+		0E8472051F397B5800635CEA /* Tables-AUS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8471FF1F397B5800635CEA /* Tables-AUS.plist */; };
+		0E915F6E1D721871003846F1 /* Emailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E915F6D1D721871003846F1 /* Emailer.m */; };
+		0E915F8E1D7218BE003846F1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E915F8D1D7218BE003846F1 /* CFNetwork.framework */; };
+		0E915F8F1D7218C3003846F1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF674E51C25345B00FFFD19 /* Security.framework */; };
+		0E91B23D1C7D5BFF00C69748 /* Initializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4AC1111BF6DBB100E28094 /* Initializer.m */; };
+		0E91B23E1C7D5C1400C69748 /* iVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6AD1BB39F5700EE7160 /* iVersion.m */; };
+		0E91B23F1C7D5C2B00C69748 /* FinalizeOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6B51BB39F5700EE7160 /* FinalizeOptionsViewController.m */; };
+		0E91B2401C7D5C3900C69748 /* FinalizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6B71BB39F5700EE7160 /* FinalizeViewController.m */; };
+		0E91B2431C7D5C7800C69748 /* HowToSetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC1E511BCC25D800202126 /* HowToSetupView.m */; };
+		0E91B2451C7D5C7800C69748 /* FAQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC1E5A1BCC26C900202126 /* FAQView.m */; };
+		0E91B2471C7D5C7800C69748 /* SupportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC1E5D1BCC26DA00202126 /* SupportView.m */; };
+		0E91B2491C7D5C7800C69748 /* HowToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC1E4D1BCC239100202126 /* HowToViewController.m */; };
+		0E91B24B1C7D5CB500C69748 /* ResubmitOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6C61BB39F5700EE7160 /* ResubmitOptionsViewController.m */; };
+		0E91B24D1C7D5CB500C69748 /* ResubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6C81BB39F5700EE7160 /* ResubmitViewController.m */; };
+		0E91B24F1C7D5CB500C69748 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6CE1BB39F5700EE7160 /* AboutView.m */; };
+		0E91B2511C7D5CB500C69748 /* InAppPurchasesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6D01BB39F5700EE7160 /* InAppPurchasesView.m */; };
+		0E91B2531C7D5CB500C69748 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6D21BB39F5700EE7160 /* SettingsView.m */; };
+		0E91B2551C7D5CB500C69748 /* SettingsAndOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6CB1BB39F5700EE7160 /* SettingsAndOptionsViewController.m */; };
+		0E91B2571C7D5CB500C69748 /* FastTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6B21BB39F5700EE7160 /* FastTutorialViewController.m */; };
+		0E91B2591C7D5CB500C69748 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6B91BB39F5700EE7160 /* HomeScreenViewController.m */; };
+		0E91B25B1C7D5CB500C69748 /* IDCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6BC1BB39F5700EE7160 /* IDCaptureViewController.m */; };
+		0E91B25D1C7D5CB500C69748 /* IDVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6BE1BB39F5700EE7160 /* IDVerifyViewController.m */; };
+		0E91B25F1C7D5CB500C69748 /* LongTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6C31BB39F5700EE7160 /* LongTutorialViewController.m */; };
+		0E91B2601C7D5CFC00C69748 /* SharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6DE1BB39F5700EE7160 /* SharedData.m */; };
+		0E91B2611C7D5D1000C69748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F50A51BB33C47005B5009 /* main.m */; };
+		0E91B2621C7D5D2600C69748 /* BaseWithOptionsButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */; };
+		0E91B2641C7D5D2600C69748 /* VolutaBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */; };
+		0E91B2661C7D5D2600C69748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F50A81BB33C47005B5009 /* AppDelegate.m */; };
+		0E94E1731D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */; };
+		0E96C6E31BB39F5700EE7160 /* Economica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */; };
+		0E96C6E61BB39F5700EE7160 /* L-About.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6541BB39F5700EE7160 /* L-About.png */; };
+		0E96C6E71BB39F5700EE7160 /* L-FastTutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6551BB39F5700EE7160 /* L-FastTutorial.png */; };
+		0E96C6E81BB39F5700EE7160 /* L-Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6561BB39F5700EE7160 /* L-Final.png */; };
+		0E96C6E91BB39F5700EE7160 /* L-Homescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6571BB39F5700EE7160 /* L-Homescreen.png */; };
+		0E96C6EA1BB39F5700EE7160 /* L-HowTo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6581BB39F5700EE7160 /* L-HowTo.png */; };
+		0E96C6EB1BB39F5700EE7160 /* L-IDCapture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6591BB39F5700EE7160 /* L-IDCapture.png */; };
+		0E96C6EC1BB39F5700EE7160 /* L-IDVerify.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C65A1BB39F5700EE7160 /* L-IDVerify.png */; };
+		0E96C6ED1BB39F5700EE7160 /* L-InAppPurchases.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C65B1BB39F5700EE7160 /* L-InAppPurchases.png */; };
+		0E96C6EE1BB39F5700EE7160 /* L-InfoPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C65C1BB39F5700EE7160 /* L-InfoPage.png */; };
+		0E96C6EF1BB39F5700EE7160 /* L-InitialSetup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C65D1BB39F5700EE7160 /* L-InitialSetup.png */; };
+		0E96C6F01BB39F5700EE7160 /* L-Resubmit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C65E1BB39F5700EE7160 /* L-Resubmit.png */; };
+		0E96C6F11BB39F5700EE7160 /* L-SettingsAndOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C65F1BB39F5700EE7160 /* L-SettingsAndOptions.png */; };
+		0E96C6F21BB39F5700EE7160 /* L-Support.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6601BB39F5700EE7160 /* L-Support.png */; };
+		0E96C6F41BB39F5700EE7160 /* P-About.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6631BB39F5700EE7160 /* P-About.png */; };
+		0E96C6F51BB39F5700EE7160 /* P-FastTutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6641BB39F5700EE7160 /* P-FastTutorial.png */; };
+		0E96C6F61BB39F5700EE7160 /* P-Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6651BB39F5700EE7160 /* P-Final.png */; };
+		0E96C6F71BB39F5700EE7160 /* P-Homescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6661BB39F5700EE7160 /* P-Homescreen.png */; };
+		0E96C6F81BB39F5700EE7160 /* P-HowTo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6671BB39F5700EE7160 /* P-HowTo.png */; };
+		0E96C6F91BB39F5700EE7160 /* P-IDCapture.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6681BB39F5700EE7160 /* P-IDCapture.png */; };
+		0E96C6FA1BB39F5700EE7160 /* P-IDVerify.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6691BB39F5700EE7160 /* P-IDVerify.png */; };
+		0E96C6FB1BB39F5700EE7160 /* P-InAppPurchases.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C66A1BB39F5700EE7160 /* P-InAppPurchases.png */; };
+		0E96C6FC1BB39F5700EE7160 /* P-InfoPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C66B1BB39F5700EE7160 /* P-InfoPage.png */; };
+		0E96C6FD1BB39F5700EE7160 /* P-InitialSetup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C66C1BB39F5700EE7160 /* P-InitialSetup.png */; };
+		0E96C6FE1BB39F5700EE7160 /* P-Resubmit.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C66D1BB39F5700EE7160 /* P-Resubmit.png */; };
+		0E96C6FF1BB39F5700EE7160 /* P-SettingsAndOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C66E1BB39F5700EE7160 /* P-SettingsAndOptions.png */; };
+		0E96C7001BB39F5700EE7160 /* P-Support.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C66F1BB39F5700EE7160 /* P-Support.png */; };
+		0E96C71A1BB39F5700EE7160 /* sign-line-with-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C68B1BB39F5700EE7160 /* sign-line-with-x.png */; };
+		0E96C7351BB39F5700EE7160 /* iVersion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6AB1BB39F5700EE7160 /* iVersion.bundle */; };
+		0E96C7461BB39F5700EE7160 /* DefaultHealth.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6D41BB39F5700EE7160 /* DefaultHealth.plist */; };
+		0E96C7471BB39F5700EE7160 /* DefaultHealthItemsToCheck.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6D51BB39F5700EE7160 /* DefaultHealthItemsToCheck.plist */; };
+		0E96C7481BB39F5700EE7160 /* DefaultLegal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6D61BB39F5700EE7160 /* DefaultLegal.plist */; };
+		0E96C74F1BB39F5700EE7160 /* versions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6DF1BB39F5700EE7160 /* versions.plist */; };
+		0E9914531D7BCF2E0032CFBD /* MRF Ad-hoc.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0E9914501D7BCF2E0032CFBD /* MRF Ad-hoc.entitlements */; };
+		0E9914541D7BCF2E0032CFBD /* MRF App Store.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0E9914511D7BCF2E0032CFBD /* MRF App Store.entitlements */; };
+		0E9914551D7BCF2E0032CFBD /* MRF.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0E9914521D7BCF2E0032CFBD /* MRF.entitlements */; };
+		0EA51E9A1C55E77C003A2DBA /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */; };
+		0EB8E8E11EA7157A0018F83F /* Ensembles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0EB8E8E01EA7157A0018F83F /* Ensembles.bundle */; };
+		0ECC1E471BCC1DBD00202126 /* HowTo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E461BCC1DBD00202126 /* HowTo.plist */; };
+		0ECC1EA51BCD42F100202126 /* L-HowToSetup-panel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E8A1BCD42F100202126 /* L-HowToSetup-panel-1.png */; };
+		0ECC1EA91BCD42F100202126 /* L-HowToSetup-panel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E8E1BCD42F100202126 /* L-HowToSetup-panel-2.png */; };
+		0ECC1EAA1BCD42F100202126 /* L-HowToSetup-panel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E8F1BCD42F100202126 /* L-HowToSetup-panel-3.png */; };
+		0ECC1EAB1BCD42F100202126 /* L-HowToSetup-panel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E901BCD42F100202126 /* L-HowToSetup-panel-4.png */; };
+		0ECC1EAC1BCD42F100202126 /* L-HowToSetup-panel-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E911BCD42F100202126 /* L-HowToSetup-panel-5.png */; };
+		0ECC1EAD1BCD42F100202126 /* L-HowToSetup-panel-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E921BCD42F100202126 /* L-HowToSetup-panel-6.png */; };
+		0ECC1EB11BCD42F100202126 /* L-HowToUse-panel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E971BCD42F100202126 /* L-HowToUse-panel-1.png */; };
+		0ECC1EB21BCD42F100202126 /* L-HowToUse-panel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E981BCD42F100202126 /* L-HowToUse-panel-2.png */; };
+		0ECC1EB31BCD42F100202126 /* L-HowToUse-panel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E991BCD42F100202126 /* L-HowToUse-panel-3.png */; };
+		0ECC1EB41BCD42F100202126 /* L-HowToUse-panel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E9A1BCD42F100202126 /* L-HowToUse-panel-4.png */; };
+		0ECC1EB51BCD42F100202126 /* L-HowToUse-panel-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E9B1BCD42F100202126 /* L-HowToUse-panel-5.png */; };
+		0ECC1EB61BCD42F100202126 /* L-HowToUse-panel-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E9C1BCD42F100202126 /* L-HowToUse-panel-6.png */; };
+		0ECC1EB71BCD42F100202126 /* L-HowToUse-panel-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1E9D1BCD42F100202126 /* L-HowToUse-panel-7.png */; };
+		0ECC1EB91BCD42F100202126 /* L-welcome-panel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1EA01BCD42F100202126 /* L-welcome-panel-1.png */; };
+		0ECC1EBA1BCD42F100202126 /* L-welcome-panel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1EA11BCD42F100202126 /* L-welcome-panel-2.png */; };
+		0ECC1EBB1BCD42F100202126 /* L-welcome-panel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1EA21BCD42F100202126 /* L-welcome-panel-3.png */; };
+		0ECC1EBC1BCD42F100202126 /* L-welcome-panel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1EA31BCD42F100202126 /* L-welcome-panel-4.png */; };
+		0ECC1F1B1BCD43D800202126 /* P-HowToUse-panel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F011BCD43D800202126 /* P-HowToUse-panel-1.png */; };
+		0ECC1F1C1BCD43D800202126 /* P-HowToUse-panel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F021BCD43D800202126 /* P-HowToUse-panel-2.png */; };
+		0ECC1F1D1BCD43D800202126 /* P-HowToUse-panel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F031BCD43D800202126 /* P-HowToUse-panel-3.png */; };
+		0ECC1F1E1BCD43D800202126 /* P-HowToUse-panel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F041BCD43D800202126 /* P-HowToUse-panel-4.png */; };
+		0ECC1F1F1BCD43D800202126 /* P-HowToUse-panel-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F051BCD43D800202126 /* P-HowToUse-panel-5.png */; };
+		0ECC1F201BCD43D800202126 /* P-HowToUse-panel-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F061BCD43D800202126 /* P-HowToUse-panel-6.png */; };
+		0ECC1F211BCD43D800202126 /* P-HowToUse-panel-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F071BCD43D800202126 /* P-HowToUse-panel-7.png */; };
+		0ECC1F231BCD43D800202126 /* P-welcome-panel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F0A1BCD43D800202126 /* P-welcome-panel-1.png */; };
+		0ECC1F241BCD43D800202126 /* P-welcome-panel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F0B1BCD43D800202126 /* P-welcome-panel-2.png */; };
+		0ECC1F251BCD43D800202126 /* P-welcome-panel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F0C1BCD43D800202126 /* P-welcome-panel-3.png */; };
+		0ECC1F261BCD43D800202126 /* P-welcome-panel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ECC1F0D1BCD43D800202126 /* P-welcome-panel-4.png */; };
+		0ED082201C38563300B5CE74 /* IAPProducts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ED0821F1C38563300B5CE74 /* IAPProducts.plist */; };
+		0ED35FA01C7EAA6200A36A99 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6C11BB39F5700EE7160 /* InfoViewController.m */; };
+		0ED35FA21C7EAAE900A36A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F50B21BB33C47005B5009 /* LaunchScreen.storyboard */; };
+		0ED5701D1BCB4995007971F6 /* SupportingDocuments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ED5701C1BCB4995007971F6 /* SupportingDocuments.plist */; };
+		0EDAF5451D721E500078A4BF /* L-HowToSetup-panel-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5331D721E500078A4BF /* L-HowToSetup-panel-7.png */; };
+		0EDAF5461D721E500078A4BF /* L-HowToSetup-panel-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5341D721E500078A4BF /* L-HowToSetup-panel-8.png */; };
+		0EDAF5471D721E500078A4BF /* L-HowToSetup-panel-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5351D721E500078A4BF /* L-HowToSetup-panel-9.png */; };
+		0EDAF5481D721E500078A4BF /* L-HowToSetup-panel-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5361D721E500078A4BF /* L-HowToSetup-panel-10.png */; };
+		0EDAF5491D721E500078A4BF /* L-HowToSetup-panel-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5371D721E500078A4BF /* L-HowToSetup-panel-11.png */; };
+		0EDAF54A1D721E500078A4BF /* L-HowToSetup-panel-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5381D721E500078A4BF /* L-HowToSetup-panel-12.png */; };
+		0EDAF54B1D721E500078A4BF /* L-HowToSetup-panel-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5391D721E500078A4BF /* L-HowToSetup-panel-13.png */; };
+		0EDAF54C1D721E500078A4BF /* L-HowToSetup-panel-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF53A1D721E500078A4BF /* L-HowToSetup-panel-14.png */; };
+		0EDAF54D1D721E500078A4BF /* L-HowToSetup-panel-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF53B1D721E500078A4BF /* L-HowToSetup-panel-15.png */; };
+		0EDAF54E1D721E500078A4BF /* L-HowToSetup-panel-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF53C1D721E500078A4BF /* L-HowToSetup-panel-16.png */; };
+		0EDAF54F1D721E500078A4BF /* L-HowToSetup-panel-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF53D1D721E500078A4BF /* L-HowToSetup-panel-17.png */; };
+		0EDAF5501D721E500078A4BF /* L-HowToSetup-panel-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF53E1D721E500078A4BF /* L-HowToSetup-panel-18.png */; };
+		0EDAF5511D721E500078A4BF /* L-HowToSetup-panel-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF53F1D721E500078A4BF /* L-HowToSetup-panel-19.png */; };
+		0EDAF5521D721E500078A4BF /* L-HowToSetup-panel-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5401D721E500078A4BF /* L-HowToSetup-panel-20.png */; };
+		0EDAF5531D721E500078A4BF /* L-HowToSetup-panel-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5411D721E500078A4BF /* L-HowToSetup-panel-21.png */; };
+		0EDAF5541D721E500078A4BF /* L-HowToSetup-panel-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5421D721E500078A4BF /* L-HowToSetup-panel-22.png */; };
+		0EDAF5551D721E500078A4BF /* L-HowToSetup-panel-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5431D721E500078A4BF /* L-HowToSetup-panel-23.png */; };
+		0EDAF5561D721E500078A4BF /* L-HowToSetup-panel-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5441D721E500078A4BF /* L-HowToSetup-panel-24.png */; };
+		0EDAF5761D721E730078A4BF /* P-HowToSetup-panel-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF55E1D721E730078A4BF /* P-HowToSetup-panel-1.png */; };
+		0EDAF5771D721E730078A4BF /* P-HowToSetup-panel-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF55F1D721E730078A4BF /* P-HowToSetup-panel-2.png */; };
+		0EDAF5781D721E730078A4BF /* P-HowToSetup-panel-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5601D721E730078A4BF /* P-HowToSetup-panel-3.png */; };
+		0EDAF5791D721E730078A4BF /* P-HowToSetup-panel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5611D721E730078A4BF /* P-HowToSetup-panel-4.png */; };
+		0EDAF57A1D721E730078A4BF /* P-HowToSetup-panel-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5621D721E730078A4BF /* P-HowToSetup-panel-5.png */; };
+		0EDAF57B1D721E730078A4BF /* P-HowToSetup-panel-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5631D721E730078A4BF /* P-HowToSetup-panel-6.png */; };
+		0EDAF57C1D721E730078A4BF /* P-HowToSetup-panel-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5641D721E730078A4BF /* P-HowToSetup-panel-7.png */; };
+		0EDAF57D1D721E730078A4BF /* P-HowToSetup-panel-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5651D721E730078A4BF /* P-HowToSetup-panel-8.png */; };
+		0EDAF57E1D721E730078A4BF /* P-HowToSetup-panel-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5661D721E730078A4BF /* P-HowToSetup-panel-9.png */; };
+		0EDAF57F1D721E730078A4BF /* P-HowToSetup-panel-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5671D721E730078A4BF /* P-HowToSetup-panel-10.png */; };
+		0EDAF5801D721E730078A4BF /* P-HowToSetup-panel-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5681D721E730078A4BF /* P-HowToSetup-panel-11.png */; };
+		0EDAF5811D721E730078A4BF /* P-HowToSetup-panel-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5691D721E730078A4BF /* P-HowToSetup-panel-12.png */; };
+		0EDAF5821D721E730078A4BF /* P-HowToSetup-panel-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF56A1D721E730078A4BF /* P-HowToSetup-panel-13.png */; };
+		0EDAF5831D721E730078A4BF /* P-HowToSetup-panel-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF56B1D721E730078A4BF /* P-HowToSetup-panel-14.png */; };
+		0EDAF5841D721E730078A4BF /* P-HowToSetup-panel-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF56C1D721E730078A4BF /* P-HowToSetup-panel-15.png */; };
+		0EDAF5851D721E730078A4BF /* P-HowToSetup-panel-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF56D1D721E730078A4BF /* P-HowToSetup-panel-16.png */; };
+		0EDAF5861D721E730078A4BF /* P-HowToSetup-panel-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF56E1D721E730078A4BF /* P-HowToSetup-panel-17.png */; };
+		0EDAF5871D721E730078A4BF /* P-HowToSetup-panel-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF56F1D721E730078A4BF /* P-HowToSetup-panel-18.png */; };
+		0EDAF5881D721E730078A4BF /* P-HowToSetup-panel-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5701D721E730078A4BF /* P-HowToSetup-panel-19.png */; };
+		0EDAF5891D721E730078A4BF /* P-HowToSetup-panel-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5711D721E730078A4BF /* P-HowToSetup-panel-20.png */; };
+		0EDAF58A1D721E730078A4BF /* P-HowToSetup-panel-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5721D721E730078A4BF /* P-HowToSetup-panel-21.png */; };
+		0EDAF58B1D721E730078A4BF /* P-HowToSetup-panel-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5731D721E730078A4BF /* P-HowToSetup-panel-22.png */; };
+		0EDAF58C1D721E730078A4BF /* P-HowToSetup-panel-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5741D721E730078A4BF /* P-HowToSetup-panel-23.png */; };
+		0EDAF58D1D721E730078A4BF /* P-HowToSetup-panel-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAF5751D721E730078A4BF /* P-HowToSetup-panel-24.png */; };
+		0EEA9DEC1F3D59D100E0CB81 /* client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA9DEB1F3D59D100E0CB81 /* client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist */; };
+		0EEB826F1C358CCB00E6E994 /* next-previous-buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB826E1C358CCB00E6E994 /* next-previous-buttons.png */; };
+		0EFEAC921EA4740A006451FD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFEAC911EA4740A006451FD /* libsqlite3.tbd */; };
+		0EFEACB41EA474CC006451FD /* QuantcastGeoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEAC961EA474CC006451FD /* QuantcastGeoManager.m */; };
+		0EFEACB51EA474CC006451FD /* QuantcastMeasurement+Advertising.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEAC981EA474CC006451FD /* QuantcastMeasurement+Advertising.m */; };
+		0EFEACB61EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEAC9A1EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.m */; };
+		0EFEACB71EA474CC006451FD /* QuantcastMeasurement+Networks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEAC9C1EA474CC006451FD /* QuantcastMeasurement+Networks.m */; };
+		0EFEACB81EA474CC006451FD /* QuantcastMeasurement+Periodicals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEAC9E1EA474CC006451FD /* QuantcastMeasurement+Periodicals.m */; };
+		0EFEACB91EA474CC006451FD /* QuantcastDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACA01EA474CC006451FD /* QuantcastDatabase.m */; };
+		0EFEACBA1EA474CC006451FD /* QuantcastDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACA21EA474CC006451FD /* QuantcastDataManager.m */; };
+		0EFEACBB1EA474CC006451FD /* QuantcastEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACA41EA474CC006451FD /* QuantcastEvent.m */; };
+		0EFEACBC1EA474CC006451FD /* QuantcastMeasurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACA81EA474CC006451FD /* QuantcastMeasurement.m */; };
+		0EFEACBD1EA474CC006451FD /* QuantcastOptOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACAC1EA474CC006451FD /* QuantcastOptOutViewController.m */; };
+		0EFEACBE1EA474CC006451FD /* QuantcastPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACAF1EA474CC006451FD /* QuantcastPolicy.m */; };
+		0EFEACBF1EA474CC006451FD /* QuantcastUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACB11EA474CC006451FD /* QuantcastUploadManager.m */; };
+		0EFEACC01EA474CC006451FD /* QuantcastUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEACB31EA474CC006451FD /* QuantcastUtils.m */; };
+		1564E0B81FD8998500C8697C /* HOWTOSETUP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1564E0B71FD8998500C8697C /* HOWTOSETUP.pdf */; };
+		15982D0C206205A800F059F7 /* CRFListBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15982D0B206205A800F059F7 /* CRFListBundle.bundle */; };
+		15CA064A1F6B962E00620567 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CA06491F6B962E00620567 /* libMailCore-ios.a */; };
+		C8E986797C4E6D4EC4230C09 /* libPods-MRF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE079D4C019573D0C52644 /* libPods-MRF.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151D14F41F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		151D14F61F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		151D14F81F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		151D14FA1F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		151D14FC1F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		151D14FE1F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27780C3A19CF9CD100C77E44;
+			remoteInfo = "mailcore ios";
+		};
+		151D15001F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6B5AE0219F630B3001352A6;
+			remoteInfo = unittest;
+		};
+		151D15021F6B97B5003349DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C600B6141A242C3F000728F1;
+			remoteInfo = unittestcpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E0691331BBA45AB002DBFF7 /* Finalize-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Finalize-AUS.plist"; path = "AUS/Finalize-AUS.plist"; sourceTree = "<group>"; };
+		0E0691341BBA45AB002DBFF7 /* PDF-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDF-AUS.plist"; path = "AUS/PDF-AUS.plist"; sourceTree = "<group>"; };
+		0E0691351BBA45AB002DBFF7 /* SettingsAndOptions-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsAndOptions-AUS.plist"; path = "AUS/SettingsAndOptions-AUS.plist"; sourceTree = "<group>"; };
+		0E0691361BBA45AB002DBFF7 /* SettingsBackup-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-AUS.plist"; path = "AUS/SettingsBackup-AUS.plist"; sourceTree = "<group>"; };
+		0E0691371BBA45AB002DBFF7 /* Tables-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-AUS.plist"; path = "AUS/Tables-AUS.plist"; sourceTree = "<group>"; };
+		0E06913D1BBA45B4002DBFF7 /* Finalize-CAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Finalize-CAN.plist"; path = "CAN/Finalize-CAN.plist"; sourceTree = "<group>"; };
+		0E06913E1BBA45B4002DBFF7 /* PDF-CAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDF-CAN.plist"; path = "CAN/PDF-CAN.plist"; sourceTree = "<group>"; };
+		0E06913F1BBA45B4002DBFF7 /* SettingsAndOptions-CAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsAndOptions-CAN.plist"; path = "CAN/SettingsAndOptions-CAN.plist"; sourceTree = "<group>"; };
+		0E0691401BBA45B4002DBFF7 /* SettingsBackup-CAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-CAN.plist"; path = "CAN/SettingsBackup-CAN.plist"; sourceTree = "<group>"; };
+		0E0691411BBA45B4002DBFF7 /* Tables-CAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-CAN.plist"; path = "CAN/Tables-CAN.plist"; sourceTree = "<group>"; };
+		0E0691471BBA45BD002DBFF7 /* Finalize-UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Finalize-UK.plist"; path = "UK/Finalize-UK.plist"; sourceTree = "<group>"; };
+		0E0691481BBA45BD002DBFF7 /* PDF-UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDF-UK.plist"; path = "UK/PDF-UK.plist"; sourceTree = "<group>"; };
+		0E0691491BBA45BD002DBFF7 /* SettingsAndOptions-UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsAndOptions-UK.plist"; path = "UK/SettingsAndOptions-UK.plist"; sourceTree = "<group>"; };
+		0E06914A1BBA45BD002DBFF7 /* SettingsBackup-UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-UK.plist"; path = "UK/SettingsBackup-UK.plist"; sourceTree = "<group>"; };
+		0E06914B1BBA45BD002DBFF7 /* Tables-UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-UK.plist"; path = "UK/Tables-UK.plist"; sourceTree = "<group>"; };
+		0E0691511BBA45C6002DBFF7 /* Finalize-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Finalize-US.plist"; path = "US/Finalize-US.plist"; sourceTree = "<group>"; };
+		0E0691521BBA45C6002DBFF7 /* PDF-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDF-US.plist"; path = "US/PDF-US.plist"; sourceTree = "<group>"; };
+		0E0691531BBA45C6002DBFF7 /* SettingsAndOptions-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsAndOptions-US.plist"; path = "US/SettingsAndOptions-US.plist"; sourceTree = "<group>"; };
+		0E0691541BBA45C6002DBFF7 /* SettingsBackup-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-US.plist"; path = "US/SettingsBackup-US.plist"; sourceTree = "<group>"; };
+		0E0691551BBA45C6002DBFF7 /* Tables-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-US.plist"; path = "US/Tables-US.plist"; sourceTree = "<group>"; };
+		0E0F50A11BB33C47005B5009 /* MRF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF/main.m"; sourceTree = "<absolute>"; };
+		0E0F50A71BB33C47005B5009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E0F50A81BB33C47005B5009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E0F50AE1BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF/Assets.xcassets"; sourceTree = "<absolute>"; };
+		0E0F50B31BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF/Info.plist"; sourceTree = "<absolute>"; };
+		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/CoreDataBundle.bundle"; sourceTree = "<absolute>"; };
+		0E21D25F1C75185400007B6F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0E36029D1C24846C00CF5739 /* PDFInternational-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-US.plist"; path = "US/PDFInternational-US.plist"; sourceTree = "<group>"; };
+		0E36029F1C2488C500CF5739 /* PDFInternational-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-AUS.plist"; path = "AUS/PDFInternational-AUS.plist"; sourceTree = "<group>"; };
+		0E3602A11C2488DE00CF5739 /* PDFInternational-CAN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-CAN.plist"; path = "CAN/PDFInternational-CAN.plist"; sourceTree = "<group>"; };
+		0E3602A31C2488EF00CF5739 /* PDFInternational-UK.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-UK.plist"; path = "UK/PDFInternational-UK.plist"; sourceTree = "<group>"; };
+		0E4561161C780E560032BE49 /* libVTD Library v2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libVTD Library v2.0.a"; path = "../VTD Library v2.0/build/Debug-iphoneos/libVTD Library v2.0.a"; sourceTree = "<group>"; };
+		0E4AC1101BF6DBB100E28094 /* Initializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initializer.h; sourceTree = "<group>"; };
+		0E4AC1111BF6DBB100E28094 /* Initializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initializer.m; sourceTree = "<group>"; };
+		0E6D2BFC1BB473E10063F959 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/PasswordPromptImagesBundle.bundle"; sourceTree = "<absolute>"; };
+		0E70BB961C27AA0D00A2BB7B /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
+		0E70BB971C27AA0D00A2BB7B /* libGTMSessionFetcherLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTMSessionFetcherLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-session-fetcher/Source/build/Debug-iphoneos/libGTMSessionFetcherLib.a"; sourceTree = "<group>"; };
+		0E7444251F3EB3EC00B349B1 /* TRFListsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TRFListsBundle.bundle; path = ../Bundles/TRFListsBundle.bundle; sourceTree = "<group>"; };
+		0E8471FA1F397B5800635CEA /* Finalize-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Finalize-NZ.plist"; path = "NZ/Finalize-NZ.plist"; sourceTree = "<group>"; };
+		0E8471FB1F397B5800635CEA /* PDF-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDF-NZ.plist"; path = "NZ/PDF-NZ.plist"; sourceTree = "<group>"; };
+		0E8471FC1F397B5800635CEA /* PDFInternational-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-NZ.plist"; path = "NZ/PDFInternational-NZ.plist"; sourceTree = "<group>"; };
+		0E8471FD1F397B5800635CEA /* SettingsAndOptions-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsAndOptions-NZ.plist"; path = "NZ/SettingsAndOptions-NZ.plist"; sourceTree = "<group>"; };
+		0E8471FE1F397B5800635CEA /* SettingsBackup-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-NZ.plist"; path = "NZ/SettingsBackup-NZ.plist"; sourceTree = "<group>"; };
+		0E8471FF1F397B5800635CEA /* Tables-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-AUS.plist"; path = "NZ/Tables-AUS.plist"; sourceTree = "<group>"; };
+		0E915F6C1D721871003846F1 /* Emailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emailer.h; sourceTree = "<group>"; };
+		0E915F6D1D721871003846F1 /* Emailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emailer.m; sourceTree = "<group>"; };
+		0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<absolute>"; };
+		0E915F8D1D7218BE003846F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = "<absolute>"; };
+		0E96C64C1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWithOptionsButtonViewController.h; sourceTree = "<group>"; };
+		0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWithOptionsButtonViewController.m; sourceTree = "<group>"; };
+		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF/definitions.pch"; sourceTree = "<absolute>"; };
+		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF/Economica-Regular.ttf"; sourceTree = "<absolute>"; };
+		0E96C6541BB39F5700EE7160 /* L-About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-About.png"; sourceTree = "<group>"; };
+		0E96C6551BB39F5700EE7160 /* L-FastTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-FastTutorial.png"; sourceTree = "<group>"; };
+		0E96C6561BB39F5700EE7160 /* L-Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Final.png"; sourceTree = "<group>"; };
+		0E96C6571BB39F5700EE7160 /* L-Homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Homescreen.png"; sourceTree = "<group>"; };
+		0E96C6581BB39F5700EE7160 /* L-HowTo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowTo.png"; sourceTree = "<group>"; };
+		0E96C6591BB39F5700EE7160 /* L-IDCapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-IDCapture.png"; sourceTree = "<group>"; };
+		0E96C65A1BB39F5700EE7160 /* L-IDVerify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-IDVerify.png"; sourceTree = "<group>"; };
+		0E96C65B1BB39F5700EE7160 /* L-InAppPurchases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-InAppPurchases.png"; sourceTree = "<group>"; };
+		0E96C65C1BB39F5700EE7160 /* L-InfoPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-InfoPage.png"; sourceTree = "<group>"; };
+		0E96C65D1BB39F5700EE7160 /* L-InitialSetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-InitialSetup.png"; sourceTree = "<group>"; };
+		0E96C65E1BB39F5700EE7160 /* L-Resubmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Resubmit.png"; sourceTree = "<group>"; };
+		0E96C65F1BB39F5700EE7160 /* L-SettingsAndOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-SettingsAndOptions.png"; sourceTree = "<group>"; };
+		0E96C6601BB39F5700EE7160 /* L-Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Support.png"; sourceTree = "<group>"; };
+		0E96C6631BB39F5700EE7160 /* P-About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-About.png"; sourceTree = "<group>"; };
+		0E96C6641BB39F5700EE7160 /* P-FastTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-FastTutorial.png"; sourceTree = "<group>"; };
+		0E96C6651BB39F5700EE7160 /* P-Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-Final.png"; sourceTree = "<group>"; };
+		0E96C6661BB39F5700EE7160 /* P-Homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-Homescreen.png"; sourceTree = "<group>"; };
+		0E96C6671BB39F5700EE7160 /* P-HowTo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowTo.png"; sourceTree = "<group>"; };
+		0E96C6681BB39F5700EE7160 /* P-IDCapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-IDCapture.png"; sourceTree = "<group>"; };
+		0E96C6691BB39F5700EE7160 /* P-IDVerify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-IDVerify.png"; sourceTree = "<group>"; };
+		0E96C66A1BB39F5700EE7160 /* P-InAppPurchases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-InAppPurchases.png"; sourceTree = "<group>"; };
+		0E96C66B1BB39F5700EE7160 /* P-InfoPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-InfoPage.png"; sourceTree = "<group>"; };
+		0E96C66C1BB39F5700EE7160 /* P-InitialSetup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-InitialSetup.png"; sourceTree = "<group>"; };
+		0E96C66D1BB39F5700EE7160 /* P-Resubmit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-Resubmit.png"; sourceTree = "<group>"; };
+		0E96C66E1BB39F5700EE7160 /* P-SettingsAndOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-SettingsAndOptions.png"; sourceTree = "<group>"; };
+		0E96C66F1BB39F5700EE7160 /* P-Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-Support.png"; sourceTree = "<group>"; };
+		0E96C68B1BB39F5700EE7160 /* sign-line-with-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-line-with-x.png"; sourceTree = "<group>"; };
+		0E96C6AB1BB39F5700EE7160 /* iVersion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iVersion.bundle; sourceTree = "<group>"; };
+		0E96C6AC1BB39F5700EE7160 /* iVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVersion.h; sourceTree = "<group>"; };
+		0E96C6AD1BB39F5700EE7160 /* iVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVersion.m; sourceTree = "<group>"; };
+		0E96C6B11BB39F5700EE7160 /* FastTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastTutorialViewController.h; sourceTree = "<group>"; };
+		0E96C6B21BB39F5700EE7160 /* FastTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastTutorialViewController.m; sourceTree = "<group>"; };
+		0E96C6B41BB39F5700EE7160 /* FinalizeOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalizeOptionsViewController.h; sourceTree = "<group>"; };
+		0E96C6B51BB39F5700EE7160 /* FinalizeOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalizeOptionsViewController.m; sourceTree = "<group>"; };
+		0E96C6B61BB39F5700EE7160 /* FinalizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalizeViewController.h; sourceTree = "<group>"; };
+		0E96C6B71BB39F5700EE7160 /* FinalizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalizeViewController.m; sourceTree = "<group>"; };
+		0E96C6B81BB39F5700EE7160 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		0E96C6B91BB39F5700EE7160 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		0E96C6BB1BB39F5700EE7160 /* IDCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCaptureViewController.h; sourceTree = "<group>"; };
+		0E96C6BC1BB39F5700EE7160 /* IDCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCaptureViewController.m; sourceTree = "<group>"; };
+		0E96C6BD1BB39F5700EE7160 /* IDVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDVerifyViewController.h; sourceTree = "<group>"; };
+		0E96C6BE1BB39F5700EE7160 /* IDVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDVerifyViewController.m; sourceTree = "<group>"; };
+		0E96C6C01BB39F5700EE7160 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		0E96C6C11BB39F5700EE7160 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		0E96C6C21BB39F5700EE7160 /* LongTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongTutorialViewController.h; sourceTree = "<group>"; };
+		0E96C6C31BB39F5700EE7160 /* LongTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongTutorialViewController.m; sourceTree = "<group>"; };
+		0E96C6C51BB39F5700EE7160 /* ResubmitOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResubmitOptionsViewController.h; sourceTree = "<group>"; };
+		0E96C6C61BB39F5700EE7160 /* ResubmitOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResubmitOptionsViewController.m; sourceTree = "<group>"; };
+		0E96C6C71BB39F5700EE7160 /* ResubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResubmitViewController.h; sourceTree = "<group>"; };
+		0E96C6C81BB39F5700EE7160 /* ResubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResubmitViewController.m; sourceTree = "<group>"; };
+		0E96C6CA1BB39F5700EE7160 /* SettingsAndOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsAndOptionsViewController.h; sourceTree = "<group>"; };
+		0E96C6CB1BB39F5700EE7160 /* SettingsAndOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsAndOptionsViewController.m; sourceTree = "<group>"; };
+		0E96C6CD1BB39F5700EE7160 /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		0E96C6CE1BB39F5700EE7160 /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		0E96C6CF1BB39F5700EE7160 /* InAppPurchasesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchasesView.h; sourceTree = "<group>"; };
+		0E96C6D01BB39F5700EE7160 /* InAppPurchasesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchasesView.m; sourceTree = "<group>"; };
+		0E96C6D11BB39F5700EE7160 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		0E96C6D21BB39F5700EE7160 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		0E96C6D41BB39F5700EE7160 /* DefaultHealth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultHealth.plist; sourceTree = "<group>"; };
+		0E96C6D51BB39F5700EE7160 /* DefaultHealthItemsToCheck.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultHealthItemsToCheck.plist; sourceTree = "<group>"; };
+		0E96C6D61BB39F5700EE7160 /* DefaultLegal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultLegal.plist; sourceTree = "<group>"; };
+		0E96C6DD1BB39F5700EE7160 /* SharedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedData.h; sourceTree = "<group>"; };
+		0E96C6DE1BB39F5700EE7160 /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
+		0E96C6DF1BB39F5700EE7160 /* versions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = versions.plist; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF/versions.plist"; sourceTree = "<absolute>"; };
+		0E96C6E01BB39F5700EE7160 /* VolutaBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolutaBaseViewController.h; sourceTree = "<group>"; };
+		0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolutaBaseViewController.m; sourceTree = "<group>"; };
+		0E9914501D7BCF2E0032CFBD /* MRF Ad-hoc.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "MRF Ad-hoc.entitlements"; path = "MRF/MRF Ad-hoc.entitlements"; sourceTree = SOURCE_ROOT; };
+		0E9914511D7BCF2E0032CFBD /* MRF App Store.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "MRF App Store.entitlements"; path = "MRF/MRF App Store.entitlements"; sourceTree = SOURCE_ROOT; };
+		0E9914521D7BCF2E0032CFBD /* MRF.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = MRF.entitlements; path = MRF/MRF.entitlements; sourceTree = SOURCE_ROOT; };
+		0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/AppleIncRootCertificate.cer"; sourceTree = "<absolute>"; };
+		0EAA1AB81C27C4CE00EEF909 /* libOAuthTouch2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuthTouch2.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-oauth2/Source/build/Debug-iphoneos/libOAuthTouch2.a"; sourceTree = "<group>"; };
+		0EB8E8E01EA7157A0018F83F /* Ensembles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Ensembles.bundle; path = ../Bundles/Ensembles.bundle; sourceTree = "<group>"; };
+		0ECC1E461BCC1DBD00202126 /* HowTo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HowTo.plist; sourceTree = "<group>"; };
+		0ECC1E4C1BCC239100202126 /* HowToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowToViewController.h; sourceTree = "<group>"; };
+		0ECC1E4D1BCC239100202126 /* HowToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowToViewController.m; sourceTree = "<group>"; };
+		0ECC1E501BCC25D800202126 /* HowToSetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HowToSetupView.h; path = Views/HowToSetupView.h; sourceTree = "<group>"; };
+		0ECC1E511BCC25D800202126 /* HowToSetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HowToSetupView.m; path = Views/HowToSetupView.m; sourceTree = "<group>"; };
+		0ECC1E591BCC26C900202126 /* FAQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAQView.h; path = Views/FAQView.h; sourceTree = "<group>"; };
+		0ECC1E5A1BCC26C900202126 /* FAQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAQView.m; path = Views/FAQView.m; sourceTree = "<group>"; };
+		0ECC1E5C1BCC26DA00202126 /* SupportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportView.h; path = Views/SupportView.h; sourceTree = "<group>"; };
+		0ECC1E5D1BCC26DA00202126 /* SupportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SupportView.m; path = Views/SupportView.m; sourceTree = "<group>"; };
+		0ECC1E8A1BCD42F100202126 /* L-HowToSetup-panel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-1.png"; sourceTree = "<group>"; };
+		0ECC1E8E1BCD42F100202126 /* L-HowToSetup-panel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-2.png"; sourceTree = "<group>"; };
+		0ECC1E8F1BCD42F100202126 /* L-HowToSetup-panel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-3.png"; sourceTree = "<group>"; };
+		0ECC1E901BCD42F100202126 /* L-HowToSetup-panel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-4.png"; sourceTree = "<group>"; };
+		0ECC1E911BCD42F100202126 /* L-HowToSetup-panel-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-5.png"; sourceTree = "<group>"; };
+		0ECC1E921BCD42F100202126 /* L-HowToSetup-panel-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-6.png"; sourceTree = "<group>"; };
+		0ECC1E971BCD42F100202126 /* L-HowToUse-panel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-1.png"; sourceTree = "<group>"; };
+		0ECC1E981BCD42F100202126 /* L-HowToUse-panel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-2.png"; sourceTree = "<group>"; };
+		0ECC1E991BCD42F100202126 /* L-HowToUse-panel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-3.png"; sourceTree = "<group>"; };
+		0ECC1E9A1BCD42F100202126 /* L-HowToUse-panel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-4.png"; sourceTree = "<group>"; };
+		0ECC1E9B1BCD42F100202126 /* L-HowToUse-panel-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-5.png"; sourceTree = "<group>"; };
+		0ECC1E9C1BCD42F100202126 /* L-HowToUse-panel-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-6.png"; sourceTree = "<group>"; };
+		0ECC1E9D1BCD42F100202126 /* L-HowToUse-panel-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToUse-panel-7.png"; sourceTree = "<group>"; };
+		0ECC1EA01BCD42F100202126 /* L-welcome-panel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-welcome-panel-1.png"; sourceTree = "<group>"; };
+		0ECC1EA11BCD42F100202126 /* L-welcome-panel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-welcome-panel-2.png"; sourceTree = "<group>"; };
+		0ECC1EA21BCD42F100202126 /* L-welcome-panel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-welcome-panel-3.png"; sourceTree = "<group>"; };
+		0ECC1EA31BCD42F100202126 /* L-welcome-panel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-welcome-panel-4.png"; sourceTree = "<group>"; };
+		0ECC1F011BCD43D800202126 /* P-HowToUse-panel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-1.png"; sourceTree = "<group>"; };
+		0ECC1F021BCD43D800202126 /* P-HowToUse-panel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-2.png"; sourceTree = "<group>"; };
+		0ECC1F031BCD43D800202126 /* P-HowToUse-panel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-3.png"; sourceTree = "<group>"; };
+		0ECC1F041BCD43D800202126 /* P-HowToUse-panel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-4.png"; sourceTree = "<group>"; };
+		0ECC1F051BCD43D800202126 /* P-HowToUse-panel-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-5.png"; sourceTree = "<group>"; };
+		0ECC1F061BCD43D800202126 /* P-HowToUse-panel-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-6.png"; sourceTree = "<group>"; };
+		0ECC1F071BCD43D800202126 /* P-HowToUse-panel-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToUse-panel-7.png"; sourceTree = "<group>"; };
+		0ECC1F0A1BCD43D800202126 /* P-welcome-panel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-welcome-panel-1.png"; sourceTree = "<group>"; };
+		0ECC1F0B1BCD43D800202126 /* P-welcome-panel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-welcome-panel-2.png"; sourceTree = "<group>"; };
+		0ECC1F0C1BCD43D800202126 /* P-welcome-panel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-welcome-panel-3.png"; sourceTree = "<group>"; };
+		0ECC1F0D1BCD43D800202126 /* P-welcome-panel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-welcome-panel-4.png"; sourceTree = "<group>"; };
+		0ED0821F1C38563300B5CE74 /* IAPProducts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IAPProducts.plist; sourceTree = "<group>"; };
+		0ED35FA41C7EAC0800A36A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = TRF/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		0ED5701C1BCB4995007971F6 /* SupportingDocuments.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SupportingDocuments.plist; sourceTree = "<group>"; };
+		0EDAF5331D721E500078A4BF /* L-HowToSetup-panel-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-7.png"; sourceTree = "<group>"; };
+		0EDAF5341D721E500078A4BF /* L-HowToSetup-panel-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-8.png"; sourceTree = "<group>"; };
+		0EDAF5351D721E500078A4BF /* L-HowToSetup-panel-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-9.png"; sourceTree = "<group>"; };
+		0EDAF5361D721E500078A4BF /* L-HowToSetup-panel-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-10.png"; sourceTree = "<group>"; };
+		0EDAF5371D721E500078A4BF /* L-HowToSetup-panel-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-11.png"; sourceTree = "<group>"; };
+		0EDAF5381D721E500078A4BF /* L-HowToSetup-panel-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-12.png"; sourceTree = "<group>"; };
+		0EDAF5391D721E500078A4BF /* L-HowToSetup-panel-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-13.png"; sourceTree = "<group>"; };
+		0EDAF53A1D721E500078A4BF /* L-HowToSetup-panel-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-14.png"; sourceTree = "<group>"; };
+		0EDAF53B1D721E500078A4BF /* L-HowToSetup-panel-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-15.png"; sourceTree = "<group>"; };
+		0EDAF53C1D721E500078A4BF /* L-HowToSetup-panel-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-16.png"; sourceTree = "<group>"; };
+		0EDAF53D1D721E500078A4BF /* L-HowToSetup-panel-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-17.png"; sourceTree = "<group>"; };
+		0EDAF53E1D721E500078A4BF /* L-HowToSetup-panel-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-18.png"; sourceTree = "<group>"; };
+		0EDAF53F1D721E500078A4BF /* L-HowToSetup-panel-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-19.png"; sourceTree = "<group>"; };
+		0EDAF5401D721E500078A4BF /* L-HowToSetup-panel-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-20.png"; sourceTree = "<group>"; };
+		0EDAF5411D721E500078A4BF /* L-HowToSetup-panel-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-21.png"; sourceTree = "<group>"; };
+		0EDAF5421D721E500078A4BF /* L-HowToSetup-panel-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-22.png"; sourceTree = "<group>"; };
+		0EDAF5431D721E500078A4BF /* L-HowToSetup-panel-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-23.png"; sourceTree = "<group>"; };
+		0EDAF5441D721E500078A4BF /* L-HowToSetup-panel-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-HowToSetup-panel-24.png"; sourceTree = "<group>"; };
+		0EDAF55E1D721E730078A4BF /* P-HowToSetup-panel-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-1.png"; sourceTree = "<group>"; };
+		0EDAF55F1D721E730078A4BF /* P-HowToSetup-panel-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-2.png"; sourceTree = "<group>"; };
+		0EDAF5601D721E730078A4BF /* P-HowToSetup-panel-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-3.png"; sourceTree = "<group>"; };
+		0EDAF5611D721E730078A4BF /* P-HowToSetup-panel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-4.png"; sourceTree = "<group>"; };
+		0EDAF5621D721E730078A4BF /* P-HowToSetup-panel-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-5.png"; sourceTree = "<group>"; };
+		0EDAF5631D721E730078A4BF /* P-HowToSetup-panel-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-6.png"; sourceTree = "<group>"; };
+		0EDAF5641D721E730078A4BF /* P-HowToSetup-panel-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-7.png"; sourceTree = "<group>"; };
+		0EDAF5651D721E730078A4BF /* P-HowToSetup-panel-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-8.png"; sourceTree = "<group>"; };
+		0EDAF5661D721E730078A4BF /* P-HowToSetup-panel-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-9.png"; sourceTree = "<group>"; };
+		0EDAF5671D721E730078A4BF /* P-HowToSetup-panel-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-10.png"; sourceTree = "<group>"; };
+		0EDAF5681D721E730078A4BF /* P-HowToSetup-panel-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-11.png"; sourceTree = "<group>"; };
+		0EDAF5691D721E730078A4BF /* P-HowToSetup-panel-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-12.png"; sourceTree = "<group>"; };
+		0EDAF56A1D721E730078A4BF /* P-HowToSetup-panel-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-13.png"; sourceTree = "<group>"; };
+		0EDAF56B1D721E730078A4BF /* P-HowToSetup-panel-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-14.png"; sourceTree = "<group>"; };
+		0EDAF56C1D721E730078A4BF /* P-HowToSetup-panel-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-15.png"; sourceTree = "<group>"; };
+		0EDAF56D1D721E730078A4BF /* P-HowToSetup-panel-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-16.png"; sourceTree = "<group>"; };
+		0EDAF56E1D721E730078A4BF /* P-HowToSetup-panel-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-17.png"; sourceTree = "<group>"; };
+		0EDAF56F1D721E730078A4BF /* P-HowToSetup-panel-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-18.png"; sourceTree = "<group>"; };
+		0EDAF5701D721E730078A4BF /* P-HowToSetup-panel-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-19.png"; sourceTree = "<group>"; };
+		0EDAF5711D721E730078A4BF /* P-HowToSetup-panel-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-20.png"; sourceTree = "<group>"; };
+		0EDAF5721D721E730078A4BF /* P-HowToSetup-panel-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-21.png"; sourceTree = "<group>"; };
+		0EDAF5731D721E730078A4BF /* P-HowToSetup-panel-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-22.png"; sourceTree = "<group>"; };
+		0EDAF5741D721E730078A4BF /* P-HowToSetup-panel-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-23.png"; sourceTree = "<group>"; };
+		0EDAF5751D721E730078A4BF /* P-HowToSetup-panel-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "P-HowToSetup-panel-24.png"; sourceTree = "<group>"; };
+		0EEA9DEB1F3D59D100E0CB81 /* client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist"; path = "MRF/client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist"; sourceTree = SOURCE_ROOT; };
+		0EEB826E1C358CCB00E6E994 /* next-previous-buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next-previous-buttons.png"; sourceTree = "<group>"; };
+		0EF674E31C25343B00FFFD19 /* GTLLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTLLib.framework; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/GTLLib.framework"; sourceTree = "<group>"; };
+		0EF674E51C25345B00FFFD19 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0EF674E71C25346700FFFD19 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0EF674F41C25376500FFFD19 /* GTLLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTLLib.framework; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/GTLLib.framework"; sourceTree = "<group>"; };
+		0EFEAC911EA4740A006451FD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0EFEAC951EA474CC006451FD /* QuantcastGeoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastGeoManager.h; sourceTree = "<group>"; };
+		0EFEAC961EA474CC006451FD /* QuantcastGeoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastGeoManager.m; sourceTree = "<group>"; };
+		0EFEAC971EA474CC006451FD /* QuantcastMeasurement+Advertising.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Advertising.h"; sourceTree = "<group>"; };
+		0EFEAC981EA474CC006451FD /* QuantcastMeasurement+Advertising.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuantcastMeasurement+Advertising.m"; sourceTree = "<group>"; };
+		0EFEAC991EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+InstallAttribution.h"; sourceTree = "<group>"; };
+		0EFEAC9A1EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuantcastMeasurement+InstallAttribution.m"; sourceTree = "<group>"; };
+		0EFEAC9B1EA474CC006451FD /* QuantcastMeasurement+Networks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Networks.h"; sourceTree = "<group>"; };
+		0EFEAC9C1EA474CC006451FD /* QuantcastMeasurement+Networks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuantcastMeasurement+Networks.m"; sourceTree = "<group>"; };
+		0EFEAC9D1EA474CC006451FD /* QuantcastMeasurement+Periodicals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Periodicals.h"; sourceTree = "<group>"; };
+		0EFEAC9E1EA474CC006451FD /* QuantcastMeasurement+Periodicals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuantcastMeasurement+Periodicals.m"; sourceTree = "<group>"; };
+		0EFEAC9F1EA474CC006451FD /* QuantcastDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastDatabase.h; sourceTree = "<group>"; };
+		0EFEACA01EA474CC006451FD /* QuantcastDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastDatabase.m; sourceTree = "<group>"; };
+		0EFEACA11EA474CC006451FD /* QuantcastDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastDataManager.h; sourceTree = "<group>"; };
+		0EFEACA21EA474CC006451FD /* QuantcastDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastDataManager.m; sourceTree = "<group>"; };
+		0EFEACA31EA474CC006451FD /* QuantcastEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastEvent.h; sourceTree = "<group>"; };
+		0EFEACA41EA474CC006451FD /* QuantcastEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastEvent.m; sourceTree = "<group>"; };
+		0EFEACA51EA474CC006451FD /* QuantcastEventLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastEventLogger.h; sourceTree = "<group>"; };
+		0EFEACA61EA474CC006451FD /* QuantcastMeasurement+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuantcastMeasurement+Internal.h"; sourceTree = "<group>"; };
+		0EFEACA71EA474CC006451FD /* QuantcastMeasurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastMeasurement.h; sourceTree = "<group>"; };
+		0EFEACA81EA474CC006451FD /* QuantcastMeasurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastMeasurement.m; sourceTree = "<group>"; };
+		0EFEACA91EA474CC006451FD /* QuantcastNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastNetworkReachability.h; sourceTree = "<group>"; };
+		0EFEACAA1EA474CC006451FD /* QuantcastOptOutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutDelegate.h; sourceTree = "<group>"; };
+		0EFEACAB1EA474CC006451FD /* QuantcastOptOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastOptOutViewController.h; sourceTree = "<group>"; };
+		0EFEACAC1EA474CC006451FD /* QuantcastOptOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastOptOutViewController.m; sourceTree = "<group>"; };
+		0EFEACAD1EA474CC006451FD /* QuantcastParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastParameters.h; sourceTree = "<group>"; };
+		0EFEACAE1EA474CC006451FD /* QuantcastPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastPolicy.h; sourceTree = "<group>"; };
+		0EFEACAF1EA474CC006451FD /* QuantcastPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastPolicy.m; sourceTree = "<group>"; };
+		0EFEACB01EA474CC006451FD /* QuantcastUploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastUploadManager.h; sourceTree = "<group>"; };
+		0EFEACB11EA474CC006451FD /* QuantcastUploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastUploadManager.m; sourceTree = "<group>"; };
+		0EFEACB21EA474CC006451FD /* QuantcastUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuantcastUtils.h; sourceTree = "<group>"; };
+		0EFEACB31EA474CC006451FD /* QuantcastUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuantcastUtils.m; sourceTree = "<group>"; };
+		1564E0B71FD8998500C8697C /* HOWTOSETUP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = HOWTOSETUP.pdf; path = MRF/HOWTOSETUP.pdf; sourceTree = SOURCE_ROOT; };
+		15982D0B206205A800F059F7 /* CRFListBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CRFListBundle.bundle; path = ../Bundles/CRFListBundle.bundle; sourceTree = "<group>"; };
+		15CA06491F6B962E00620567 /* libMailCore-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMailCore-ios.a"; path = "../../../../../../../Library/Developer/Xcode/DerivedData/VTD_v2.0-gfztvyqnmsdpjegvtnkhcrohvltc/Build/Products/Debug-iphoneos/libMailCore-ios.a"; sourceTree = "<group>"; };
+		199E15D22B406C6B1E1610B3 /* Pods-PRF.debug unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRF.debug unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-PRF/Pods-PRF.debug unlimited.xcconfig"; sourceTree = "<group>"; };
+		2236E9509822C2C637CE0BBC /* Pods-TRF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRF.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TRF/Pods-TRF.release.xcconfig"; sourceTree = "<group>"; };
+		3AF1ADD3E89FD2680698D344 /* Pods-TRF.release unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRF.release unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-TRF/Pods-TRF.release unlimited.xcconfig"; sourceTree = "<group>"; };
+		4720E412FE93D798C40B431B /* Pods-MRF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRF.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MRF/Pods-MRF.release.xcconfig"; sourceTree = "<group>"; };
+		47963BD21887D793DD0801EE /* Pods-MRF.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRF.ad-hoc.xcconfig"; path = "../Pods/Target Support Files/Pods-MRF/Pods-MRF.ad-hoc.xcconfig"; sourceTree = "<group>"; };
+		64CE079D4C019573D0C52644 /* libPods-MRF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MRF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6655E06621DD98CAE7F7E73A /* Pods-TRF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRF.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-TRF/Pods-TRF.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB903C609A41869F910E6AD /* Pods-PRF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRF.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PRF/Pods-PRF.release.xcconfig"; sourceTree = "<group>"; };
+		B0FF5516E688142D1693C793 /* Pods-MRF.debug unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRF.debug unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-MRF/Pods-MRF.debug unlimited.xcconfig"; sourceTree = "<group>"; };
+		C5B56D7CDD90A20EDDC6EF22 /* libPods-TRF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7582931099FFCC6C9ED2646 /* Pods-MRF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRF.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MRF/Pods-MRF.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BBF8A9D781B5480A327F2F /* Pods-MRF.ad-hoc unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRF.ad-hoc unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-MRF/Pods-MRF.ad-hoc unlimited.xcconfig"; sourceTree = "<group>"; };
+		D06951ED6147411E23884CC9 /* Pods-PRF.ad-hoc unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRF.ad-hoc unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-PRF/Pods-PRF.ad-hoc unlimited.xcconfig"; sourceTree = "<group>"; };
+		E04EDD34CE744DA51A77B39F /* Pods-TRF.debug unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRF.debug unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-TRF/Pods-TRF.debug unlimited.xcconfig"; sourceTree = "<group>"; };
+		E95CE64C477D4A40FE91BC6E /* Pods-PRF.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRF.ad-hoc.xcconfig"; path = "../Pods/Target Support Files/Pods-PRF/Pods-PRF.ad-hoc.xcconfig"; sourceTree = "<group>"; };
+		F8AF8F03815E12C85CD3D118 /* Pods-PRF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRF.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PRF/Pods-PRF.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E0F509E1BB33C47005B5009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CA064A1F6B962E00620567 /* libMailCore-ios.a in Frameworks */,
+				0EFEAC921EA4740A006451FD /* libsqlite3.tbd in Frameworks */,
+				0E915F8F1D7218C3003846F1 /* Security.framework in Frameworks */,
+				0E915F8E1D7218BE003846F1 /* CFNetwork.framework in Frameworks */,
+				0E4561171C780E560032BE49 /* libVTD Library v2.0.a in Frameworks */,
+				0E6D2BFD1BB473E10063F959 /* libz.tbd in Frameworks */,
+				0E21D2601C75185400007B6F /* StoreKit.framework in Frameworks */,
+				C8E986797C4E6D4EC4230C09 /* libPods-MRF.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E06912F1BBA44D9002DBFF7 /* CAN */ = {
+			isa = PBXGroup;
+			children = (
+				0E06913D1BBA45B4002DBFF7 /* Finalize-CAN.plist */,
+				0E06913E1BBA45B4002DBFF7 /* PDF-CAN.plist */,
+				0E3602A11C2488DE00CF5739 /* PDFInternational-CAN.plist */,
+				0E06913F1BBA45B4002DBFF7 /* SettingsAndOptions-CAN.plist */,
+				0E0691401BBA45B4002DBFF7 /* SettingsBackup-CAN.plist */,
+				0E0691411BBA45B4002DBFF7 /* Tables-CAN.plist */,
+			);
+			name = CAN;
+			sourceTree = "<group>";
+		};
+		0E0691301BBA44E9002DBFF7 /* US */ = {
+			isa = PBXGroup;
+			children = (
+				0E0691511BBA45C6002DBFF7 /* Finalize-US.plist */,
+				0E0691521BBA45C6002DBFF7 /* PDF-US.plist */,
+				0E36029D1C24846C00CF5739 /* PDFInternational-US.plist */,
+				0E0691531BBA45C6002DBFF7 /* SettingsAndOptions-US.plist */,
+				0E0691541BBA45C6002DBFF7 /* SettingsBackup-US.plist */,
+				0E0691551BBA45C6002DBFF7 /* Tables-US.plist */,
+			);
+			name = US;
+			sourceTree = "<group>";
+		};
+		0E0691311BBA4518002DBFF7 /* UK */ = {
+			isa = PBXGroup;
+			children = (
+				0E0691471BBA45BD002DBFF7 /* Finalize-UK.plist */,
+				0E0691481BBA45BD002DBFF7 /* PDF-UK.plist */,
+				0E3602A31C2488EF00CF5739 /* PDFInternational-UK.plist */,
+				0E0691491BBA45BD002DBFF7 /* SettingsAndOptions-UK.plist */,
+				0E06914A1BBA45BD002DBFF7 /* SettingsBackup-UK.plist */,
+				0E06914B1BBA45BD002DBFF7 /* Tables-UK.plist */,
+			);
+			name = UK;
+			sourceTree = "<group>";
+		};
+		0E0691321BBA451E002DBFF7 /* AUS */ = {
+			isa = PBXGroup;
+			children = (
+				0E0691331BBA45AB002DBFF7 /* Finalize-AUS.plist */,
+				0E0691341BBA45AB002DBFF7 /* PDF-AUS.plist */,
+				0E36029F1C2488C500CF5739 /* PDFInternational-AUS.plist */,
+				0E0691351BBA45AB002DBFF7 /* SettingsAndOptions-AUS.plist */,
+				0E0691361BBA45AB002DBFF7 /* SettingsBackup-AUS.plist */,
+				0E0691371BBA45AB002DBFF7 /* Tables-AUS.plist */,
+			);
+			name = AUS;
+			sourceTree = "<group>";
+		};
+		0E0F50981BB33C47005B5009 = {
+			isa = PBXGroup;
+			children = (
+				15982D0B206205A800F059F7 /* CRFListBundle.bundle */,
+				0E7444251F3EB3EC00B349B1 /* TRFListsBundle.bundle */,
+				0EB8E8E01EA7157A0018F83F /* Ensembles.bundle */,
+				0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */,
+				0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */,
+				0EFEAC931EA474CC006451FD /* Quantcast-iOS-Measurement */,
+				0E0F50A31BB33C47005B5009 /* MRF */,
+				0E0F50A21BB33C47005B5009 /* Products */,
+				465919E8E234008911000CCE /* Frameworks */,
+				694CBD46E7334B96F9F8BEF5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0E0F50A21BB33C47005B5009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F50A11BB33C47005B5009 /* MRF.app */,
+			);
+			name = Products;
+			path = TRF/Products;
+			sourceTree = "<group>";
+		};
+		0E0F50A31BB33C47005B5009 /* MRF */ = {
+			isa = PBXGroup;
+			children = (
+				0E915F6B1D72185D003846F1 /* Emailer */,
+				0E96C6501BB39F5700EE7160 /* Images */,
+				0E4AC10F1BF6DAEA00E28094 /* Initializer */,
+				0E96C6AA1BB39F5700EE7160 /* iVersion */,
+				0E96C6B01BB39F5700EE7160 /* Main View Controllers */,
+				0E96C6D31BB39F5700EE7160 /* PLists */,
+				0E96C6DC1BB39F5700EE7160 /* Shared Data */,
+				0E0F50A41BB33C47005B5009 /* Supporting Files */,
+				0E96C64C1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.h */,
+				0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */,
+				0E96C6E01BB39F5700EE7160 /* VolutaBaseViewController.h */,
+				0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */,
+				0E0F50A71BB33C47005B5009 /* AppDelegate.h */,
+				0E0F50A81BB33C47005B5009 /* AppDelegate.m */,
+			);
+			name = MRF;
+			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF";
+			sourceTree = "<absolute>";
+		};
+		0E0F50A41BB33C47005B5009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1564E0B71FD8998500C8697C /* HOWTOSETUP.pdf */,
+				0EEA9DEB1F3D59D100E0CB81 /* client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist */,
+				0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */,
+				0E9914501D7BCF2E0032CFBD /* MRF Ad-hoc.entitlements */,
+				0E9914511D7BCF2E0032CFBD /* MRF App Store.entitlements */,
+				0E9914521D7BCF2E0032CFBD /* MRF.entitlements */,
+				0E0F50B21BB33C47005B5009 /* LaunchScreen.storyboard */,
+				0ED35FA31C7EAC0800A36A99 /* LaunchScreen.xib */,
+				0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */,
+				0E96C64E1BB39F5700EE7160 /* definitions.pch */,
+				0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */,
+				0E96C6DF1BB39F5700EE7160 /* versions.plist */,
+				0E0F50AD1BB33C47005B5009 /* Main.storyboard */,
+				0E0F50B01BB33C47005B5009 /* Assets.xcassets */,
+				0E0F50B51BB33C47005B5009 /* Info.plist */,
+				0E0F50A51BB33C47005B5009 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E4AC10F1BF6DAEA00E28094 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				0E4AC1101BF6DBB100E28094 /* Initializer.h */,
+				0E4AC1111BF6DBB100E28094 /* Initializer.m */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		0E8472061F397B5C00635CEA /* NZ */ = {
+			isa = PBXGroup;
+			children = (
+				0E8471FA1F397B5800635CEA /* Finalize-NZ.plist */,
+				0E8471FB1F397B5800635CEA /* PDF-NZ.plist */,
+				0E8471FC1F397B5800635CEA /* PDFInternational-NZ.plist */,
+				0E8471FD1F397B5800635CEA /* SettingsAndOptions-NZ.plist */,
+				0E8471FE1F397B5800635CEA /* SettingsBackup-NZ.plist */,
+				0E8471FF1F397B5800635CEA /* Tables-AUS.plist */,
+			);
+			name = NZ;
+			sourceTree = "<group>";
+		};
+		0E915F6B1D72185D003846F1 /* Emailer */ = {
+			isa = PBXGroup;
+			children = (
+				0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */,
+				0E915F6C1D721871003846F1 /* Emailer.h */,
+				0E915F6D1D721871003846F1 /* Emailer.m */,
+			);
+			name = Emailer;
+			path = "../../VTD Library v2.0/Emailer";
+			sourceTree = "<group>";
+		};
+		0E96C6501BB39F5700EE7160 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6531BB39F5700EE7160 /* Landscape */,
+				0E96C6621BB39F5700EE7160 /* Portrait */,
+				0EEB826E1C358CCB00E6E994 /* next-previous-buttons.png */,
+				0E96C68B1BB39F5700EE7160 /* sign-line-with-x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0E96C6531BB39F5700EE7160 /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1E891BCD42F100202126 /* How To Setup */,
+				0ECC1E961BCD42F100202126 /* How To Use */,
+				0ECC1E9F1BCD42F100202126 /* Long Welcome Tutorial */,
+				0E96C6541BB39F5700EE7160 /* L-About.png */,
+				0E96C6551BB39F5700EE7160 /* L-FastTutorial.png */,
+				0E96C6561BB39F5700EE7160 /* L-Final.png */,
+				0E96C6571BB39F5700EE7160 /* L-Homescreen.png */,
+				0E96C6581BB39F5700EE7160 /* L-HowTo.png */,
+				0E96C6591BB39F5700EE7160 /* L-IDCapture.png */,
+				0E96C65A1BB39F5700EE7160 /* L-IDVerify.png */,
+				0E96C65B1BB39F5700EE7160 /* L-InAppPurchases.png */,
+				0E96C65C1BB39F5700EE7160 /* L-InfoPage.png */,
+				0E96C65D1BB39F5700EE7160 /* L-InitialSetup.png */,
+				0E96C65E1BB39F5700EE7160 /* L-Resubmit.png */,
+				0E96C65F1BB39F5700EE7160 /* L-SettingsAndOptions.png */,
+				0E96C6601BB39F5700EE7160 /* L-Support.png */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		0E96C6621BB39F5700EE7160 /* Portrait */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1EF31BCD43D800202126 /* How To Setup */,
+				0ECC1F001BCD43D800202126 /* How to Use */,
+				0ECC1F091BCD43D800202126 /* Long Welcome Tutorial */,
+				0E96C6631BB39F5700EE7160 /* P-About.png */,
+				0E96C6641BB39F5700EE7160 /* P-FastTutorial.png */,
+				0E96C6651BB39F5700EE7160 /* P-Final.png */,
+				0E96C6661BB39F5700EE7160 /* P-Homescreen.png */,
+				0E96C6671BB39F5700EE7160 /* P-HowTo.png */,
+				0E96C6681BB39F5700EE7160 /* P-IDCapture.png */,
+				0E96C6691BB39F5700EE7160 /* P-IDVerify.png */,
+				0E96C66A1BB39F5700EE7160 /* P-InAppPurchases.png */,
+				0E96C66B1BB39F5700EE7160 /* P-InfoPage.png */,
+				0E96C66C1BB39F5700EE7160 /* P-InitialSetup.png */,
+				0E96C66D1BB39F5700EE7160 /* P-Resubmit.png */,
+				0E96C66E1BB39F5700EE7160 /* P-SettingsAndOptions.png */,
+				0E96C66F1BB39F5700EE7160 /* P-Support.png */,
+			);
+			path = Portrait;
+			sourceTree = "<group>";
+		};
+		0E96C6AA1BB39F5700EE7160 /* iVersion */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6AB1BB39F5700EE7160 /* iVersion.bundle */,
+				0E96C6AC1BB39F5700EE7160 /* iVersion.h */,
+				0E96C6AD1BB39F5700EE7160 /* iVersion.m */,
+			);
+			path = iVersion;
+			sourceTree = "<group>";
+		};
+		0E96C6B01BB39F5700EE7160 /* Main View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6B31BB39F5700EE7160 /* Finalize */,
+				0E96C6BA1BB39F5700EE7160 /* How To Tab */,
+				0E96C6BF1BB39F5700EE7160 /* Info Page Tab */,
+				0E96C6C41BB39F5700EE7160 /* Resubmit */,
+				0E96C6C91BB39F5700EE7160 /* Settings and Options Tab */,
+				0E96C6B11BB39F5700EE7160 /* FastTutorialViewController.h */,
+				0E96C6B21BB39F5700EE7160 /* FastTutorialViewController.m */,
+				0E96C6B81BB39F5700EE7160 /* HomeScreenViewController.h */,
+				0E96C6B91BB39F5700EE7160 /* HomeScreenViewController.m */,
+				0E96C6BB1BB39F5700EE7160 /* IDCaptureViewController.h */,
+				0E96C6BC1BB39F5700EE7160 /* IDCaptureViewController.m */,
+				0E96C6BD1BB39F5700EE7160 /* IDVerifyViewController.h */,
+				0E96C6BE1BB39F5700EE7160 /* IDVerifyViewController.m */,
+				0E96C6C21BB39F5700EE7160 /* LongTutorialViewController.h */,
+				0E96C6C31BB39F5700EE7160 /* LongTutorialViewController.m */,
+			);
+			path = "Main View Controllers";
+			sourceTree = "<group>";
+		};
+		0E96C6B31BB39F5700EE7160 /* Finalize */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6B41BB39F5700EE7160 /* FinalizeOptionsViewController.h */,
+				0E96C6B51BB39F5700EE7160 /* FinalizeOptionsViewController.m */,
+				0E96C6B61BB39F5700EE7160 /* FinalizeViewController.h */,
+				0E96C6B71BB39F5700EE7160 /* FinalizeViewController.m */,
+			);
+			path = Finalize;
+			sourceTree = "<group>";
+		};
+		0E96C6BA1BB39F5700EE7160 /* How To Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1E4F1BCC25B600202126 /* Views */,
+				0ECC1E4C1BCC239100202126 /* HowToViewController.h */,
+				0ECC1E4D1BCC239100202126 /* HowToViewController.m */,
+			);
+			path = "How To Tab";
+			sourceTree = "<group>";
+		};
+		0E96C6BF1BB39F5700EE7160 /* Info Page Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6C01BB39F5700EE7160 /* InfoViewController.h */,
+				0E96C6C11BB39F5700EE7160 /* InfoViewController.m */,
+			);
+			path = "Info Page Tab";
+			sourceTree = "<group>";
+		};
+		0E96C6C41BB39F5700EE7160 /* Resubmit */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6C51BB39F5700EE7160 /* ResubmitOptionsViewController.h */,
+				0E96C6C61BB39F5700EE7160 /* ResubmitOptionsViewController.m */,
+				0E96C6C71BB39F5700EE7160 /* ResubmitViewController.h */,
+				0E96C6C81BB39F5700EE7160 /* ResubmitViewController.m */,
+			);
+			path = Resubmit;
+			sourceTree = "<group>";
+		};
+		0E96C6C91BB39F5700EE7160 /* Settings and Options Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6CC1BB39F5700EE7160 /* Views */,
+				0E96C6CA1BB39F5700EE7160 /* SettingsAndOptionsViewController.h */,
+				0E96C6CB1BB39F5700EE7160 /* SettingsAndOptionsViewController.m */,
+			);
+			path = "Settings and Options Tab";
+			sourceTree = "<group>";
+		};
+		0E96C6CC1BB39F5700EE7160 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6CD1BB39F5700EE7160 /* AboutView.h */,
+				0E96C6CE1BB39F5700EE7160 /* AboutView.m */,
+				0E96C6CF1BB39F5700EE7160 /* InAppPurchasesView.h */,
+				0E96C6D01BB39F5700EE7160 /* InAppPurchasesView.m */,
+				0E96C6D11BB39F5700EE7160 /* SettingsView.h */,
+				0E96C6D21BB39F5700EE7160 /* SettingsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E96C6D31BB39F5700EE7160 /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				0E0691321BBA451E002DBFF7 /* AUS */,
+				0E06912F1BBA44D9002DBFF7 /* CAN */,
+				0E8472061F397B5C00635CEA /* NZ */,
+				0E0691311BBA4518002DBFF7 /* UK */,
+				0E0691301BBA44E9002DBFF7 /* US */,
+				0E96C6D41BB39F5700EE7160 /* DefaultHealth.plist */,
+				0E96C6D51BB39F5700EE7160 /* DefaultHealthItemsToCheck.plist */,
+				0E96C6D61BB39F5700EE7160 /* DefaultLegal.plist */,
+				0ECC1E461BCC1DBD00202126 /* HowTo.plist */,
+				0ED5701C1BCB4995007971F6 /* SupportingDocuments.plist */,
+				0ED0821F1C38563300B5CE74 /* IAPProducts.plist */,
+			);
+			path = PLists;
+			sourceTree = "<group>";
+		};
+		0E96C6DC1BB39F5700EE7160 /* Shared Data */ = {
+			isa = PBXGroup;
+			children = (
+				0E96C6DD1BB39F5700EE7160 /* SharedData.h */,
+				0E96C6DE1BB39F5700EE7160 /* SharedData.m */,
+			);
+			path = "Shared Data";
+			sourceTree = "<group>";
+		};
+		0ECC1E4F1BCC25B600202126 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1E501BCC25D800202126 /* HowToSetupView.h */,
+				0ECC1E511BCC25D800202126 /* HowToSetupView.m */,
+				0ECC1E591BCC26C900202126 /* FAQView.h */,
+				0ECC1E5A1BCC26C900202126 /* FAQView.m */,
+				0ECC1E5C1BCC26DA00202126 /* SupportView.h */,
+				0ECC1E5D1BCC26DA00202126 /* SupportView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0ECC1E891BCD42F100202126 /* How To Setup */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1E8A1BCD42F100202126 /* L-HowToSetup-panel-1.png */,
+				0ECC1E8E1BCD42F100202126 /* L-HowToSetup-panel-2.png */,
+				0ECC1E8F1BCD42F100202126 /* L-HowToSetup-panel-3.png */,
+				0ECC1E901BCD42F100202126 /* L-HowToSetup-panel-4.png */,
+				0ECC1E911BCD42F100202126 /* L-HowToSetup-panel-5.png */,
+				0ECC1E921BCD42F100202126 /* L-HowToSetup-panel-6.png */,
+				0EDAF5331D721E500078A4BF /* L-HowToSetup-panel-7.png */,
+				0EDAF5341D721E500078A4BF /* L-HowToSetup-panel-8.png */,
+				0EDAF5351D721E500078A4BF /* L-HowToSetup-panel-9.png */,
+				0EDAF5361D721E500078A4BF /* L-HowToSetup-panel-10.png */,
+				0EDAF5371D721E500078A4BF /* L-HowToSetup-panel-11.png */,
+				0EDAF5381D721E500078A4BF /* L-HowToSetup-panel-12.png */,
+				0EDAF5391D721E500078A4BF /* L-HowToSetup-panel-13.png */,
+				0EDAF53A1D721E500078A4BF /* L-HowToSetup-panel-14.png */,
+				0EDAF53B1D721E500078A4BF /* L-HowToSetup-panel-15.png */,
+				0EDAF53C1D721E500078A4BF /* L-HowToSetup-panel-16.png */,
+				0EDAF53D1D721E500078A4BF /* L-HowToSetup-panel-17.png */,
+				0EDAF53E1D721E500078A4BF /* L-HowToSetup-panel-18.png */,
+				0EDAF53F1D721E500078A4BF /* L-HowToSetup-panel-19.png */,
+				0EDAF5401D721E500078A4BF /* L-HowToSetup-panel-20.png */,
+				0EDAF5411D721E500078A4BF /* L-HowToSetup-panel-21.png */,
+				0EDAF5421D721E500078A4BF /* L-HowToSetup-panel-22.png */,
+				0EDAF5431D721E500078A4BF /* L-HowToSetup-panel-23.png */,
+				0EDAF5441D721E500078A4BF /* L-HowToSetup-panel-24.png */,
+			);
+			path = "How To Setup";
+			sourceTree = "<group>";
+		};
+		0ECC1E961BCD42F100202126 /* How To Use */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1E971BCD42F100202126 /* L-HowToUse-panel-1.png */,
+				0ECC1E981BCD42F100202126 /* L-HowToUse-panel-2.png */,
+				0ECC1E991BCD42F100202126 /* L-HowToUse-panel-3.png */,
+				0ECC1E9A1BCD42F100202126 /* L-HowToUse-panel-4.png */,
+				0ECC1E9B1BCD42F100202126 /* L-HowToUse-panel-5.png */,
+				0ECC1E9C1BCD42F100202126 /* L-HowToUse-panel-6.png */,
+				0ECC1E9D1BCD42F100202126 /* L-HowToUse-panel-7.png */,
+			);
+			path = "How To Use";
+			sourceTree = "<group>";
+		};
+		0ECC1E9F1BCD42F100202126 /* Long Welcome Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1EA01BCD42F100202126 /* L-welcome-panel-1.png */,
+				0ECC1EA11BCD42F100202126 /* L-welcome-panel-2.png */,
+				0ECC1EA21BCD42F100202126 /* L-welcome-panel-3.png */,
+				0ECC1EA31BCD42F100202126 /* L-welcome-panel-4.png */,
+			);
+			path = "Long Welcome Tutorial";
+			sourceTree = "<group>";
+		};
+		0ECC1EF31BCD43D800202126 /* How To Setup */ = {
+			isa = PBXGroup;
+			children = (
+				0EDAF55E1D721E730078A4BF /* P-HowToSetup-panel-1.png */,
+				0EDAF55F1D721E730078A4BF /* P-HowToSetup-panel-2.png */,
+				0EDAF5601D721E730078A4BF /* P-HowToSetup-panel-3.png */,
+				0EDAF5611D721E730078A4BF /* P-HowToSetup-panel-4.png */,
+				0EDAF5621D721E730078A4BF /* P-HowToSetup-panel-5.png */,
+				0EDAF5631D721E730078A4BF /* P-HowToSetup-panel-6.png */,
+				0EDAF5641D721E730078A4BF /* P-HowToSetup-panel-7.png */,
+				0EDAF5651D721E730078A4BF /* P-HowToSetup-panel-8.png */,
+				0EDAF5661D721E730078A4BF /* P-HowToSetup-panel-9.png */,
+				0EDAF5671D721E730078A4BF /* P-HowToSetup-panel-10.png */,
+				0EDAF5681D721E730078A4BF /* P-HowToSetup-panel-11.png */,
+				0EDAF5691D721E730078A4BF /* P-HowToSetup-panel-12.png */,
+				0EDAF56A1D721E730078A4BF /* P-HowToSetup-panel-13.png */,
+				0EDAF56B1D721E730078A4BF /* P-HowToSetup-panel-14.png */,
+				0EDAF56C1D721E730078A4BF /* P-HowToSetup-panel-15.png */,
+				0EDAF56D1D721E730078A4BF /* P-HowToSetup-panel-16.png */,
+				0EDAF56E1D721E730078A4BF /* P-HowToSetup-panel-17.png */,
+				0EDAF56F1D721E730078A4BF /* P-HowToSetup-panel-18.png */,
+				0EDAF5701D721E730078A4BF /* P-HowToSetup-panel-19.png */,
+				0EDAF5711D721E730078A4BF /* P-HowToSetup-panel-20.png */,
+				0EDAF5721D721E730078A4BF /* P-HowToSetup-panel-21.png */,
+				0EDAF5731D721E730078A4BF /* P-HowToSetup-panel-22.png */,
+				0EDAF5741D721E730078A4BF /* P-HowToSetup-panel-23.png */,
+				0EDAF5751D721E730078A4BF /* P-HowToSetup-panel-24.png */,
+			);
+			path = "How To Setup";
+			sourceTree = "<group>";
+		};
+		0ECC1F001BCD43D800202126 /* How to Use */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1F011BCD43D800202126 /* P-HowToUse-panel-1.png */,
+				0ECC1F021BCD43D800202126 /* P-HowToUse-panel-2.png */,
+				0ECC1F031BCD43D800202126 /* P-HowToUse-panel-3.png */,
+				0ECC1F041BCD43D800202126 /* P-HowToUse-panel-4.png */,
+				0ECC1F051BCD43D800202126 /* P-HowToUse-panel-5.png */,
+				0ECC1F061BCD43D800202126 /* P-HowToUse-panel-6.png */,
+				0ECC1F071BCD43D800202126 /* P-HowToUse-panel-7.png */,
+			);
+			path = "How to Use";
+			sourceTree = "<group>";
+		};
+		0ECC1F091BCD43D800202126 /* Long Welcome Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				0ECC1F0A1BCD43D800202126 /* P-welcome-panel-1.png */,
+				0ECC1F0B1BCD43D800202126 /* P-welcome-panel-2.png */,
+				0ECC1F0C1BCD43D800202126 /* P-welcome-panel-3.png */,
+				0ECC1F0D1BCD43D800202126 /* P-welcome-panel-4.png */,
+			);
+			path = "Long Welcome Tutorial";
+			sourceTree = "<group>";
+		};
+		0EFEAC931EA474CC006451FD /* Quantcast-iOS-Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEAC941EA474CC006451FD /* Optional */,
+				0EFEAC9F1EA474CC006451FD /* QuantcastDatabase.h */,
+				0EFEACA01EA474CC006451FD /* QuantcastDatabase.m */,
+				0EFEACA11EA474CC006451FD /* QuantcastDataManager.h */,
+				0EFEACA21EA474CC006451FD /* QuantcastDataManager.m */,
+				0EFEACA31EA474CC006451FD /* QuantcastEvent.h */,
+				0EFEACA41EA474CC006451FD /* QuantcastEvent.m */,
+				0EFEACA51EA474CC006451FD /* QuantcastEventLogger.h */,
+				0EFEACA61EA474CC006451FD /* QuantcastMeasurement+Internal.h */,
+				0EFEACA71EA474CC006451FD /* QuantcastMeasurement.h */,
+				0EFEACA81EA474CC006451FD /* QuantcastMeasurement.m */,
+				0EFEACA91EA474CC006451FD /* QuantcastNetworkReachability.h */,
+				0EFEACAA1EA474CC006451FD /* QuantcastOptOutDelegate.h */,
+				0EFEACAB1EA474CC006451FD /* QuantcastOptOutViewController.h */,
+				0EFEACAC1EA474CC006451FD /* QuantcastOptOutViewController.m */,
+				0EFEACAD1EA474CC006451FD /* QuantcastParameters.h */,
+				0EFEACAE1EA474CC006451FD /* QuantcastPolicy.h */,
+				0EFEACAF1EA474CC006451FD /* QuantcastPolicy.m */,
+				0EFEACB01EA474CC006451FD /* QuantcastUploadManager.h */,
+				0EFEACB11EA474CC006451FD /* QuantcastUploadManager.m */,
+				0EFEACB21EA474CC006451FD /* QuantcastUtils.h */,
+				0EFEACB31EA474CC006451FD /* QuantcastUtils.m */,
+			);
+			name = "Quantcast-iOS-Measurement";
+			path = "../Quantcast/Quantcast-iOS-Measurement";
+			sourceTree = "<group>";
+		};
+		0EFEAC941EA474CC006451FD /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				0EFEAC951EA474CC006451FD /* QuantcastGeoManager.h */,
+				0EFEAC961EA474CC006451FD /* QuantcastGeoManager.m */,
+				0EFEAC971EA474CC006451FD /* QuantcastMeasurement+Advertising.h */,
+				0EFEAC981EA474CC006451FD /* QuantcastMeasurement+Advertising.m */,
+				0EFEAC991EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.h */,
+				0EFEAC9A1EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.m */,
+				0EFEAC9B1EA474CC006451FD /* QuantcastMeasurement+Networks.h */,
+				0EFEAC9C1EA474CC006451FD /* QuantcastMeasurement+Networks.m */,
+				0EFEAC9D1EA474CC006451FD /* QuantcastMeasurement+Periodicals.h */,
+				0EFEAC9E1EA474CC006451FD /* QuantcastMeasurement+Periodicals.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		151D14EA1F6B97B4003349DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151D14F51F6B97B5003349DB /* libMailCore.a */,
+				151D14F71F6B97B5003349DB /* libMailCore-ios.a */,
+				151D14F91F6B97B5003349DB /* tests */,
+				151D14FB1F6B97B5003349DB /* test-ios.app */,
+				151D14FD1F6B97B5003349DB /* MailCore.framework */,
+				151D14FF1F6B97B5003349DB /* MailCore.framework */,
+				151D15011F6B97B5003349DB /* unittest.xctest */,
+				151D15031F6B97B5003349DB /* unittestcpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465919E8E234008911000CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15CA06491F6B962E00620567 /* libMailCore-ios.a */,
+				0EFEAC911EA4740A006451FD /* libsqlite3.tbd */,
+				0E915F8D1D7218BE003846F1 /* CFNetwork.framework */,
+				0E4561161C780E560032BE49 /* libVTD Library v2.0.a */,
+				0E21D25F1C75185400007B6F /* StoreKit.framework */,
+				0EAA1AB81C27C4CE00EEF909 /* libOAuthTouch2.a */,
+				0E70BB961C27AA0D00A2BB7B /* libGTLTouchStaticLib.a */,
+				0E70BB971C27AA0D00A2BB7B /* libGTMSessionFetcherLib.a */,
+				0EF674F41C25376500FFFD19 /* GTLLib.framework */,
+				0EF674E71C25346700FFFD19 /* SystemConfiguration.framework */,
+				0EF674E51C25345B00FFFD19 /* Security.framework */,
+				0EF674E31C25343B00FFFD19 /* GTLLib.framework */,
+				0E6D2BFC1BB473E10063F959 /* libz.tbd */,
+				C5B56D7CDD90A20EDDC6EF22 /* libPods-TRF.a */,
+				64CE079D4C019573D0C52644 /* libPods-MRF.a */,
+			);
+			name = Frameworks;
+			path = TRF/Frameworks;
+			sourceTree = "<group>";
+		};
+		694CBD46E7334B96F9F8BEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6655E06621DD98CAE7F7E73A /* Pods-TRF.debug.xcconfig */,
+				E04EDD34CE744DA51A77B39F /* Pods-TRF.debug unlimited.xcconfig */,
+				2236E9509822C2C637CE0BBC /* Pods-TRF.release.xcconfig */,
+				3AF1ADD3E89FD2680698D344 /* Pods-TRF.release unlimited.xcconfig */,
+				F8AF8F03815E12C85CD3D118 /* Pods-PRF.debug.xcconfig */,
+				199E15D22B406C6B1E1610B3 /* Pods-PRF.debug unlimited.xcconfig */,
+				7DB903C609A41869F910E6AD /* Pods-PRF.release.xcconfig */,
+				E95CE64C477D4A40FE91BC6E /* Pods-PRF.ad-hoc.xcconfig */,
+				D06951ED6147411E23884CC9 /* Pods-PRF.ad-hoc unlimited.xcconfig */,
+				C7582931099FFCC6C9ED2646 /* Pods-MRF.debug.xcconfig */,
+				B0FF5516E688142D1693C793 /* Pods-MRF.debug unlimited.xcconfig */,
+				4720E412FE93D798C40B431B /* Pods-MRF.release.xcconfig */,
+				47963BD21887D793DD0801EE /* Pods-MRF.ad-hoc.xcconfig */,
+				C9BBF8A9D781B5480A327F2F /* Pods-MRF.ad-hoc unlimited.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E0F50A01BB33C47005B5009 /* MRF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0F50B81BB33C47005B5009 /* Build configuration list for PBXNativeTarget "MRF" */;
+			buildPhases = (
+				A95E8119385A8EA409973D95 /* [CP] Check Pods Manifest.lock */,
+				0E0F509D1BB33C47005B5009 /* Sources */,
+				0E0F509E1BB33C47005B5009 /* Frameworks */,
+				0E0F509F1BB33C47005B5009 /* Resources */,
+				AF24D06B445C44B2D0F30A2A /* [CP] Copy Pods Resources */,
+				15CA064B1F6B96B400620567 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRF;
+			productName = LRF;
+			productReference = 0E0F50A11BB33C47005B5009 /* MRF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E0F50991BB33C47005B5009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Voluta Tattoo Digital";
+				TargetAttributes = {
+					0E0F50A01BB33C47005B5009 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4J99F7RRN6;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0E0F509C1BB33C47005B5009 /* Build configuration list for PBXProject "MRF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E0F50981BB33C47005B5009;
+			productRefGroup = 0E0F50A21BB33C47005B5009 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 151D14EA1F6B97B4003349DB /* Products */;
+					ProjectRef = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0E0F50A01BB33C47005B5009 /* MRF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		151D14F51F6B97B5003349DB /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = 151D14F41F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D14F71F6B97B5003349DB /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = 151D14F61F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D14F91F6B97B5003349DB /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = 151D14F81F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D14FB1F6B97B5003349DB /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = 151D14FA1F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D14FD1F6B97B5003349DB /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 151D14FC1F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D14FF1F6B97B5003349DB /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 151D14FE1F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D15011F6B97B5003349DB /* unittest.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = unittest.xctest;
+			remoteRef = 151D15001F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		151D15031F6B97B5003349DB /* unittestcpp */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = unittestcpp;
+			remoteRef = 151D15021F6B97B5003349DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E0F509F1BB33C47005B5009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDAF5501D721E500078A4BF /* L-HowToSetup-panel-18.png in Resources */,
+				0ECC1F1D1BCD43D800202126 /* P-HowToUse-panel-3.png in Resources */,
+				0E06913C1BBA45AB002DBFF7 /* Tables-AUS.plist in Resources */,
+				0EEA9DEC1F3D59D100E0CB81 /* client_1083067129914-0p2jsc4rct2hc2mupjnb8racu1q69c6e.apps.googleusercontent.com.plist in Resources */,
+				0ECC1E471BCC1DBD00202126 /* HowTo.plist in Resources */,
+				0EDAF54A1D721E500078A4BF /* L-HowToSetup-panel-12.png in Resources */,
+				0E96C7461BB39F5700EE7160 /* DefaultHealth.plist in Resources */,
+				0ED5701D1BCB4995007971F6 /* SupportingDocuments.plist in Resources */,
+				0E0691581BBA45C6002DBFF7 /* SettingsAndOptions-US.plist in Resources */,
+				0EDAF5531D721E500078A4BF /* L-HowToSetup-panel-21.png in Resources */,
+				0ECC1EAC1BCD42F100202126 /* L-HowToSetup-panel-5.png in Resources */,
+				0E8472001F397B5800635CEA /* Finalize-NZ.plist in Resources */,
+				0ECC1EBB1BCD42F100202126 /* L-welcome-panel-3.png in Resources */,
+				0EDAF5791D721E730078A4BF /* P-HowToSetup-panel-4.png in Resources */,
+				0ECC1EA91BCD42F100202126 /* L-HowToSetup-panel-2.png in Resources */,
+				0EDAF5871D721E730078A4BF /* P-HowToSetup-panel-18.png in Resources */,
+				0E0691381BBA45AB002DBFF7 /* Finalize-AUS.plist in Resources */,
+				0EEB826F1C358CCB00E6E994 /* next-previous-buttons.png in Resources */,
+				0E0691461BBA45B4002DBFF7 /* Tables-CAN.plist in Resources */,
+				0ECC1EB51BCD42F100202126 /* L-HowToUse-panel-5.png in Resources */,
+				0E06913B1BBA45AB002DBFF7 /* SettingsBackup-AUS.plist in Resources */,
+				0EDAF5811D721E730078A4BF /* P-HowToSetup-panel-12.png in Resources */,
+				0E8472041F397B5800635CEA /* SettingsBackup-NZ.plist in Resources */,
+				0ECC1F1C1BCD43D800202126 /* P-HowToUse-panel-2.png in Resources */,
+				0EDAF58A1D721E730078A4BF /* P-HowToSetup-panel-21.png in Resources */,
+				0E3602A41C2488EF00CF5739 /* PDFInternational-UK.plist in Resources */,
+				0ECC1EAA1BCD42F100202126 /* L-HowToSetup-panel-3.png in Resources */,
+				0E0691441BBA45B4002DBFF7 /* SettingsAndOptions-CAN.plist in Resources */,
+				0E8472051F397B5800635CEA /* Tables-AUS.plist in Resources */,
+				15982D0C206205A800F059F7 /* CRFListBundle.bundle in Resources */,
+				0ED35FA21C7EAAE900A36A99 /* LaunchScreen.storyboard in Resources */,
+				0ECC1EB11BCD42F100202126 /* L-HowToUse-panel-1.png in Resources */,
+				0E96C6E31BB39F5700EE7160 /* Economica-Regular.ttf in Resources */,
+				0EDAF54C1D721E500078A4BF /* L-HowToSetup-panel-14.png in Resources */,
+				0ECC1EB21BCD42F100202126 /* L-HowToUse-panel-2.png in Resources */,
+				0EDAF57A1D721E730078A4BF /* P-HowToSetup-panel-5.png in Resources */,
+				0E8472031F397B5800635CEA /* SettingsAndOptions-NZ.plist in Resources */,
+				0E06914C1BBA45BD002DBFF7 /* Finalize-UK.plist in Resources */,
+				0E96C6F71BB39F5700EE7160 /* P-Homescreen.png in Resources */,
+				0EDAF5891D721E730078A4BF /* P-HowToSetup-panel-20.png in Resources */,
+				0ECC1F1F1BCD43D800202126 /* P-HowToUse-panel-5.png in Resources */,
+				0ECC1EAD1BCD42F100202126 /* L-HowToSetup-panel-6.png in Resources */,
+				0ECC1F231BCD43D800202126 /* P-welcome-panel-1.png in Resources */,
+				0E96C6EB1BB39F5700EE7160 /* L-IDCapture.png in Resources */,
+				0EDAF5491D721E500078A4BF /* L-HowToSetup-panel-11.png in Resources */,
+				0EDAF57E1D721E730078A4BF /* P-HowToSetup-panel-9.png in Resources */,
+				0E8472011F397B5800635CEA /* PDF-NZ.plist in Resources */,
+				0E96C6FE1BB39F5700EE7160 /* P-Resubmit.png in Resources */,
+				0ECC1EB31BCD42F100202126 /* L-HowToUse-panel-3.png in Resources */,
+				0ECC1EA51BCD42F100202126 /* L-HowToSetup-panel-1.png in Resources */,
+				0E0691451BBA45B4002DBFF7 /* SettingsBackup-CAN.plist in Resources */,
+				0ECC1EB41BCD42F100202126 /* L-HowToUse-panel-4.png in Resources */,
+				0EDAF57D1D721E730078A4BF /* P-HowToSetup-panel-8.png in Resources */,
+				0E96C6E81BB39F5700EE7160 /* L-Final.png in Resources */,
+				0E96C6FB1BB39F5700EE7160 /* P-InAppPurchases.png in Resources */,
+				0EDAF5451D721E500078A4BF /* L-HowToSetup-panel-7.png in Resources */,
+				0EDAF5521D721E500078A4BF /* L-HowToSetup-panel-20.png in Resources */,
+				0E96C6E61BB39F5700EE7160 /* L-About.png in Resources */,
+				0EDAF54F1D721E500078A4BF /* L-HowToSetup-panel-17.png in Resources */,
+				0E96C6ED1BB39F5700EE7160 /* L-InAppPurchases.png in Resources */,
+				0E96C6F81BB39F5700EE7160 /* P-HowTo.png in Resources */,
+				0EDAF58D1D721E730078A4BF /* P-HowToSetup-panel-24.png in Resources */,
+				0EDAF5801D721E730078A4BF /* P-HowToSetup-panel-11.png in Resources */,
+				0E96C6EA1BB39F5700EE7160 /* L-HowTo.png in Resources */,
+				0ECC1F251BCD43D800202126 /* P-welcome-panel-3.png in Resources */,
+				0EA51E9A1C55E77C003A2DBA /* AppleIncRootCertificate.cer in Resources */,
+				0EDAF54B1D721E500078A4BF /* L-HowToSetup-panel-13.png in Resources */,
+				0EDAF5541D721E500078A4BF /* L-HowToSetup-panel-22.png in Resources */,
+				0EDAF5771D721E730078A4BF /* P-HowToSetup-panel-2.png in Resources */,
+				0ECC1EBC1BCD42F100202126 /* L-welcome-panel-4.png in Resources */,
+				0E96C6F11BB39F5700EE7160 /* L-SettingsAndOptions.png in Resources */,
+				0ECC1EB71BCD42F100202126 /* L-HowToUse-panel-7.png in Resources */,
+				0ECC1F241BCD43D800202126 /* P-welcome-panel-2.png in Resources */,
+				0EDAF5471D721E500078A4BF /* L-HowToSetup-panel-9.png in Resources */,
+				0E9914551D7BCF2E0032CFBD /* MRF.entitlements in Resources */,
+				0E0691571BBA45C6002DBFF7 /* PDF-US.plist in Resources */,
+				0E96C6E91BB39F5700EE7160 /* L-Homescreen.png in Resources */,
+				0EDAF5861D721E730078A4BF /* P-HowToSetup-panel-17.png in Resources */,
+				0E96C6EF1BB39F5700EE7160 /* L-InitialSetup.png in Resources */,
+				0E96C6F01BB39F5700EE7160 /* L-Resubmit.png in Resources */,
+				0ECC1F261BCD43D800202126 /* P-welcome-panel-4.png in Resources */,
+				0E3602A21C2488DE00CF5739 /* PDFInternational-CAN.plist in Resources */,
+				0E0691501BBA45BD002DBFF7 /* Tables-UK.plist in Resources */,
+				0E96C6F51BB39F5700EE7160 /* P-FastTutorial.png in Resources */,
+				0E96C74F1BB39F5700EE7160 /* versions.plist in Resources */,
+				0E96C6F91BB39F5700EE7160 /* P-IDCapture.png in Resources */,
+				0E36029E1C24846C00CF5739 /* PDFInternational-US.plist in Resources */,
+				0E96C6FA1BB39F5700EE7160 /* P-IDVerify.png in Resources */,
+				1564E0B81FD8998500C8697C /* HOWTOSETUP.pdf in Resources */,
+				0EDAF5841D721E730078A4BF /* P-HowToSetup-panel-15.png in Resources */,
+				0EDAF5481D721E500078A4BF /* L-HowToSetup-panel-10.png in Resources */,
+				0EDAF5881D721E730078A4BF /* P-HowToSetup-panel-19.png in Resources */,
+				0E96C6E71BB39F5700EE7160 /* L-FastTutorial.png in Resources */,
+				0EB8E8E11EA7157A0018F83F /* Ensembles.bundle in Resources */,
+				0EDAF5851D721E730078A4BF /* P-HowToSetup-panel-16.png in Resources */,
+				0E0691391BBA45AB002DBFF7 /* PDF-AUS.plist in Resources */,
+				0E96C6EC1BB39F5700EE7160 /* L-IDVerify.png in Resources */,
+				0E0F50B11BB33C47005B5009 /* Assets.xcassets in Resources */,
+				0ECC1F211BCD43D800202126 /* P-HowToUse-panel-7.png in Resources */,
+				0E06914F1BBA45BD002DBFF7 /* SettingsBackup-UK.plist in Resources */,
+				0EDAF5561D721E500078A4BF /* L-HowToSetup-panel-24.png in Resources */,
+				0E06913A1BBA45AB002DBFF7 /* SettingsAndOptions-AUS.plist in Resources */,
+				0EDAF58C1D721E730078A4BF /* P-HowToSetup-panel-23.png in Resources */,
+				0E96C7351BB39F5700EE7160 /* iVersion.bundle in Resources */,
+				0E96C6FF1BB39F5700EE7160 /* P-SettingsAndOptions.png in Resources */,
+				0EDAF54D1D721E500078A4BF /* L-HowToSetup-panel-15.png in Resources */,
+				0E96C7481BB39F5700EE7160 /* DefaultLegal.plist in Resources */,
+				0ECC1F201BCD43D800202126 /* P-HowToUse-panel-6.png in Resources */,
+				0E3602A01C2488C500CF5739 /* PDFInternational-AUS.plist in Resources */,
+				0E96C6F41BB39F5700EE7160 /* P-About.png in Resources */,
+				0E0691561BBA45C6002DBFF7 /* Finalize-US.plist in Resources */,
+				0ECC1EBA1BCD42F100202126 /* L-welcome-panel-2.png in Resources */,
+				0E06915A1BBA45C6002DBFF7 /* Tables-US.plist in Resources */,
+				0EDAF57C1D721E730078A4BF /* P-HowToSetup-panel-7.png in Resources */,
+				0E96C71A1BB39F5700EE7160 /* sign-line-with-x.png in Resources */,
+				0E96C7471BB39F5700EE7160 /* DefaultHealthItemsToCheck.plist in Resources */,
+				0ECC1F1B1BCD43D800202126 /* P-HowToUse-panel-1.png in Resources */,
+				0E0691421BBA45B4002DBFF7 /* Finalize-CAN.plist in Resources */,
+				0ECC1EB91BCD42F100202126 /* L-welcome-panel-1.png in Resources */,
+				0EDAF5551D721E500078A4BF /* L-HowToSetup-panel-23.png in Resources */,
+				0E0691591BBA45C6002DBFF7 /* SettingsBackup-US.plist in Resources */,
+				0EDAF5781D721E730078A4BF /* P-HowToSetup-panel-3.png in Resources */,
+				0E96C6EE1BB39F5700EE7160 /* L-InfoPage.png in Resources */,
+				0E06914E1BBA45BD002DBFF7 /* SettingsAndOptions-UK.plist in Resources */,
+				0EDAF54E1D721E500078A4BF /* L-HowToSetup-panel-16.png in Resources */,
+				0E94E1731D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib in Resources */,
+				0E96C7001BB39F5700EE7160 /* P-Support.png in Resources */,
+				0E96C6F21BB39F5700EE7160 /* L-Support.png in Resources */,
+				0EDAF5761D721E730078A4BF /* P-HowToSetup-panel-1.png in Resources */,
+				0E96C6FC1BB39F5700EE7160 /* P-InfoPage.png in Resources */,
+				0ECC1F1E1BCD43D800202126 /* P-HowToUse-panel-4.png in Resources */,
+				0EDAF5821D721E730078A4BF /* P-HowToSetup-panel-13.png in Resources */,
+				0E0691431BBA45B4002DBFF7 /* PDF-CAN.plist in Resources */,
+				0E96C6FD1BB39F5700EE7160 /* P-InitialSetup.png in Resources */,
+				0ECC1EB61BCD42F100202126 /* L-HowToUse-panel-6.png in Resources */,
+				0E7444261F3EB3EC00B349B1 /* TRFListsBundle.bundle in Resources */,
+				0E8472021F397B5800635CEA /* PDFInternational-NZ.plist in Resources */,
+				0E9914541D7BCF2E0032CFBD /* MRF App Store.entitlements in Resources */,
+				0EDAF5461D721E500078A4BF /* L-HowToSetup-panel-8.png in Resources */,
+				0EDAF57F1D721E730078A4BF /* P-HowToSetup-panel-10.png in Resources */,
+				0ECC1EAB1BCD42F100202126 /* L-HowToSetup-panel-4.png in Resources */,
+				0E96C6F61BB39F5700EE7160 /* P-Final.png in Resources */,
+				0E9914531D7BCF2E0032CFBD /* MRF Ad-hoc.entitlements in Resources */,
+				0EDAF58B1D721E730078A4BF /* P-HowToSetup-panel-22.png in Resources */,
+				0ED082201C38563300B5CE74 /* IAPProducts.plist in Resources */,
+				0EDAF57B1D721E730078A4BF /* P-HowToSetup-panel-6.png in Resources */,
+				0E0F50C41BB33E8F005B5009 /* CoreDataBundle.bundle in Resources */,
+				0E06914D1BBA45BD002DBFF7 /* PDF-UK.plist in Resources */,
+				0EDAF5831D721E730078A4BF /* P-HowToSetup-panel-14.png in Resources */,
+				0E6D2C751BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle in Resources */,
+				0E8452D91C83F7CF003C1F1F /* Main.storyboard in Resources */,
+				0EDAF5511D721E500078A4BF /* L-HowToSetup-panel-19.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15CA064B1F6B96B400620567 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 9d1b8dd2472cdc521eee3a6c5727f6f48686b9e5 d523857a5cd5e77b8d6e5bd8a3d31c0197a3ac0ce234be42d433a946abeb0bed";
+		};
+		A95E8119385A8EA409973D95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MRF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF24D06B445C44B2D0F30A2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MRF/Pods-MRF-resources.sh",
+				"${PODS_ROOT}/ADAL/ADALiOS/ADALiOS/ADAL_iPad_Storyboard.storyboard",
+				"${PODS_ROOT}/ADAL/ADALiOS/ADALiOS/ADAL_iPhone_Storyboard.storyboard",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ADAL_iPad_Storyboard.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ADAL_iPhone_Storyboard.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRF/Pods-MRF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E0F509D1BB33C47005B5009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED35FA01C7EAA6200A36A99 /* InfoViewController.m in Sources */,
+				0EFEACBD1EA474CC006451FD /* QuantcastOptOutViewController.m in Sources */,
+				0EFEACB61EA474CC006451FD /* QuantcastMeasurement+InstallAttribution.m in Sources */,
+				0E91B2621C7D5D2600C69748 /* BaseWithOptionsButtonViewController.m in Sources */,
+				0E91B2641C7D5D2600C69748 /* VolutaBaseViewController.m in Sources */,
+				0EFEACBB1EA474CC006451FD /* QuantcastEvent.m in Sources */,
+				0EFEACBF1EA474CC006451FD /* QuantcastUploadManager.m in Sources */,
+				0E91B2661C7D5D2600C69748 /* AppDelegate.m in Sources */,
+				0E91B2611C7D5D1000C69748 /* main.m in Sources */,
+				0E91B2601C7D5CFC00C69748 /* SharedData.m in Sources */,
+				0E91B24B1C7D5CB500C69748 /* ResubmitOptionsViewController.m in Sources */,
+				0E91B24D1C7D5CB500C69748 /* ResubmitViewController.m in Sources */,
+				0E91B24F1C7D5CB500C69748 /* AboutView.m in Sources */,
+				0E91B2511C7D5CB500C69748 /* InAppPurchasesView.m in Sources */,
+				0EFEACB41EA474CC006451FD /* QuantcastGeoManager.m in Sources */,
+				0E91B2531C7D5CB500C69748 /* SettingsView.m in Sources */,
+				0E91B2551C7D5CB500C69748 /* SettingsAndOptionsViewController.m in Sources */,
+				0E91B2571C7D5CB500C69748 /* FastTutorialViewController.m in Sources */,
+				0E91B2591C7D5CB500C69748 /* HomeScreenViewController.m in Sources */,
+				0EFEACBE1EA474CC006451FD /* QuantcastPolicy.m in Sources */,
+				0E91B25B1C7D5CB500C69748 /* IDCaptureViewController.m in Sources */,
+				0EFEACC01EA474CC006451FD /* QuantcastUtils.m in Sources */,
+				0E91B25D1C7D5CB500C69748 /* IDVerifyViewController.m in Sources */,
+				0E91B25F1C7D5CB500C69748 /* LongTutorialViewController.m in Sources */,
+				0EFEACBA1EA474CC006451FD /* QuantcastDataManager.m in Sources */,
+				0EFEACBC1EA474CC006451FD /* QuantcastMeasurement.m in Sources */,
+				0EFEACB81EA474CC006451FD /* QuantcastMeasurement+Periodicals.m in Sources */,
+				0E91B2431C7D5C7800C69748 /* HowToSetupView.m in Sources */,
+				0E91B2451C7D5C7800C69748 /* FAQView.m in Sources */,
+				0E91B2471C7D5C7800C69748 /* SupportView.m in Sources */,
+				0E915F6E1D721871003846F1 /* Emailer.m in Sources */,
+				0EFEACB51EA474CC006451FD /* QuantcastMeasurement+Advertising.m in Sources */,
+				0E91B2491C7D5C7800C69748 /* HowToViewController.m in Sources */,
+				0E91B2401C7D5C3900C69748 /* FinalizeViewController.m in Sources */,
+				0EFEACB71EA474CC006451FD /* QuantcastMeasurement+Networks.m in Sources */,
+				0E91B23F1C7D5C2B00C69748 /* FinalizeOptionsViewController.m in Sources */,
+				0E91B23E1C7D5C1400C69748 /* iVersion.m in Sources */,
+				0E91B23D1C7D5BFF00C69748 /* Initializer.m in Sources */,
+				0EFEACB91EA474CC006451FD /* QuantcastDatabase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E0F50AD1BB33C47005B5009 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E0F50AE1BB33C47005B5009 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF";
+			sourceTree = "<absolute>";
+		};
+		0E0F50B21BB33C47005B5009 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E0F50B31BB33C47005B5009 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF";
+			sourceTree = "<absolute>";
+		};
+		0ED35FA31C7EAC0800A36A99 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED35FA41C7EAC0800A36A99 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/MRF/MRF";
+			sourceTree = "<absolute>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E0F50B71BB33C47005B5009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "9217ab81-2bdb-40d4-aef7-4bd5ddf04cc8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E0F50BA1BB33C47005B5009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4720E412FE93D798C40B431B /* Pods-MRF.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = MRF/MRF.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				DEVELOPMENT_TEAM = 4J99F7RRN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MRF/definitions.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"VTD_MRF=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"\"${PODS_ROOT}/Headers/Public/Dropbox-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-ios-12\"/**",
+				);
+				INFOPLIST_FILE = MRF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ObjectiveDropboxOfficial\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"-DSQLITE_HAS_CODEC",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"OneDriveSDK\"",
+					"-l\"box-ios-sdk\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VolutaDigital.MRF;
+				PRODUCT_NAME = MRF;
+				PROVISIONING_PROFILE = "4a44e542-da99-4dd2-9115-5ada0775d64f";
+				PROVISIONING_PROFILE_SPECIFIER = "MRF App Store";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		0E693A341C784BA9006F25B9 /* Ad-hoc Unlimited */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "9217ab81-2bdb-40d4-aef7-4bd5ddf04cc8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-hoc Unlimited";
+		};
+		0E693A351C784BA9006F25B9 /* Ad-hoc Unlimited */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9BBF8A9D781B5480A327F2F /* Pods-MRF.ad-hoc unlimited.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = MRF/MRF.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				DEVELOPMENT_TEAM = 4J99F7RRN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MRF/definitions.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"VTD_MRF=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"\"${PODS_ROOT}/Headers/Public/Dropbox-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-ios-12\"/**",
+				);
+				INFOPLIST_FILE = MRF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ObjectiveDropboxOfficial\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"-DSQLITE_HAS_CODEC",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"OneDriveSDK\"",
+					"-l\"box-ios-sdk\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VolutaDigital.MRF;
+				PRODUCT_NAME = MRF;
+				PROVISIONING_PROFILE = "6a16f613-7ac2-453e-a5fb-0b62c6d0aa21";
+				PROVISIONING_PROFILE_SPECIFIER = "MRF Ad Hoc";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = "Ad-hoc Unlimited";
+		};
+		0E9914461D7A85DC0032CFBD /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "9217ab81-2bdb-40d4-aef7-4bd5ddf04cc8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-hoc";
+		};
+		0E9914471D7A85DC0032CFBD /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47963BD21887D793DD0801EE /* Pods-MRF.ad-hoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = MRF/MRF.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Voluta Tattoo Digital, LLC (4J99F7RRN6)";
+				DEVELOPMENT_TEAM = 4J99F7RRN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MRF/definitions.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"VTD_MRF=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"\"${PODS_ROOT}/Headers/Public/Dropbox-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-ios-12\"/**",
+				);
+				INFOPLIST_FILE = MRF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ObjectiveDropboxOfficial\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"-DSQLITE_HAS_CODEC",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"OneDriveSDK\"",
+					"-l\"box-ios-sdk\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VolutaDigital.MRF;
+				PRODUCT_NAME = MRF;
+				PROVISIONING_PROFILE = "d2445e51-c6b2-45bd-85ee-34744216051b";
+				PROVISIONING_PROFILE_SPECIFIER = "MRF Ad Hoc";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = "Ad-hoc";
+		};
+		0EB201201D7BD6330036BB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "c34e4755-25ed-4d6f-a76d-b328e7903d14";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0EB201211D7BD6330036BB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7582931099FFCC6C9ED2646 /* Pods-MRF.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = MRF/MRF.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				DEVELOPMENT_TEAM = 4J99F7RRN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MRF/definitions.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"VTD_MRF=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"\"${PODS_ROOT}/Headers/Public/Dropbox-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-ios-12\"/**",
+				);
+				INFOPLIST_FILE = MRF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ObjectiveDropboxOfficial\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"-DSQLITE_HAS_CODEC",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"OneDriveSDK\"",
+					"-l\"box-ios-sdk\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VolutaDigital.MRF;
+				PRODUCT_NAME = MRF;
+				PROVISIONING_PROFILE = "c92b55db-2715-4618-8617-6fec25d7439f";
+				PROVISIONING_PROFILE_SPECIFIER = "MRF Development";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		0EB201221D7BD6720036BB11 /* Debug Unlimited */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_UNLIMITED=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0\"/**",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "c34e4755-25ed-4d6f-a76d-b328e7903d14";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = "Debug Unlimited";
+		};
+		0EB201231D7BD6720036BB11 /* Debug Unlimited */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FF5516E688142D1693C793 /* Pods-MRF.debug unlimited.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_ENTITLEMENTS = MRF/MRF.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Francis Bowen (BSVE598WY2)";
+				DEVELOPMENT_TEAM = 4J99F7RRN6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MRF/definitions.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"VTD_MRF=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"\"${PODS_ROOT}/Headers/Public/Dropbox-iOS-SDK\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClient\"",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"\"/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-ios-12\"/**",
+				);
+				INFOPLIST_FILE = MRF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Base32\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMAppAuth\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMOAuth2\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GTMSessionFetcher\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/GoogleAPIClientForREST\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMSpreadsheetView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ObjectiveDropboxOfficial\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OneDriveSDK\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RMStore\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RNCryptor\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/box-ios-sdk\"",
+					"-DSQLITE_HAS_CODEC",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+					"-l\"OneDriveSDK\"",
+					"-l\"box-ios-sdk\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VolutaDigital.MRF;
+				PRODUCT_NAME = MRF;
+				PROVISIONING_PROFILE = "c92b55db-2715-4618-8617-6fec25d7439f";
+				PROVISIONING_PROFILE_SPECIFIER = "MRF Development";
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = "Debug Unlimited";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E0F509C1BB33C47005B5009 /* Build configuration list for PBXProject "MRF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB201201D7BD6330036BB11 /* Debug */,
+				0EB201221D7BD6720036BB11 /* Debug Unlimited */,
+				0E0F50B71BB33C47005B5009 /* Release */,
+				0E9914461D7A85DC0032CFBD /* Ad-hoc */,
+				0E693A341C784BA9006F25B9 /* Ad-hoc Unlimited */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E0F50B81BB33C47005B5009 /* Build configuration list for PBXNativeTarget "MRF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB201211D7BD6330036BB11 /* Debug */,
+				0EB201231D7BD6720036BB11 /* Debug Unlimited */,
+				0E0F50BA1BB33C47005B5009 /* Release */,
+				0E9914471D7A85DC0032CFBD /* Ad-hoc */,
+				0E693A351C784BA9006F25B9 /* Ad-hoc Unlimited */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E0F50991BB33C47005B5009 /* Project object */;
+}

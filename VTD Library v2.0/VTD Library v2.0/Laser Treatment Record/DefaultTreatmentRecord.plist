@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TRItem00</key>
+	<string>Treatment Area</string>
+	<key>TRItem01</key>
+	<string>Fluence</string>
+	<key>TRItem02</key>
+	<string>Pulse Count</string>
+	<key>TRItem03</key>
+	<string>Frequency</string>
+	<key>TRItem04</key>
+	<string>Pulse Width</string>
+	<key>TRItem05</key>
+	<string>Spot Size</string>
+	<key>TRItem06</key>
+	<string>Wave Length</string>
+	<key>TRItem07</key>
+	<string>CLS</string>
+</dict>
+</plist>

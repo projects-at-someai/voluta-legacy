@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>legal0</key>
+	<string>I have truthfully represented to &lt;BusinessName&gt; TATTOO STUDIO that I am over eighteen (18) years of age.</string>
+	<key>legal1</key>
+	<string>I acknowledge that it is not reasonably possible for the representatives and employees of &lt;BusinessName&gt; TATTOO STUDIO to determine whether I might have an allergic reaction to the dyes, pigments or processes used in my tattoo, and I agree to accept the risk that such a reaction is possible.</string>
+	<key>legal2</key>
+	<string>I acknowledge that I have advised my tattoo artist of any condition that might affect the healing of this tattoo. I do not have medical or skin conditions such as but not limited to: acne, scarring (Keloid), eczema, psoriasis, freckles, moles, or sunburn in the area to be tattooed that may interfere with said tattoo. If I have any type of infection or rash anywhere on my body, I will advise the tattooer.</string>
+	<key>legal3</key>
+	<string>I am not pregnant or nursing.</string>
+	<key>legal4</key>
+	<string>I am not under the influence of alcohol or drugs.</string>
+	<key>legal5</key>
+	<string>I acknowledge that infection is always possible as a result of obtaining a tattoo, particularly in the event that I do not take proper care of my tattoo. I have received aftercare instructions and I agree to follow them while my tattoo is healing. I agree that any touch-up work needed, due to my own negligence, will be done at my own expense. This includes sun and ultraviolet frequency damage.</string>
+	<key>legal6</key>
+	<string>I acknowledge that a tattoo is a permanent change to my appearance and that no representations have been made to me as to the ability to later change or remove my tattoo. To my knowledge, I do not have physical, mental or medical impairment or disability which might affect my well being as a direct or indirect result of my decision to have a tattoo.</string>
+	<key>legal7</key>
+	<string>I acknowledge that if my tattoo is a symbol, or something written in a language other than English, the tattoo artist and the owner of this business are not responsible for what it may or may not mean.</string>
+	<key>legal8</key>
+	<string>I acknowledge that if my tattoo includes text that I am responsible for the correct spelling, grammar and punctuation. I have proofed the text before it is applied as a tattoo.</string>
+	<key>legal9</key>
+	<string>I acknowledge that variations in color and design may exist between any tattoo as selected by me and as ultimately applied to my body. I understand that if my skin color is dark, the colors will not appear as bright as they do on light skin.</string>
+	<key>legal10</key>
+	<string>I acknowledge the decision for obtaining my tattoo is my own free will and choice. I consent to the location of the tattoo and the performance of the tattoo procedure.</string>
+	<key>legal11</key>
+	<string>I acknowledge and agree to following any and all instructions provided to me regarding the maintenance of a sanitary environment while I am being tattooed.</string>
+	<key>legal12</key>
+	<string>I agree that the tattoo design is correctly drawn to my specifications and I agree to allow for artist interpretation of the image.</string>
+	<key>legal13</key>
+	<string>I agree to IMMEDIATELY notify the artist if I feel lightheaded, dizzy and/or faint before, during or after the procedure. Failure to do so releases &lt;BusinessName&gt; TATTOO STUDIO and my tattoo artist of all responsibility.</string>
+</dict>
+</plist>

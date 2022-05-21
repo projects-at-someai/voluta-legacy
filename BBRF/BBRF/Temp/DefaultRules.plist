@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rule0</key>
+	<string>-All riders aboard tours that consume alcohol must be 21 years of age or older
+-Alcohol must only be consumed by those on the tour. It must not be given to anyone else not the street, etc.
+-Inappropriate behavior will result in the driver asking asking the renter to ask the offending passenger(s) to immediately disembark
+-The drivers decisions are final</string>
+    <key>rule1</key>
+    <string>Inappropriate behavior (as determined by the driver) before, during or after tours includes, but is not limited to:
+
+        -intoxication
+        -littering
+        -providing alcohol to non-passengers
+        -excessive noise
+        -public urination
+        -loitering more than 5 minutes after tour
+        -any forms of public nudity
+        -Physically endangering themselves by acting careless on the bike (i.e.e jumping off the bike moving, refusal to stay seated, hanging out into traffic etc.).</string>
+    <key>rule2</key>
+    <string>Severe transgressions of the above will result in the driver ending the tour immediately and result in a fee of $XXX.XX (adjustable in settings of app by user) to be charges to renters credit cards.  </string>
+    <key>rule3</key>
+    <string>I understand that operating and.or traveling on the &lt;BusinessName&gt; and participating in tours is a potentially dangerous activity. Id desire to digitally sign this document in order to accept this risk as my own and to defend, indemnify, and hold &lt;BusinessName&gt; harmless for any actions brought against them before, during, and after the tour. </string>
+</dict>
+</plist>
