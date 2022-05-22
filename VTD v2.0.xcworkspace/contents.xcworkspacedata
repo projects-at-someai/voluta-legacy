@@ -5,12 +5,6 @@
       location = "group:Light Box/VTD Light Box/VTD Light Box.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:VTD Push Notifications/VTD Push Notifications.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:CRF/CRF.xcodeproj">
    </FileRef>
    <FileRef

@@ -353,6 +353,7 @@
 		15F43F5D21290979003D156F /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F43F582129094B003D156F /* libcrypto.a */; platformFilter = ios; };
 		15F43F5E21290979003D156F /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F43F592129094B003D156F /* libssl.a */; platformFilter = ios; };
 		15F43F6221293CEB003D156F /* InAppReviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F43F6021293CEB003D156F /* InAppReviewManager.m */; platformFilter = ios; };
+		3C5DD8D08B839217F0F4CF72 /* libPods-VTD Library v2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1533B6DB26F9916E00EFD701 /* libPods-VTD Library v2.0.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1114,6 +1115,7 @@
 				0EF674F11C25374A00FFFD19 /* Security.framework in Frameworks */,
 				15954A63237134310024F051 /* Crashlytics.framework in Frameworks */,
 				15954A652371343E0024F051 /* Fabric.framework in Frameworks */,
+				3C5DD8D08B839217F0F4CF72 /* libPods-VTD Library v2.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

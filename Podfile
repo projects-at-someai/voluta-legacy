@@ -1,40 +1,40 @@
 workspace 'VTD v2.0'
 
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/LRF/LRF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/TRF/TRF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/PRF/PRF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/MRF/MRF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/CRF/CRF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/ORF/ORF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/BBRF/BBRF.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/VTD VIP Registration/VTD VIP Registration.xcodeproj’
-project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj’
+project 'VTD Library v2.0/VTD Library v2.0.xcodeproj'
+project 'LRF/LRF.xcodeproj'
+project 'TRF/TRF.xcodeproj'
+project 'PRF/PRF.xcodeproj'
+project 'MRF/MRF.xcodeproj'
+project 'CRF/CRF.xcodeproj'
+project 'ORF/ORF.xcodeproj'
+project 'BBRF/BBRF.xcodeproj'
+project 'VTD VIP Registration/VTD VIP Registration.xcodeproj'
+project 'VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj'
 
 def cloud_services_pods
-    pod 'OneDriveSDK’
-    #pod 'Dropbox-iOS-SDK’
-    #pod 'GoogleAPIClient/Drive’
+    pod 'OneDriveSDK'
+    #pod 'Dropbox-iOS-SDK'
+    #pod 'GoogleAPIClient/Drive'
     pod 'ObjectiveDropboxOfficial'
-    #pod 'GTMOAuth2’
-    pod 'GoogleAPIClientForREST/Drive’
-    pod 'GTMAppAuth’
+    #pod 'GTMOAuth2'
+    pod 'GoogleAPIClientForREST/Drive'
+    pod 'GTMAppAuth'
     pod 'AppAuth'
     pod 'GoogleSignIn'
-    #pod 'box-ios-sdk’
+    #pod 'box-ios-sdk'
 end
 
 def shared_pods
-	pod 'SSZipArchive’
+	pod 'SSZipArchive'
 	
 	#note: RNCryptor 3.0.1 is used because it is the last ver in Obj-C
-	pod 'RNCryptor', '~>3.0.1’
-	pod 'RMStore’
-	pod 'RMStore/KeychainPersistence’
-	pod 'MMSpreadsheetView’
-	pod 'IAPHelper' 
-	#pod 'SQLCipher’
-	pod 'NSString-Hashes’
+	pod 'RNCryptor', '~>3.0.1'
+	pod 'RMStore'
+	pod 'RMStore/KeychainPersistence'
+	pod 'MMSpreadsheetView'
+	pod 'IAPHelper'
+	#pod 'SQLCipher'
+	pod 'NSString-Hashes'
 	
 	#source 'https://github.com/mentalfaculty/Specs.git'
 	#source 'https://github.com/CocoaPods/Specs.git'
@@ -54,22 +54,20 @@ def app_pods
     
 end
 
-target 'VTD Library v2.0’ do
-    platform :ios, '9.0’
+target 'VTD Library v2.0' do
+    platform :ios, '9.0'
     cloud_services_pods
     shared_pods
-    #Installing OpenSSL-Universal 1.1.1200 (was 1.0.2.20)
-    pod 'OpenSSL-Universal', '~>1.0.2.20'
     pod 'OpenSSL-Universal'
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0.xcodeproj’
+    project 'VTD Library v2.0/VTD Library v2.0.xcodeproj'
 end
 
-target 'LRF’ do
+target 'LRF' do
     platform :ios, '9.0'
     cloud_services_pods
     shared_pods
     app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/LRF/LRF.xcodeproj'
+    project 'LRF/LRF.xcodeproj'
 end
 
 target 'TRF' do
@@ -77,7 +75,7 @@ target 'TRF' do
     cloud_services_pods
     shared_pods
 	app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/TRF/TRF.xcodeproj'
+    project 'TRF/TRF.xcodeproj'
 end
 
 target 'PRF' do
@@ -85,7 +83,7 @@ target 'PRF' do
     cloud_services_pods
     shared_pods
     app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/PRF/PRF.xcodeproj'
+    project 'PRF/PRF.xcodeproj'
 end
 
 target 'MRF' do
@@ -93,7 +91,7 @@ target 'MRF' do
     cloud_services_pods
     shared_pods
     app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/MRF/MRF.xcodeproj'
+    project 'MRF/MRF.xcodeproj'
 end
 
 target 'ORF' do
@@ -101,7 +99,7 @@ target 'ORF' do
     cloud_services_pods
     shared_pods
     app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/ORF/ORF.xcodeproj'
+    project 'ORF/ORF.xcodeproj'
 end
 
 target 'CRF' do
@@ -109,7 +107,7 @@ target 'CRF' do
     cloud_services_pods
     shared_pods
     app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/CRF/CRF.xcodeproj'
+    project 'CRF/CRF.xcodeproj'
 end
 
 target 'BBRF' do
@@ -117,18 +115,18 @@ target 'BBRF' do
     cloud_services_pods
     shared_pods
     app_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/BBRF/BBRF.xcodeproj'
+    project 'BBRF/BBRF.xcodeproj'
 end
 
 target 'VTD VIP Registration' do
-    platform :ios, '9.0’
+    platform :ios, '9.0'
     cloud_services_pods
     shared_pods
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/VTD VIP Registration/VTD VIP Registration.xcodeproj'
+    project 'VTD VIP Registration/VTD VIP Registration.xcodeproj'
 end
 
-target 'VTD VIP Registration v2' do
-    platform :ios, '9.0’
-    pod 'NSString-Hashes’
-    project '/Users/francis/Google Drive/VTD/Voluta Digital v2.0/VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj'
-end
+# target 'VTD VIP Registration v2' do
+#     platform :ios, '9.0'
+#     pod 'NSString-Hashes'
+#     project 'VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj'
+# end
