@@ -153,7 +153,6 @@ DEPENDENCIES:
   - ObjectiveDropboxOfficial
   - OneDriveSDK
   - OpenSSL-Universal
-  - OpenSSL-Universal (~> 1.0.2.20)
   - RMStore
   - RMStore/KeychainPersistence
   - RNCryptor (~> 3.0.1)
@@ -220,6 +219,6 @@ SPEC CHECKSUMS:
   RNCryptor: 761fc3ed94d1a0e409ba5b8e5dbef6a8f69352a7
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
 
-PODFILE CHECKSUM: 922c8b5d115ae9af3d60d5702b04ef2d1336814a
+PODFILE CHECKSUM: 55f72ca8f50007c2624a0d64380c099b9edb49bd
 
-COCOAPODS: 1.11.0
+COCOAPODS: 1.11.3
