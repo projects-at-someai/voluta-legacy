@@ -241,11 +241,11 @@
 		0E0691541BBA45C6002DBFF7 /* SettingsBackup-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-US.plist"; path = "US/SettingsBackup-US.plist"; sourceTree = "<group>"; };
 		0E0691551BBA45C6002DBFF7 /* Tables-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-US.plist"; path = "US/Tables-US.plist"; sourceTree = "<group>"; };
 		0E0F50A11BB33C47005B5009 /* TRF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRF.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TRF/main.m; sourceTree = SOURCE_ROOT; };
 		0E0F50A71BB33C47005B5009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E0F50A81BB33C47005B5009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TRF/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TRF/Info.plist; sourceTree = SOURCE_ROOT; };
 		0E21D25F1C75185400007B6F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0E23ABAD1DDFE9BD006DEE32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0E23ABAF1DDFE9C7006DEE32 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -273,8 +273,8 @@
 		0E915F8D1D7218BE003846F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		0E96C64C1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWithOptionsButtonViewController.h; sourceTree = "<group>"; };
 		0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWithOptionsButtonViewController.m; sourceTree = "<group>"; };
-		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = ../definitions.pch; sourceTree = "<group>"; };
-		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "../Economica-Regular.ttf"; sourceTree = "<group>"; };
+		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = TRF/definitions.pch; sourceTree = SOURCE_ROOT; };
+		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "TRF/Economica-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		0E96C6541BB39F5700EE7160 /* L-About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-About.png"; sourceTree = "<group>"; };
 		0E96C6551BB39F5700EE7160 /* L-FastTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-FastTutorial.png"; sourceTree = "<group>"; };
 		0E96C6561BB39F5700EE7160 /* L-Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Final.png"; sourceTree = "<group>"; };
@@ -340,9 +340,9 @@
 		0E96C6DE1BB39F5700EE7160 /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
 		0E96C6E01BB39F5700EE7160 /* VolutaBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolutaBaseViewController.h; sourceTree = "<group>"; };
 		0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolutaBaseViewController.m; sourceTree = "<group>"; };
-		0E9914401D7A850C0032CFBD /* TRF Ad-hoc.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "TRF Ad-hoc.entitlements"; path = "../TRF Ad-hoc.entitlements"; sourceTree = "<group>"; };
-		0E9914411D7A850C0032CFBD /* TRF.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = TRF.entitlements; path = ../TRF.entitlements; sourceTree = "<group>"; };
-		0E9914441D7A85C20032CFBD /* TRF App Store.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = "TRF App Store.entitlements"; path = "../TRF App Store.entitlements"; sourceTree = "<group>"; };
+		0E9914401D7A850C0032CFBD /* TRF Ad-hoc.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "TRF Ad-hoc.entitlements"; sourceTree = SOURCE_ROOT; };
+		0E9914411D7A850C0032CFBD /* TRF.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = TRF.entitlements; sourceTree = SOURCE_ROOT; };
+		0E9914441D7A85C20032CFBD /* TRF App Store.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "TRF App Store.entitlements"; sourceTree = SOURCE_ROOT; };
 		0EAA1AB81C27C4CE00EEF909 /* libOAuthTouch2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuthTouch2.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-oauth2/Source/build/Debug-iphoneos/libOAuthTouch2.a"; sourceTree = "<group>"; };
 		0EC665B71C90994600279661 /* TRFDBTransfer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TRFDBTransfer.plist; sourceTree = "<group>"; };
 		0ECC1E461BCC1DBD00202126 /* HowTo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HowTo.plist; sourceTree = "<group>"; };
@@ -437,7 +437,7 @@
 		152165601F60474F00245A89 /* Ensembles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Ensembles.bundle; path = ../Bundles/Ensembles.bundle; sourceTree = "<group>"; };
 		152165621F60481100245A89 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CoreDataBundle.bundle; path = ../Bundles/CoreDataBundle.bundle; sourceTree = "<group>"; };
 		152165661F60489700245A89 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PasswordPromptImagesBundle.bundle; path = ../Bundles/PasswordPromptImagesBundle.bundle; sourceTree = "<group>"; };
-		152165701F604A0600245A89 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = "../../../VTD Library v2.0/AppleIncRootCertificate.cer"; sourceTree = "<group>"; };
+		152165701F604A0600245A89 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = "../VTD Library v2.0/AppleIncRootCertificate.cer"; sourceTree = SOURCE_ROOT; };
 		152165721F604A4400245A89 /* versions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = versions.plist; path = TRF/versions.plist; sourceTree = "<group>"; };
 		1533B6EB26F9931E00EFD701 /* libVTD Library v2.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libVTD Library v2.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1533B6ED26F99D1D00EFD701 /* libVTD Library v2.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libVTD Library v2.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -446,7 +446,7 @@
 		154D215626EF0D1E00565CE1 /* libPods-TRF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-TRF.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158692381F618C66008D9754 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../../../VTD Library v2.0/VTD Library v2.0/Table Cells/Database/DB Transfer Manager/openssl/openssl-xcode/build/Debug-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
 		15B3000D26F4F08000B69D40 /* libVTD Library v2.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libVTD Library v2.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		15BFB32F1F61E5D700FEA531 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../../VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
+		15BFB32F1F61E5D700FEA531 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = SOURCE_ROOT; };
 		15C7D06C22375AE8007ABC5D /* libVTD Library v2.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libVTD Library v2.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D37D921F6259FD00208454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TRF/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		15DF227922545BFD006D6EE2 /* TET_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TET_ios.framework; path = "TET-5.1-iOS/TET_ios/TET_ios.framework"; sourceTree = SOURCE_ROOT; };
@@ -556,7 +556,6 @@
 				0E0F50A11BB33C47005B5009 /* TRF.app */,
 			);
 			name = Products;
-			path = TRF/Products;
 			sourceTree = "<group>";
 		};
 		0E0F50A31BB33C47005B5009 /* TRF */ = {
@@ -599,7 +598,7 @@
 				0E0F50B51BB33C47005B5009 /* Info.plist */,
 				0E0F50A51BB33C47005B5009 /* main.m */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0E4AC10F1BF6DAEA00E28094 /* Initializer */ = {
@@ -967,7 +966,6 @@
 				0E6D2BFC1BB473E10063F959 /* libz.tbd */,
 			);
 			name = Frameworks;
-			path = TRF/Frameworks;
 			sourceTree = "<group>";
 		};
 		694CBD46E7334B96F9F8BEF5 /* Pods */ = {
@@ -1313,8 +1311,7 @@
 				0ED35FA41C7EAC0800A36A99 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ..;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		15D37D911F6259FD00208454 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1322,7 +1319,8 @@
 				15D37D921F6259FD00208454 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = TRF;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 

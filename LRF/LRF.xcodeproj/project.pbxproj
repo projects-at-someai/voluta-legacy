@@ -280,8 +280,8 @@
 		0E0F50AE1BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E0F50C11BB33E89005B5009 /* TreatmentRecordBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = TreatmentRecordBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/TreatmentRecordBundle.bundle"; sourceTree = "<absolute>"; };
-		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/CoreDataBundle.bundle"; sourceTree = "<absolute>"; };
+		0E0F50C11BB33E89005B5009 /* TreatmentRecordBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = TreatmentRecordBundle.bundle; path = ../Bundles/TreatmentRecordBundle.bundle; sourceTree = "<group>"; };
+		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = ../Bundles/CoreDataBundle.bundle; sourceTree = "<group>"; };
 		0E155BEC1CBD7A6C00EBCF91 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../../VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = "<group>"; };
 		0E21D25F1C75185400007B6F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0E21D2611C75188D00007B6F /* LRF Ad-hoc.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "LRF Ad-hoc.entitlements"; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		0E6D2BFC1BB473E10063F959 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0E6D2C011BB47C670063F959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LRF/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0E6D2C041BB47D240063F959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LRF/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/PasswordPromptImagesBundle.bundle"; sourceTree = "<absolute>"; };
+		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = ../Bundles/PasswordPromptImagesBundle.bundle; sourceTree = "<group>"; };
 		0E70BB961C27AA0D00A2BB7B /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
 		0E70BB971C27AA0D00A2BB7B /* libGTMSessionFetcherLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTMSessionFetcherLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-session-fetcher/Source/build/Debug-iphoneos/libGTMSessionFetcherLib.a"; sourceTree = "<group>"; };
 		0E96C64C1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWithOptionsButtonViewController.h; sourceTree = "<group>"; };
@@ -1046,6 +1046,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

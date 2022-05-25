@@ -72,7 +72,6 @@
 		0E91B2621C7D5D2600C69748 /* BaseWithOptionsButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */; };
 		0E91B2641C7D5D2600C69748 /* VolutaBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */; };
 		0E91B2661C7D5D2600C69748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F50A81BB33C47005B5009 /* AppDelegate.m */; };
-		0E94E1711D7D2459008A9225 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB201021D7BD5F30036BB11 /* libMailCore-ios.a */; };
 		0E94E1731D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */; };
 		0E96C6E31BB39F5700EE7160 /* Economica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */; };
 		0E96C6E61BB39F5700EE7160 /* L-About.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E96C6541BB39F5700EE7160 /* L-About.png */; };
@@ -197,72 +196,6 @@
 		68514C3B11BF012B82B08014 /* libPods-PRF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E6E232FAA363A5EC0413FF /* libPods-PRF.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0E94E1671D7D2447008A9225 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
-			remoteInfo = "static mailcore2 ios";
-		};
-		0EB200FF1D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C64EA537169E772200778456;
-			remoteInfo = "static mailcore2 osx";
-		};
-		0EB201011D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
-			remoteInfo = "static mailcore2 ios";
-		};
-		0EB201031D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C64EA78C169F259200778456;
-			remoteInfo = tests;
-		};
-		0EB201051D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6A81B911706840C00882C15;
-			remoteInfo = "test-ios";
-		};
-		0EB201071D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
-			remoteInfo = "mailcore osx";
-		};
-		0EB201091D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27780C3A19CF9CD100C77E44;
-			remoteInfo = "mailcore ios";
-		};
-		0EB2010B1D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C6B5AE0219F630B3001352A6;
-			remoteInfo = unittest;
-		};
-		0EB2010D1D7BD5F30036BB11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C600B6141A242C3F000728F1;
-			remoteInfo = unittestcpp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		151ABC14212A4384001F4765 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -299,14 +232,14 @@
 		0E0691541BBA45C6002DBFF7 /* SettingsBackup-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-US.plist"; path = "US/SettingsBackup-US.plist"; sourceTree = "<group>"; };
 		0E0691551BBA45C6002DBFF7 /* Tables-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-US.plist"; path = "US/Tables-US.plist"; sourceTree = "<group>"; };
 		0E0F50A11BB33C47005B5009 /* PRF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRF.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/main.m"; sourceTree = "<absolute>"; };
+		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PRF/main.m; sourceTree = SOURCE_ROOT; };
 		0E0F50A71BB33C47005B5009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E0F50A81BB33C47005B5009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0E0F50AE1BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/Assets.xcassets"; sourceTree = "<absolute>"; };
+		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PRF/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		0E0F50B31BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/Info.plist"; sourceTree = "<absolute>"; };
-		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/CoreDataBundle.bundle"; sourceTree = "<absolute>"; };
+		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PRF/Info.plist; sourceTree = SOURCE_ROOT; };
+		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = ../Bundles/CoreDataBundle.bundle; sourceTree = "<group>"; };
 		0E20F24C1D8A53EC009888A4 /* PRFBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PRFBundle.bundle; path = ../Bundles/PRFBundle.bundle; sourceTree = "<group>"; };
 		0E21D25F1C75185400007B6F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0E36029D1C24846C00CF5739 /* PDFInternational-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-US.plist"; path = "US/PDFInternational-US.plist"; sourceTree = "<group>"; };
@@ -317,7 +250,7 @@
 		0E4AC1101BF6DBB100E28094 /* Initializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initializer.h; sourceTree = "<group>"; };
 		0E4AC1111BF6DBB100E28094 /* Initializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initializer.m; sourceTree = "<group>"; };
 		0E6D2BFC1BB473E10063F959 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/PasswordPromptImagesBundle.bundle"; sourceTree = "<absolute>"; };
+		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = ../Bundles/PasswordPromptImagesBundle.bundle; sourceTree = "<group>"; };
 		0E70BB961C27AA0D00A2BB7B /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
 		0E70BB971C27AA0D00A2BB7B /* libGTMSessionFetcherLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTMSessionFetcherLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-session-fetcher/Source/build/Debug-iphoneos/libGTMSessionFetcherLib.a"; sourceTree = "<group>"; };
 		0E8471F11F3809FF00635CEA /* PRFDefaultsTransfer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PRFDefaultsTransfer.plist; sourceTree = "<group>"; };
@@ -328,13 +261,13 @@
 		0E8471FE1F397B5800635CEA /* SettingsBackup-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-NZ.plist"; path = "NZ/SettingsBackup-NZ.plist"; sourceTree = "<group>"; };
 		0E915F6C1D721871003846F1 /* Emailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emailer.h; sourceTree = "<group>"; };
 		0E915F6D1D721871003846F1 /* Emailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emailer.m; sourceTree = "<group>"; };
-		0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "/Users/frbowen/Documents/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<absolute>"; };
+		0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "../../../../../frbowen/Documents/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
 		0E915F8D1D7218BE003846F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = "<absolute>"; };
+		0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = SOURCE_ROOT; };
 		0E96C64C1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWithOptionsButtonViewController.h; sourceTree = "<group>"; };
 		0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWithOptionsButtonViewController.m; sourceTree = "<group>"; };
-		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/definitions.pch"; sourceTree = "<absolute>"; };
-		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/Economica-Regular.ttf"; sourceTree = "<absolute>"; };
+		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = PRF/definitions.pch; sourceTree = SOURCE_ROOT; };
+		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "PRF/Economica-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		0E96C6541BB39F5700EE7160 /* L-About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-About.png"; sourceTree = "<group>"; };
 		0E96C6551BB39F5700EE7160 /* L-FastTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-FastTutorial.png"; sourceTree = "<group>"; };
 		0E96C6561BB39F5700EE7160 /* L-Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Final.png"; sourceTree = "<group>"; };
@@ -398,13 +331,13 @@
 		0E96C6D61BB39F5700EE7160 /* DefaultLegal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultLegal.plist; sourceTree = "<group>"; };
 		0E96C6DD1BB39F5700EE7160 /* SharedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedData.h; sourceTree = "<group>"; };
 		0E96C6DE1BB39F5700EE7160 /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
-		0E96C6DF1BB39F5700EE7160 /* versions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = versions.plist; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/versions.plist"; sourceTree = "<absolute>"; };
+		0E96C6DF1BB39F5700EE7160 /* versions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = versions.plist; path = PRF/versions.plist; sourceTree = SOURCE_ROOT; };
 		0E96C6E01BB39F5700EE7160 /* VolutaBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolutaBaseViewController.h; sourceTree = "<group>"; };
 		0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolutaBaseViewController.m; sourceTree = "<group>"; };
 		0E9914501D7BCF2E0032CFBD /* PRF Ad-hoc.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "PRF Ad-hoc.entitlements"; path = "PRF/PRF Ad-hoc.entitlements"; sourceTree = SOURCE_ROOT; };
 		0E9914511D7BCF2E0032CFBD /* PRF App Store.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "PRF App Store.entitlements"; path = "PRF/PRF App Store.entitlements"; sourceTree = SOURCE_ROOT; };
 		0E9914521D7BCF2E0032CFBD /* PRF.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = PRF.entitlements; path = PRF/PRF.entitlements; sourceTree = SOURCE_ROOT; };
-		0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/AppleIncRootCertificate.cer"; sourceTree = "<absolute>"; };
+		0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = PRF/AppleIncRootCertificate.cer; sourceTree = SOURCE_ROOT; };
 		0EAA1AB81C27C4CE00EEF909 /* libOAuthTouch2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuthTouch2.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-oauth2/Source/build/Debug-iphoneos/libOAuthTouch2.a"; sourceTree = "<group>"; };
 		0EB8E8E01EA7157A0018F83F /* Ensembles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Ensembles.bundle; path = ../Bundles/Ensembles.bundle; sourceTree = "<group>"; };
 		0EC665B71C90994600279661 /* PRFDBTransfer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PRFDBTransfer.plist; sourceTree = "<group>"; };
@@ -497,7 +430,7 @@
 		0EF674F41C25376500FFFD19 /* GTLLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTLLib.framework; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/GTLLib.framework"; sourceTree = "<group>"; };
 		0EFEAC911EA4740A006451FD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		151ABC10212A3EC2001F4765 /* BoxContentSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BoxContentSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15E4B73C20B4B20100AD4333 /* HOWTOSETUP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = HOWTOSETUP.pdf; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF/HOWTOSETUP.pdf"; sourceTree = "<absolute>"; };
+		15E4B73C20B4B20100AD4333 /* HOWTOSETUP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = HOWTOSETUP.pdf; path = PRF/HOWTOSETUP.pdf; sourceTree = SOURCE_ROOT; };
 		15FF22AA1F8D0622009180FC /* Tables-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-NZ.plist"; path = "NZ/Tables-NZ.plist"; sourceTree = "<group>"; };
 		199E15D22B406C6B1E1610B3 /* Pods-PRF.debug unlimited.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PRF.debug unlimited.xcconfig"; path = "../Pods/Target Support Files/Pods-PRF/Pods-PRF.debug unlimited.xcconfig"; sourceTree = "<group>"; };
 		2236E9509822C2C637CE0BBC /* Pods-TRF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRF.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TRF/Pods-TRF.release.xcconfig"; sourceTree = "<group>"; };
@@ -518,7 +451,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EFEAC921EA4740A006451FD /* libsqlite3.tbd in Frameworks */,
-				0E94E1711D7D2459008A9225 /* libMailCore-ios.a in Frameworks */,
 				0E915F8F1D7218C3003846F1 /* Security.framework in Frameworks */,
 				0E915F8E1D7218BE003846F1 /* CFNetwork.framework in Frameworks */,
 				0E4561171C780E560032BE49 /* libVTD Library v2.0.a in Frameworks */,
@@ -604,7 +536,6 @@
 				0E0F50A11BB33C47005B5009 /* PRF.app */,
 			);
 			name = Products;
-			path = TRF/Products;
 			sourceTree = "<group>";
 		};
 		0E0F50A31BB33C47005B5009 /* PRF */ = {
@@ -625,9 +556,8 @@
 				0E0F50A71BB33C47005B5009 /* AppDelegate.h */,
 				0E0F50A81BB33C47005B5009 /* AppDelegate.m */,
 			);
-			name = PRF;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF";
-			sourceTree = "<absolute>";
+			path = PRF;
+			sourceTree = "<group>";
 		};
 		0E0F50A41BB33C47005B5009 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -648,7 +578,7 @@
 				0E0F50B51BB33C47005B5009 /* Info.plist */,
 				0E0F50A51BB33C47005B5009 /* main.m */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0E4AC10F1BF6DAEA00E28094 /* Initializer */ = {
@@ -866,21 +796,6 @@
 			path = "Shared Data";
 			sourceTree = "<group>";
 		};
-		0EB200F51D7BD5F30036BB11 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0EB201001D7BD5F30036BB11 /* libMailCore.a */,
-				0EB201021D7BD5F30036BB11 /* libMailCore-ios.a */,
-				0EB201041D7BD5F30036BB11 /* tests */,
-				0EB201061D7BD5F30036BB11 /* test-ios.app */,
-				0EB201081D7BD5F30036BB11 /* MailCore.framework */,
-				0EB2010A1D7BD5F30036BB11 /* MailCore.framework */,
-				0EB2010C1D7BD5F30036BB11 /* unittest.xctest */,
-				0EB2010E1D7BD5F30036BB11 /* unittestcpp */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0ECC1E4F1BCC25B600202126 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -1026,7 +941,6 @@
 				A4E6E232FAA363A5EC0413FF /* libPods-PRF.a */,
 			);
 			name = Frameworks;
-			path = TRF/Frameworks;
 			sourceTree = "<group>";
 		};
 		694CBD46E7334B96F9F8BEF5 /* Pods */ = {
@@ -1063,7 +977,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0E94E1681D7D2447008A9225 /* PBXTargetDependency */,
 			);
 			name = PRF;
 			productName = LRF;
@@ -1109,77 +1022,12 @@
 			mainGroup = 0E0F50981BB33C47005B5009;
 			productRefGroup = 0E0F50A21BB33C47005B5009 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0EB200F51D7BD5F30036BB11 /* Products */;
-					ProjectRef = 0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0E0F50A01BB33C47005B5009 /* PRF */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0EB201001D7BD5F30036BB11 /* libMailCore.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMailCore.a;
-			remoteRef = 0EB200FF1D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB201021D7BD5F30036BB11 /* libMailCore-ios.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libMailCore-ios.a";
-			remoteRef = 0EB201011D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB201041D7BD5F30036BB11 /* tests */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = tests;
-			remoteRef = 0EB201031D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB201061D7BD5F30036BB11 /* test-ios.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "test-ios.app";
-			remoteRef = 0EB201051D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB201081D7BD5F30036BB11 /* MailCore.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MailCore.framework;
-			remoteRef = 0EB201071D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB2010A1D7BD5F30036BB11 /* MailCore.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MailCore.framework;
-			remoteRef = 0EB201091D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB2010C1D7BD5F30036BB11 /* unittest.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = unittest.xctest;
-			remoteRef = 0EB2010B1D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0EB2010E1D7BD5F30036BB11 /* unittestcpp */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = unittestcpp;
-			remoteRef = 0EB2010D1D7BD5F30036BB11 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0E0F509F1BB33C47005B5009 /* Resources */ = {
@@ -1431,14 +1279,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0E94E1681D7D2447008A9225 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "static mailcore2 ios";
-			targetProxy = 0E94E1671D7D2447008A9225 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		0E0F50AD1BB33C47005B5009 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1446,8 +1286,8 @@
 				0E0F50AE1BB33C47005B5009 /* Base */,
 			);
 			name = Main.storyboard;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF";
-			sourceTree = "<absolute>";
+			path = PRF;
+			sourceTree = SOURCE_ROOT;
 		};
 		0E0F50B21BB33C47005B5009 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1455,8 +1295,8 @@
 				0E0F50B31BB33C47005B5009 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF";
-			sourceTree = "<absolute>";
+			path = PRF;
+			sourceTree = SOURCE_ROOT;
 		};
 		0ED35FA31C7EAC0800A36A99 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
@@ -1464,8 +1304,8 @@
 				0ED35FA41C7EAC0800A36A99 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/PRF/PRF";
-			sourceTree = "<absolute>";
+			path = PRF;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 

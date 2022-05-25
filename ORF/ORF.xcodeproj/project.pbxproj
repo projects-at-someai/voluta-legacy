@@ -231,14 +231,14 @@
 		0E0691541BBA45C6002DBFF7 /* SettingsBackup-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SettingsBackup-US.plist"; path = "US/SettingsBackup-US.plist"; sourceTree = "<group>"; };
 		0E0691551BBA45C6002DBFF7 /* Tables-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Tables-US.plist"; path = "US/Tables-US.plist"; sourceTree = "<group>"; };
 		0E0F50A11BB33C47005B5009 /* ORF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORF.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF/main.m"; sourceTree = "<absolute>"; };
+		0E0F50A51BB33C47005B5009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ORF/main.m; sourceTree = SOURCE_ROOT; };
 		0E0F50A71BB33C47005B5009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E0F50A81BB33C47005B5009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0E0F50AE1BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF/Assets.xcassets"; sourceTree = "<absolute>"; };
+		0E0F50B01BB33C47005B5009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ORF/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		0E0F50B31BB33C47005B5009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF/Info.plist"; sourceTree = "<absolute>"; };
-		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/CoreDataBundle.bundle"; sourceTree = "<absolute>"; };
+		0E0F50B51BB33C47005B5009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ORF/Info.plist; sourceTree = SOURCE_ROOT; };
+		0E0F50C31BB33E8F005B5009 /* CoreDataBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = CoreDataBundle.bundle; path = ../Bundles/CoreDataBundle.bundle; sourceTree = "<group>"; };
 		0E21D25F1C75185400007B6F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0E36029D1C24846C00CF5739 /* PDFInternational-US.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-US.plist"; path = "US/PDFInternational-US.plist"; sourceTree = "<group>"; };
 		0E36029F1C2488C500CF5739 /* PDFInternational-AUS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PDFInternational-AUS.plist"; path = "AUS/PDFInternational-AUS.plist"; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 		0E4AC1101BF6DBB100E28094 /* Initializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Initializer.h; sourceTree = "<group>"; };
 		0E4AC1111BF6DBB100E28094 /* Initializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Initializer.m; sourceTree = "<group>"; };
 		0E6D2BFC1BB473E10063F959 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/Bundles/PasswordPromptImagesBundle.bundle"; sourceTree = "<absolute>"; };
+		0E6D2C741BB64DBD0063F959 /* PasswordPromptImagesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; name = PasswordPromptImagesBundle.bundle; path = ../Bundles/PasswordPromptImagesBundle.bundle; sourceTree = "<group>"; };
 		0E70BB961C27AA0D00A2BB7B /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTLTouchStaticLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/google-api-objectivec-client/Source/build/Debug-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
 		0E70BB971C27AA0D00A2BB7B /* libGTMSessionFetcherLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTMSessionFetcherLib.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-session-fetcher/Source/build/Debug-iphoneos/libGTMSessionFetcherLib.a"; sourceTree = "<group>"; };
 		0E8471FA1F397B5800635CEA /* Finalize-NZ.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Finalize-NZ.plist"; path = "NZ/Finalize-NZ.plist"; sourceTree = "<group>"; };
@@ -261,11 +261,11 @@
 		0E915F6D1D721871003846F1 /* Emailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emailer.m; sourceTree = "<group>"; };
 		0E915F6F1D7218A3003846F1 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/Emailer/mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<absolute>"; };
 		0E915F8D1D7218BE003846F1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = "<absolute>"; };
+		0E94E1721D7D24CA008A9225 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "../VTD Library v2.0/VTD Library v2.0/Cloud Service Manager/Google Drive/GTMOAuth2ViewTouch.xib"; sourceTree = SOURCE_ROOT; };
 		0E96C64C1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWithOptionsButtonViewController.h; sourceTree = "<group>"; };
 		0E96C64D1BB39F5700EE7160 /* BaseWithOptionsButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWithOptionsButtonViewController.m; sourceTree = "<group>"; };
-		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF/definitions.pch"; sourceTree = "<absolute>"; };
-		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF/Economica-Regular.ttf"; sourceTree = "<absolute>"; };
+		0E96C64E1BB39F5700EE7160 /* definitions.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = definitions.pch; path = ORF/definitions.pch; sourceTree = SOURCE_ROOT; };
+		0E96C64F1BB39F5700EE7160 /* Economica-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Economica-Regular.ttf"; path = "ORF/Economica-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		0E96C6541BB39F5700EE7160 /* L-About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-About.png"; sourceTree = "<group>"; };
 		0E96C6551BB39F5700EE7160 /* L-FastTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-FastTutorial.png"; sourceTree = "<group>"; };
 		0E96C6571BB39F5700EE7160 /* L-Homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L-Homescreen.png"; sourceTree = "<group>"; };
@@ -321,10 +321,10 @@
 		0E96C6D61BB39F5700EE7160 /* DefaultLegal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultLegal.plist; sourceTree = "<group>"; };
 		0E96C6DD1BB39F5700EE7160 /* SharedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedData.h; sourceTree = "<group>"; };
 		0E96C6DE1BB39F5700EE7160 /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
-		0E96C6DF1BB39F5700EE7160 /* versions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = versions.plist; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF/versions.plist"; sourceTree = "<absolute>"; };
+		0E96C6DF1BB39F5700EE7160 /* versions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = versions.plist; path = ORF/versions.plist; sourceTree = SOURCE_ROOT; };
 		0E96C6E01BB39F5700EE7160 /* VolutaBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolutaBaseViewController.h; sourceTree = "<group>"; };
 		0E96C6E11BB39F5700EE7160 /* VolutaBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolutaBaseViewController.m; sourceTree = "<group>"; };
-		0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/VTD Library v2.0/AppleIncRootCertificate.cer"; sourceTree = "<absolute>"; };
+		0EA51E991C55E77C003A2DBA /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleIncRootCertificate.cer; path = "../VTD Library v2.0/AppleIncRootCertificate.cer"; sourceTree = SOURCE_ROOT; };
 		0EAA1AB81C27C4CE00EEF909 /* libOAuthTouch2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOAuthTouch2.a; path = "../VTD Library v2.0/VTD Library v2.0/Google/gtm-oauth2/Source/build/Debug-iphoneos/libOAuthTouch2.a"; sourceTree = "<group>"; };
 		0EB8E8E01EA7157A0018F83F /* Ensembles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Ensembles.bundle; path = ../Bundles/Ensembles.bundle; sourceTree = "<group>"; };
 		0ECC1E461BCC1DBD00202126 /* HowTo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HowTo.plist; sourceTree = "<group>"; };
@@ -519,7 +519,6 @@
 				0E0F50A11BB33C47005B5009 /* ORF.app */,
 			);
 			name = Products;
-			path = TRF/Products;
 			sourceTree = "<group>";
 		};
 		0E0F50A31BB33C47005B5009 /* ORF */ = {
@@ -540,9 +539,8 @@
 				0E0F50A71BB33C47005B5009 /* AppDelegate.h */,
 				0E0F50A81BB33C47005B5009 /* AppDelegate.m */,
 			);
-			name = ORF;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF";
-			sourceTree = "<absolute>";
+			path = ORF;
+			sourceTree = "<group>";
 		};
 		0E0F50A41BB33C47005B5009 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -564,7 +562,7 @@
 				0E0F50B51BB33C47005B5009 /* Info.plist */,
 				0E0F50A51BB33C47005B5009 /* main.m */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0E4AC10F1BF6DAEA00E28094 /* Initializer */ = {
@@ -908,7 +906,6 @@
 				F9667F1438B8FA5FD3C85FE9 /* libPods-ORF.a */,
 			);
 			name = Frameworks;
-			path = TRF/Frameworks;
 			sourceTree = "<group>";
 		};
 		694CBD46E7334B96F9F8BEF5 /* Pods */ = {
@@ -992,6 +989,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1282,8 +1280,8 @@
 				0E0F50AE1BB33C47005B5009 /* Base */,
 			);
 			name = Main.storyboard;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF";
-			sourceTree = "<absolute>";
+			path = ORF;
+			sourceTree = SOURCE_ROOT;
 		};
 		0E0F50B21BB33C47005B5009 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1291,8 +1289,8 @@
 				0E0F50B31BB33C47005B5009 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF";
-			sourceTree = "<absolute>";
+			path = ORF;
+			sourceTree = SOURCE_ROOT;
 		};
 		0ED35FA31C7EAC0800A36A99 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
@@ -1300,8 +1298,8 @@
 				0ED35FA41C7EAC0800A36A99 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = "/Users/francis/Documents/VTD/XCode Projects/Voluta Digital v2.0/ORF/ORF";
-			sourceTree = "<absolute>";
+			path = ORF;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
