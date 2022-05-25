@@ -25,7 +25,7 @@ def cloud_services_pods
 end
 
 def shared_pods
-	pod 'SSZipArchive'
+	pod 'SSZipArchive', '~>2.4.3'
 	
 	#note: RNCryptor 3.0.1 is used because it is the last ver in Obj-C
 	pod 'RNCryptor', '~>3.0.1'
@@ -55,7 +55,7 @@ def app_pods
 end
 
 target 'VTD Library v2.0' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     pod 'OpenSSL-Universal'
@@ -63,7 +63,7 @@ target 'VTD Library v2.0' do
 end
 
 target 'LRF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     app_pods
@@ -71,7 +71,7 @@ target 'LRF' do
 end
 
 target 'TRF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
 	app_pods
@@ -79,7 +79,7 @@ target 'TRF' do
 end
 
 target 'PRF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     app_pods
@@ -87,7 +87,7 @@ target 'PRF' do
 end
 
 target 'MRF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     app_pods
@@ -95,7 +95,7 @@ target 'MRF' do
 end
 
 target 'ORF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     app_pods
@@ -103,7 +103,7 @@ target 'ORF' do
 end
 
 target 'CRF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     app_pods
@@ -111,7 +111,7 @@ target 'CRF' do
 end
 
 target 'BBRF' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     app_pods
@@ -119,14 +119,14 @@ target 'BBRF' do
 end
 
 target 'VTD VIP Registration' do
-    platform :ios, '9.0'
+    platform :ios, '12.0'
     cloud_services_pods
     shared_pods
     project 'VTD VIP Registration/VTD VIP Registration.xcodeproj'
 end
 
 # target 'VTD VIP Registration v2' do
-#     platform :ios, '9.0'
+#     platform :ios, '12.0'
 #     pod 'NSString-Hashes'
 #     project 'VTD VIP Registration v2/VTD VIP Registration v2.xcodeproj'
 # end

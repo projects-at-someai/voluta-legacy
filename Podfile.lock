@@ -137,7 +137,7 @@ PODS:
   - RMStore/KeychainPersistence (0.7.1):
     - RMStore/Core
   - RNCryptor (3.0.1)
-  - SSZipArchive (2.4.2)
+  - SSZipArchive (2.4.3)
 
 DEPENDENCIES:
   - AppAuth
@@ -156,7 +156,7 @@ DEPENDENCIES:
   - RMStore
   - RMStore/KeychainPersistence
   - RNCryptor (~> 3.0.1)
-  - SSZipArchive
+  - SSZipArchive (~> 2.4.3)
 
 SPEC REPOS:
   trunk:
@@ -217,8 +217,8 @@ SPEC CHECKSUMS:
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
   RNCryptor: 761fc3ed94d1a0e409ba5b8e5dbef6a8f69352a7
-  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
 
-PODFILE CHECKSUM: 55f72ca8f50007c2624a0d64380c099b9edb49bd
+PODFILE CHECKSUM: 9d95f28f665885f931bf10b4e6c1c6cc6d977a0d
 
 COCOAPODS: 1.11.3
